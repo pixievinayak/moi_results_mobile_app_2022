@@ -1,0 +1,15 @@
+{
+  "home_page_content": "الصفحة الرئيسية",
+
+  "settings_page_title": "إعدادات",
+  "settings_page_reg_wilayat": "ولاية مسجلة",
+  "settings_page_reg_wilayat_place_holder": "حدد اختيارا",
+  "maps_page_select_wilayat": "اختر ولاية",
+  "maps_page_select_wilayat_place_holder": "حدد اختيارا",
+  "candidates_page_select_wilayat": "اختر ولاية",
+  "candidates_page_select_wilayat_place_holder": "حدد اختيارا",
+  "stats_page_select_wilayat": "اختر ولاية",
+  "stats_page_select_wilayat_place_holder": "حدد اختيارا",
+  "generic_select_wilayat": "اختر ولاية",
+  "generic_select_wilayat_place_holder": "حدد اختيارا"
+}

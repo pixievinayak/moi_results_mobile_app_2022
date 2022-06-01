@@ -1,0 +1,5589 @@
+{
+  "version": 1,
+  "candidates": [
+    {
+      "civil_id": "6996077",
+      "name_en": "HUSSAIN ABDULAZIZ HUSSAIN AL RAISI",
+      "name_ar": "حسين بن عبدالعزيز بن حسين الرئيسي",
+      "gov_code": "1",
+      "wil_code": "1",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "9915505",
+      "name_en": "KHALID SALIM SULOOM AL JABRI",
+      "name_ar": "خالد بن سالم بن سلوم الجابري",
+      "gov_code": "1",
+      "wil_code": "1",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "637435",
+      "name_en": "KHALIFA MOHAMED HAMOOD AL WAHAIBI",
+      "name_ar": "خليفه بن محمد بن حمود الوهيبي",
+      "gov_code": "1",
+      "wil_code": "1",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "15639343",
+      "name_en": "RAHMA SALIM NASSER AL TAMTAMI",
+      "name_ar": "رحمه بنت سالم بن ناصر التمتمية",
+      "gov_code": "1",
+      "wil_code": "1",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "2655915",
+      "name_en": "SAID SAIF SAID AL HADI",
+      "name_ar": "سعيد بن سيف بن سعيد الهادي",
+      "gov_code": "1",
+      "wil_code": "1",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "9897857",
+      "name_en": "ADIL ABDULLAH SALEEM AL HADI",
+      "name_ar": "عادل بن عبدالله بن سليم الهادي",
+      "gov_code": "1",
+      "wil_code": "1",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "10795776",
+      "name_en": "ALI SALIM ALI AL JABRI",
+      "name_ar": "علي بن سالم بن علي الجابري",
+      "gov_code": "1",
+      "wil_code": "1",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "2098468",
+      "name_en": "MOHAMED RASHID SALIM AL ALAWI",
+      "name_ar": "محمد بن راشد بن سالم العلوي",
+      "gov_code": "1",
+      "wil_code": "1",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "NOTA1",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "1",
+      "wil_code": "1",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "9249253",
+      "name_en": "IS'HAQ MOHAMED SALIM AL MAASHARI",
+      "name_ar": "إسحاق بن محمد بن سالم المعشري",
+      "gov_code": "1",
+      "wil_code": "3",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "2267241",
+      "name_en": "KHALID SALIM MOHAMED AL HASANI",
+      "name_ar": "خالد بن سالم بن محمد الحسني",
+      "gov_code": "1",
+      "wil_code": "3",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "80195",
+      "name_en": "ZUHAIR ABDUL RIDHA FADHIL AL LAWATI",
+      "name_ar": "زهير بن عبدالرضا بن فاضل اللواتي",
+      "gov_code": "1",
+      "wil_code": "3",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "1252457",
+      "name_en": "SALIM HUMAID OMAIR AL KHUSAIBI",
+      "name_ar": "سالم بن حميد بن عمير الخصيبي",
+      "gov_code": "1",
+      "wil_code": "3",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "2131271",
+      "name_en": "SAID SALIM MOHAMED AL WAHAIBI",
+      "name_ar": "سعيد بن سالم بن محمد الوهيبي",
+      "gov_code": "1",
+      "wil_code": "3",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "1380912",
+      "name_en": "SAIF SULTAN SULAIMAN AL WAHAIBI",
+      "name_ar": "سيف بن سلطان بن سليمان الوهيبي",
+      "gov_code": "1",
+      "wil_code": "3",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "1503708",
+      "name_en": "SADIQ ALI AHMED AL LAWATI",
+      "name_ar": "صادق بن علي بن أحمد اللواتي",
+      "gov_code": "1",
+      "wil_code": "3",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "2744907",
+      "name_en": "SADIQ MOHAMED ABDUL KHALIQ AL ISSA",
+      "name_ar": "صادق بن محمد بن عبدالخالق آل عيسى",
+      "gov_code": "1",
+      "wil_code": "3",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "2936837",
+      "name_en": "SALAH ABDUL RAHMAN ALI AL HOOTI",
+      "name_ar": "صلاح بن عبدالرحمن بن علي الهوتي",
+      "gov_code": "1",
+      "wil_code": "3",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "11358471",
+      "name_en": "TAHIRA ABDUL KHALIQ ALI AL LAWATI",
+      "name_ar": "طاهره بنت عبدالخالق بن علي اللواتية",
+      "gov_code": "1",
+      "wil_code": "3",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "1855876",
+      "name_en": "ABDULLA MOHAMED ABDULLAH AL HOOTI",
+      "name_ar": "عبدالله بن محمد بن عبدالله الهوتي",
+      "gov_code": "1",
+      "wil_code": "3",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "2072999",
+      "name_en": "ALI ABDUL REDHA DAWOOD AL HASHMANI",
+      "name_ar": "علي بن عبدالرضا بن داود الهاشماني",
+      "gov_code": "1",
+      "wil_code": "3",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "7198725",
+      "name_en": "NAJIB SALEH MOHAMED AL ZADJALI",
+      "name_ar": "نجيب بن صالح بن محمد الزدجالي",
+      "gov_code": "1",
+      "wil_code": "3",
+      "ballot_pos": "13"
+    },
+    {
+      "civil_id": "5485331",
+      "name_en": "NISREEN AHMED JAAFAR",
+      "name_ar": "نسرين بنت احمد بن جعفر ",
+      "gov_code": "1",
+      "wil_code": "3",
+      "ballot_pos": "14"
+    },
+    {
+      "civil_id": "45181",
+      "name_en": "YOUSUF ABDULLAH MUBARAK AL AAMRI",
+      "name_ar": "يوسف بن عبدالله بن مبارك العامري",
+      "gov_code": "1",
+      "wil_code": "3",
+      "ballot_pos": "15"
+    },
+    {
+      "civil_id": "1734234",
+      "name_en": "YOUSUF ABDULLAH MAHMOOD AL HOOTI",
+      "name_ar": "يوسف بن عبدالله بن محمود الهوتي",
+      "gov_code": "1",
+      "wil_code": "3",
+      "ballot_pos": "16"
+    },
+    {
+      "civil_id": "NOTA3",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "1",
+      "wil_code": "3",
+      "ballot_pos": "17"
+    },
+    {
+      "civil_id": "2602592",
+      "name_en": "IBRAHIM KHALFAN AZIZ AL HADI",
+      "name_ar": "ابراهيم بن خلفان بن عزيز الهادي",
+      "gov_code": "1",
+      "wil_code": "5",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "2743427",
+      "name_en": "AHMED SAUD HAMOOD AL MAASHARI",
+      "name_ar": "أحمد بن سعود بن حمود المعشري",
+      "gov_code": "1",
+      "wil_code": "5",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "2178009",
+      "name_en": "AHMED MOHAMED HASSAN",
+      "name_ar": "أحمد بن محمد بن حسن ",
+      "gov_code": "1",
+      "wil_code": "5",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "6926584",
+      "name_en": "AMAL MAHFOODH FRAISH AL WAHAIBI",
+      "name_ar": "أمل بنت محفوظ بن فريش الوهيبية",
+      "gov_code": "1",
+      "wil_code": "5",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "2854813",
+      "name_en": "JAMAL NASSER MOHAMED AL WARDI",
+      "name_ar": "جمال بن ناصر بن محمد الوردي",
+      "gov_code": "1",
+      "wil_code": "5",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "3380557",
+      "name_en": "HATIM SAID RASHID AL-MAASHARI",
+      "name_ar": "حاتم بن سعيد بن راشد المعشري",
+      "gov_code": "1",
+      "wil_code": "5",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "11403182",
+      "name_en": "SANA HILAL SALIM AL MAASHARI",
+      "name_ar": "سناء بنت هلال بن سالم المعشرية",
+      "gov_code": "1",
+      "wil_code": "5",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "1605147",
+      "name_en": "SAIF MOHAMMED ABDULLAH AL NUUMANI ",
+      "name_ar": "سيف بن محمد بن عبدالله النعماني",
+      "gov_code": "1",
+      "wil_code": "5",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "2256836",
+      "name_en": "TALIB JUMA TALIB AL BALUSHI",
+      "name_ar": "طالب بن جمعه بن طالب البلوشي",
+      "gov_code": "1",
+      "wil_code": "5",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "775719",
+      "name_en": "ABDUL KARIM MOHAMED SABEEL AL BULUSHI",
+      "name_ar": "عبدالكريم بن محمد بن سبيل البلوشي",
+      "gov_code": "1",
+      "wil_code": "5",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "1432033",
+      "name_en": "ALI RASHID SALEEM AL HAMAHAMI",
+      "name_ar": "علي بن راشد بن سليم الحمحامي",
+      "gov_code": "1",
+      "wil_code": "5",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "875895",
+      "name_en": "FARID ALLAH BAKHSH MAHRAB AL BULUSHI",
+      "name_ar": "فريد بن الله بخش بن مهراب البلوشي",
+      "gov_code": "1",
+      "wil_code": "5",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "3123057",
+      "name_en": "FAISAL ALI TALIB AL TAI",
+      "name_ar": "فيصل بن علي بن طالب الطائي",
+      "gov_code": "1",
+      "wil_code": "5",
+      "ballot_pos": "13"
+    },
+    {
+      "civil_id": "143529",
+      "name_en": "MAJID ABDULLAH SALIM AL WADHAHI",
+      "name_ar": "ماجد بن عبدالله بن سالم الوضاحي",
+      "gov_code": "1",
+      "wil_code": "5",
+      "ballot_pos": "14"
+    },
+    {
+      "civil_id": "5017137",
+      "name_en": "MOHAMMED RAMADHAN QASIM AL BALUSHI",
+      "name_ar": "محمد بن رمضان بن قاسم البلوشي",
+      "gov_code": "1",
+      "wil_code": "5",
+      "ballot_pos": "15"
+    },
+    {
+      "civil_id": "9335037",
+      "name_en": "MUDHAFFAR MOHAMED NASSER AL WAHAIBI",
+      "name_ar": "مظفر بن محمد بن ناصر الوهيبي",
+      "gov_code": "1",
+      "wil_code": "5",
+      "ballot_pos": "16"
+    },
+    {
+      "civil_id": "1256761",
+      "name_en": "MUMTAZ FAQIR MOHAMED AL BALUSHI",
+      "name_ar": "ممتاز بن فقير بن محمد البلوشي",
+      "gov_code": "1",
+      "wil_code": "5",
+      "ballot_pos": "17"
+    },
+    {
+      "civil_id": "2073598",
+      "name_en": "MANSOOR HAMOOD ABDULLAH AL WAHAIBI",
+      "name_ar": "منصور بن حمود بن عبدالله الوهيبي",
+      "gov_code": "1",
+      "wil_code": "5",
+      "ballot_pos": "18"
+    },
+    {
+      "civil_id": "NOTA5",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "1",
+      "wil_code": "5",
+      "ballot_pos": "19"
+    },
+    {
+      "civil_id": "1569905",
+      "name_en": "AHMED MOHAMED NASSER AWLAD THANI",
+      "name_ar": "أحمد بن محمد بن ناصر أولادثاني",
+      "gov_code": "1",
+      "wil_code": "4",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "5999472",
+      "name_en": "AMAL ALI HASHIL AL AMRI",
+      "name_ar": "أمل بنت علي بن هاشل العامرية",
+      "gov_code": "1",
+      "wil_code": "4",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "2087932",
+      "name_en": "IMAN RASHID HAMED AL-GHAFRI",
+      "name_ar": "ايمان بنت راشد بن حمد الغافرية",
+      "gov_code": "1",
+      "wil_code": "4",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "2911231",
+      "name_en": "BARAKA MOHAMMED SALIM AL HASANI",
+      "name_ar": "بركه بنت محمد بن سالم الحسنية",
+      "gov_code": "1",
+      "wil_code": "4",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "13859917",
+      "name_en": "BASMAH MUBARAK SAID AL KIYUMI",
+      "name_ar": "بسمه بنت مبارك بن سعيد الكيومية",
+      "gov_code": "1",
+      "wil_code": "4",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "1873596",
+      "name_en": "HAMED SALIM HAMED AL KULAIBI",
+      "name_ar": "حمد بن سالم بن حمد الكليبي",
+      "gov_code": "1",
+      "wil_code": "4",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "3197538",
+      "name_en": "REEM NOOR MOHAMED AL ZADJALI",
+      "name_ar": "ريم بنت نور بن محمد الزدجالية",
+      "gov_code": "1",
+      "wil_code": "4",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "37998",
+      "name_en": "SAID HAMED SAIF AL HASNI",
+      "name_ar": "سعيد بن حمد بن سيف الحسني",
+      "gov_code": "1",
+      "wil_code": "4",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "3265659",
+      "name_en": "SALAMA ALI MASAUD AL HANAWI",
+      "name_ar": "سلامه بنت علي بن مسعود الهناوية",
+      "gov_code": "1",
+      "wil_code": "4",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "2942311",
+      "name_en": "SULAIMAN ABDULLAH AHMED AL MAWALI",
+      "name_ar": "سليمان بن عبدالله بن أحمد المعولي",
+      "gov_code": "1",
+      "wil_code": "4",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "2005265",
+      "name_en": "AZIZ SALIM HAMOOD AL HASANI",
+      "name_ar": "عزيز بن سالم بن حمود الحسني",
+      "gov_code": "1",
+      "wil_code": "4",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "1588951",
+      "name_en": "ALI KHALFAN SAID AL HASANI",
+      "name_ar": "علي بن خلفان بن سعيد الحسني",
+      "gov_code": "1",
+      "wil_code": "4",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "1672323",
+      "name_en": "FATHI AHMED OMAR AL JAHDHAMI",
+      "name_ar": "فتحي بن أحمد بن عمر الجهضمي",
+      "gov_code": "1",
+      "wil_code": "4",
+      "ballot_pos": "13"
+    },
+    {
+      "civil_id": "3599811",
+      "name_en": "FAHAD MOHAMED NASSER AL HADI",
+      "name_ar": "فهد بن محمد بن ناصر الهادي",
+      "gov_code": "1",
+      "wil_code": "4",
+      "ballot_pos": "14"
+    },
+    {
+      "civil_id": "887494",
+      "name_en": "MALIK HILAL HAMOOD AL YAHMADI",
+      "name_ar": "مالك بن هلال بن حمود اليحمدي",
+      "gov_code": "1",
+      "wil_code": "4",
+      "ballot_pos": "15"
+    },
+    {
+      "civil_id": "1250364",
+      "name_en": "MOHAMED SAIF SULAIMAN AL HASANI",
+      "name_ar": "محمد بن سيف بن سليمان الحسني",
+      "gov_code": "1",
+      "wil_code": "4",
+      "ballot_pos": "16"
+    },
+    {
+      "civil_id": "8704244",
+      "name_en": "MUNA SULAIMAN MOHAMMED AAL MUHAMMAD",
+      "name_ar": "منى بنت سليمان بن محمد آل محمد",
+      "gov_code": "1",
+      "wil_code": "4",
+      "ballot_pos": "17"
+    },
+    {
+      "civil_id": "NOTA4",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "1",
+      "wil_code": "4",
+      "ballot_pos": "20"
+    },
+    {
+      "civil_id": "743834",
+      "name_en": "IBRAHIM MOHAMED MANSOOR AL AAMRI",
+      "name_ar": "إبراهيم بن محمد بن منصور العامري",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "2054281",
+      "name_en": "AHMED ABDULLAH MUBARAK AL MARZOOQI",
+      "name_ar": "أحمد بن عبدالله بن مبارك المرزوقي",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "4098999",
+      "name_en": "AHMED FADHIL MOHAMMED AL-HADIFI",
+      "name_ar": "أحمد بن فاضل بن محمد الهديفي",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "2988212",
+      "name_en": "ASMA ABDULLAH HAMOOD AL SHAQSI",
+      "name_ar": "أسماء بنت عبدالله بن حمود الشقصية",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "3364724",
+      "name_en": "AMAL KHALFAN SALIM AL YAHYAI",
+      "name_ar": "أمل بنت خلفان بن سالم اليحيائية",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "6197081",
+      "name_en": "ANWAR HAMOOD AHMED AL RASHDI",
+      "name_ar": "أنور بن حمود بن أحمد الراشدي",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "17268297",
+      "name_en": "IMAN SAID SALIM AL-RAWAHI",
+      "name_ar": "ايمان بنت سعيد بن سالم الرواحية",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "7660151",
+      "name_en": "BADRIYA AHMED SAID AL-HATTALI",
+      "name_ar": "بدريه بنت احمد بن سعيد الهطالية",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "8231111",
+      "name_en": "HASSAN SAID HAMDAN AL MAAMARI",
+      "name_ar": "حسن بن سعيد بن حمدان المعمري",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "1239973",
+      "name_en": "KHALID ABDULLA ISMAIL AL MAIMANI",
+      "name_ar": "خالد بن عبدالله بن اسماعيل الميمني",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "266393",
+      "name_en": "DARWISH EID HAIRAN AL BALUSHI",
+      "name_ar": "درويش بن عيد بن هيران البلوشي",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "3213923",
+      "name_en": "DEENA ALI MURAD AL BALUSHI",
+      "name_ar": "دينا بنت علي بن مراد البلوشية",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "7644698",
+      "name_en": "RAHMA ZA'AL ABDULLAH AL FARSI",
+      "name_ar": "رحمه بنت زعل بن عبدالله الفارسية",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "13"
+    },
+    {
+      "civil_id": "10965208",
+      "name_en": "ZAHIR SALIM SAIF AL HADHRAMI",
+      "name_ar": "زاهر بن سالم بن سيف الحضرمي",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "14"
+    },
+    {
+      "civil_id": "4467297",
+      "name_en": "ZAHRA JUMA SAID AL HINAI",
+      "name_ar": "زهره بنت جمعه بن سعيد الهنائية",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "15"
+    },
+    {
+      "civil_id": "4011443",
+      "name_en": "SAMER MOHAMED ALYAS AL BALUSHI",
+      "name_ar": "سامر بن محمد بن الياس البلوشي",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "16"
+    },
+    {
+      "civil_id": "6535053",
+      "name_en": "SULTAN SALIM SAID AL BADI",
+      "name_ar": "سلطان بن سالم بن سعيد البادي",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "17"
+    },
+    {
+      "civil_id": "2876349",
+      "name_en": "TALIB NASSER SAID AL WAHAIBI",
+      "name_ar": "طالب بن ناصر بن سعيد الوهيبي",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "18"
+    },
+    {
+      "civil_id": "6310175",
+      "name_en": "AMUR ABDULLAH OTHMAN AL ZIDJALI",
+      "name_ar": "عامر بن عبدالله بن عثمان الزدجالي",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "19"
+    },
+    {
+      "civil_id": "6160011",
+      "name_en": "ABDULLAH MOHAMMED KHAIR MOHAMMED  AL BALUSHI",
+      "name_ar": "عبدالله بن محمد بن خير بن محمد البلوشي",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "20"
+    },
+    {
+      "civil_id": "7900773",
+      "name_en": "ASSAM SAID ALI AL BALUSHI",
+      "name_ar": "عصام بن سعيد بن علي البلوشي",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "21"
+    },
+    {
+      "civil_id": "2118955",
+      "name_en": "ALI MOHAMMED HAMED AL HAJRI",
+      "name_ar": "علي بن محمد بن حمد الحجري",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "22"
+    },
+    {
+      "civil_id": "6625628",
+      "name_en": "GHASSAN MOHAMMED YOUSUF AL BALUSHI",
+      "name_ar": "غسان بن محمد بن يوسف البلوشي",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "23"
+    },
+    {
+      "civil_id": "11949915",
+      "name_en": "FAHAD MUBARAK BATASH AL SHARJI",
+      "name_ar": "فهد بن مبارك بن بطاش الشرجي",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "24"
+    },
+    {
+      "civil_id": "3598191",
+      "name_en": "QASIM MARHOON MOHAMED AL AMRI",
+      "name_ar": "قاسم بن مرهون بن محمد العامري",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "25"
+    },
+    {
+      "civil_id": "10091747",
+      "name_en": "QAIS ABDULLAH MOHAMED AL MUHARRAMI",
+      "name_ar": "قيس بن عبدالله بن محمد المحرمي",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "26"
+    },
+    {
+      "civil_id": "2745582",
+      "name_en": "KAREM MOHAMED ABDULLAH AL RAIISI",
+      "name_ar": "كارم بن محمد بن عبدالله الرئيسي",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "27"
+    },
+    {
+      "civil_id": "8505149",
+      "name_en": "MOHAMMED ISSA MOHAMMED AL BARWANI",
+      "name_ar": "محمد بن عيسى بن محمد البرواني",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "28"
+    },
+    {
+      "civil_id": "1651906",
+      "name_en": "MOHAMED MOOSA MOHAMED AL FARSI",
+      "name_ar": "محمد بن موسى بن محمد الفارسي",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "29"
+    },
+    {
+      "civil_id": "1902333",
+      "name_en": "MANSOOR YAHYA HUMAIYAD AL HINAEY",
+      "name_ar": "منصور بن يحيى بن حميّد الهنائي",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "30"
+    },
+    {
+      "civil_id": "6318627",
+      "name_en": "NABIL KHALFAN KHAMIS AL BUSAIDI",
+      "name_ar": "نبيل بن خلفان بن خميس البوسعيدي",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "31"
+    },
+    {
+      "civil_id": "1892496",
+      "name_en": "NAAMA JAMEEL FARHAN AL BUSAIDI",
+      "name_ar": "نعمه بنت جميل بن فرحان البوسعيدية",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "32"
+    },
+    {
+      "civil_id": "7918112",
+      "name_en": "HILAL HAMED MOHAMED AL SARMI",
+      "name_ar": "هلال بن حمد بن محمد الصارمي",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "33"
+    },
+    {
+      "civil_id": "NOTA2",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "1",
+      "wil_code": "2",
+      "ballot_pos": "34"
+    },
+    {
+      "civil_id": "2146195",
+      "name_en": "JUMA SAID SALIM AL WAHAIBI",
+      "name_ar": "جمعه بن سعيد بن سالم الوهيبي",
+      "gov_code": "1",
+      "wil_code": "6",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "1919758",
+      "name_en": "HARITH SHMAS HAMOOD AL BATTASHI",
+      "name_ar": "حارث بن شماس بن حمود البطاشي",
+      "gov_code": "1",
+      "wil_code": "6",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "644399",
+      "name_en": "SALIM JUMA SAID AL HOOTI",
+      "name_ar": "سالم بن جمعه بن سعيد الهوتي",
+      "gov_code": "1",
+      "wil_code": "6",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "302891",
+      "name_en": "SALIM HAMOOD SAIF AL GHAMMARI",
+      "name_ar": "سالم بن حمود بن سيف الغماري",
+      "gov_code": "1",
+      "wil_code": "6",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "1578812",
+      "name_en": "SALIM SALEH SALIM AL SIYABI",
+      "name_ar": "سالم بن صالح بن سالم السيابي",
+      "gov_code": "1",
+      "wil_code": "6",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "3695312",
+      "name_en": "SAUD ALI HABIB AL JARDANI",
+      "name_ar": "سعود بن علي بن حبيب الجرداني",
+      "gov_code": "1",
+      "wil_code": "6",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "1709865",
+      "name_en": "SAID JUMA SALIM AL-GHUZAILI",
+      "name_ar": "سعيد بن جمعه بن سالم الغزيلي",
+      "gov_code": "1",
+      "wil_code": "6",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "2290023",
+      "name_en": "SAID YOUSUF ABDULLAH AL BALUSHI",
+      "name_ar": "سعيد بن يوسف بن عبدالله البلوشي",
+      "gov_code": "1",
+      "wil_code": "6",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "1884333",
+      "name_en": "MAHFOODH ALI JUMA AL JUMA",
+      "name_ar": "محفوظ بن علي بن جمعه آل جمعه",
+      "gov_code": "1",
+      "wil_code": "6",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "9355985",
+      "name_en": "MOHAMED RASHID MOHAMED AL MUSHARRAFI",
+      "name_ar": "محمد بن راشد بن محمد المشرفي",
+      "gov_code": "1",
+      "wil_code": "6",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "11844936",
+      "name_en": "YAHYA KHALFAN MOHAMMED AL BUSAFI",
+      "name_ar": "يحيى بن خلفان بن محمد البوصافي",
+      "gov_code": "1",
+      "wil_code": "6",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "NOTA6",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "1",
+      "wil_code": "6",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "3126584",
+      "name_en": "BAKHIT HAMID AL BAKHIT FADHIL",
+      "name_ar": "بخيت بن حامد بن البخيت فاضل",
+      "gov_code": "9",
+      "wil_code": "51",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "294227",
+      "name_en": "BAKHIT MOHAMMED SALUMA BA AWAIN",
+      "name_ar": "بخيت بن محمد بن سلومه باعوين",
+      "gov_code": "9",
+      "wil_code": "51",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "5637733",
+      "name_en": "HASSAN AHMED AWADH NAHAL KEDAH AL MAHRI",
+      "name_ar": "حسن بن احمد بن عوض ناهال كده المهري",
+      "gov_code": "9",
+      "wil_code": "51",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "6657664",
+      "name_en": "HASSAN SAID ALI KASHOB",
+      "name_ar": "حسن بن سعيد بن علي كشوب",
+      "gov_code": "9",
+      "wil_code": "51",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "2853717",
+      "name_en": "SAID SALIM MAHAD KASHOOB",
+      "name_ar": "سعيد بن سالم بن محاد كشوب",
+      "gov_code": "9",
+      "wil_code": "51",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "4854214",
+      "name_en": "ABDUL AZIZ ALI SAID MOBARK AL HALAALI",
+      "name_ar": "عبدالعزيز بن علي بن سعيد بن مبارك الهلالي",
+      "gov_code": "9",
+      "wil_code": "51",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "2213632",
+      "name_en": "ABDULLAH HUSSAIN SALIM ALMSHAHUR BAOMAR",
+      "name_ar": "عبدالله بن حسين بن سالم المشهورباعمر",
+      "gov_code": "9",
+      "wil_code": "51",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "1913671",
+      "name_en": "ABDULLAH MUSALLAM MOHAMMED AL AAMRI",
+      "name_ar": "عبدالله بن مسلم بن محمد العامري",
+      "gov_code": "9",
+      "wil_code": "51",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "1858465",
+      "name_en": "AMAD MOHSIN ALI AL SHANFARI",
+      "name_ar": "عماد بن محسن بن علي الشنفري",
+      "gov_code": "9",
+      "wil_code": "51",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "262778",
+      "name_en": "MOHSIN MOHAMMED SALIM FADHIL",
+      "name_ar": "محسن بن محمد بن سالم فاضل",
+      "gov_code": "9",
+      "wil_code": "51",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "9803117",
+      "name_en": "MUSLEM SAID SUHAIL KASHOOB",
+      "name_ar": "مسلم بن سعيد بن سهيل كشوب",
+      "gov_code": "9",
+      "wil_code": "51",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "NOTA51",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "9",
+      "wil_code": "51",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "2894393",
+      "name_en": "AHMED MOHAMED MAHAD AL MAASHANI",
+      "name_ar": "أحمد بن محمد بن محاد المعشني",
+      "gov_code": "9",
+      "wil_code": "53",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "1494901",
+      "name_en": "ALI AHMED SALIM AL MAASHANI",
+      "name_ar": "علي بن أحمد بن سالم المعشني",
+      "gov_code": "9",
+      "wil_code": "53",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "1962241",
+      "name_en": "MOHAMMED AHMED SAID ALSANH ALMASHAKHI",
+      "name_ar": "محمد بن أحمد بن سعيد السنح المشيخي",
+      "gov_code": "9",
+      "wil_code": "53",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "1773641",
+      "name_en": "MOHAMMED AHMED MAHAD AL MASHANI",
+      "name_ar": "محمد بن أحمد بن محاد المعشني",
+      "gov_code": "9",
+      "wil_code": "53",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "1832709",
+      "name_en": "MOHAMMED HASSAN SAID AL AWAID",
+      "name_ar": "محمد بن حسن بن سعيد العوائد",
+      "gov_code": "9",
+      "wil_code": "53",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "3057615",
+      "name_en": "MUSALLAM AHMED SAID AL SHAHRI",
+      "name_ar": "مسلم بن أحمد بن سعيد الشحري",
+      "gov_code": "9",
+      "wil_code": "53",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "NOTA53",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "9",
+      "wil_code": "53",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "7947451",
+      "name_en": "ABU BAKAR MOHAMMED SALIM BA OMAR",
+      "name_ar": "أبوبكر بن محمد بن سالم باعمر",
+      "gov_code": "9",
+      "wil_code": "54",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "3701305",
+      "name_en": "RAID AWADH ALI BALKHAIR",
+      "name_ar": "رائد بن عوض بن علي بالخير",
+      "gov_code": "9",
+      "wil_code": "54",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "5851068",
+      "name_en": "MUSALLAM YASIR SAID SEIDAF ALAMRI",
+      "name_ar": "مسلم بن ياسر بن سعيد سيداف العمري",
+      "gov_code": "9",
+      "wil_code": "54",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "NOTA54",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "9",
+      "wil_code": "54",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "1508077",
+      "name_en": "AHMED MOHAMMED BAKHIT AL MASHAIKHI",
+      "name_ar": "أحمد بن محمد بن بخيت المشيخي",
+      "gov_code": "9",
+      "wil_code": "56",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "5046087",
+      "name_en": "AHMED MOHAMMED SAID SHAMAS",
+      "name_ar": "أحمد بن محمد بن سعيد شماس",
+      "gov_code": "9",
+      "wil_code": "56",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "5484395",
+      "name_en": "KHALID MOHAMMED BAKHIT AL MASHIKHI",
+      "name_ar": "خالد بن محمد بن بخيت المشيخي",
+      "gov_code": "9",
+      "wil_code": "56",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "1528902",
+      "name_en": "SAID ISSA AHMED AL AMRI",
+      "name_ar": "سعيد بن عيسى بن أحمد العمري",
+      "gov_code": "9",
+      "wil_code": "56",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "6016229",
+      "name_en": "NAEF SAID ABDULLAH BA ZANBUR",
+      "name_ar": "نائف بن سعيد بن عبدالله بازنبور",
+      "gov_code": "9",
+      "wil_code": "56",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "925766",
+      "name_en": "NAJI BAKHIT MOHAMMED AL MASHIKHI",
+      "name_ar": "ناجي بن بخيت بن محمد المشيخي",
+      "gov_code": "9",
+      "wil_code": "56",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "2005616",
+      "name_en": "YUSUF SALIM JAMAN AL MASHAIKHI",
+      "name_ar": "يوسف بن سالم بن جمعان المشيخي",
+      "gov_code": "9",
+      "wil_code": "56",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "NOTA56",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "9",
+      "wil_code": "56",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "6333336",
+      "name_en": "HAMZA MUSLEM NAFAL RABAT AL KATHIRI",
+      "name_ar": "حمزة بن مسلم بن نفل ربعات الكثيري",
+      "gov_code": "9",
+      "wil_code": "52",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "6411703",
+      "name_en": "SALIM SAID SALIM AL MASHIKHI",
+      "name_ar": "سالم بن سعيد بن سالم المشيخي",
+      "gov_code": "9",
+      "wil_code": "52",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "1713709",
+      "name_en": "SAID MUSALLAM SAID SAMHAN AL KATHIRI",
+      "name_ar": "سعيد بن مسلم بن سعيد سمحان الكثيري",
+      "gov_code": "9",
+      "wil_code": "52",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "15026629",
+      "name_en": "FAISAL AWADH SAID KHUWAR AL KATHIRI",
+      "name_ar": "فيصل بن عوض بن سعيد خوار الكثيري",
+      "gov_code": "9",
+      "wil_code": "52",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "9355971",
+      "name_en": "MOHAMMED MUSALLAM BAKHIT AL MAHRI",
+      "name_ar": "محمد بن مسلم بن بخيت المهري",
+      "gov_code": "9",
+      "wil_code": "52",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "NOTA52",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "9",
+      "wil_code": "52",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "7903587",
+      "name_en": "IBRAHIM SALIM BAKHIT HARDAN",
+      "name_ar": "ابراهيم بن سالم بن بخيت حاردان",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "5595921",
+      "name_en": "AHMED SALIM TAHER AAL IBRAHIM",
+      "name_ar": "احمد بن سالم بن طاهر آل إبراهيم",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "5647591",
+      "name_en": "KHALID ISSA TARSHOOM HUBAIS",
+      "name_ar": "خالد بن عيسى بن طرشوم هبيس",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "7088492",
+      "name_en": "SALIM SUHAIL SAAD BA WAZIR",
+      "name_ar": "سالم بن سهيل بن سعد باوزير",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "1329915",
+      "name_en": "SALIM SUHAIL SALMAN HARDAN",
+      "name_ar": "سالم بن سهيل بن سلمان حاردان",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "1493435",
+      "name_en": "SALIM ABDULLAH SAID AL AAMRY",
+      "name_ar": "سالم بن عبدالله بن سعيد العامري",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "1262825",
+      "name_en": "SALIM ALI SALIM ZAABANOOT",
+      "name_ar": "سالم بن علي بن سالم زعبنوت",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "7534694",
+      "name_en": "SALIM ALI SALIM QATOOB AL AMRI",
+      "name_ar": "سالم بن علي بن سالم قطوب العمري",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "5956703",
+      "name_en": "SAID AJHAM SAID AL MUJAIBI",
+      "name_ar": "سعيد بن اجهام بن سعيد المجيبي",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "6342135",
+      "name_en": "SAID SALIM MAHAD SHIMAS",
+      "name_ar": "سعيد بن سالم بن محاد شماس",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "1930876",
+      "name_en": "SAID AMOR AHMED HARDAN",
+      "name_ar": "سعيد بن عامر بن أحمد حاردان",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "13269404",
+      "name_en": "SAID MAHAD SAID AKAAK",
+      "name_ar": "سعيد بن محاد بن سعيد عكعاك",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "7666219",
+      "name_en": "SAID MOHAMMED ALI MAJONAH ZAABANOOT",
+      "name_ar": "سعيد بن محمد بن علي ماجونح زعبنوت",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "13"
+    },
+    {
+      "civil_id": "3987764",
+      "name_en": "SAID MUSALLAM AHMED AL MAQADAM",
+      "name_ar": "سعيد بن مسلم بن أحمد المقدم",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "14"
+    },
+    {
+      "civil_id": "7393957",
+      "name_en": "AMER SALIM AMER MAJUNAH ZABANUT",
+      "name_ar": "عامر بن سالم بن عامر ماجونح زعبنوت",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "15"
+    },
+    {
+      "civil_id": "7769649",
+      "name_en": "ABDULLAH SALIM AWADH BAIT ALI MUQADAM",
+      "name_ar": "عبدالله بن سالم بن عوض بيت علي مقدم",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "16"
+    },
+    {
+      "civil_id": "60639",
+      "name_en": "ALI AHMED SAAD ZAABANUT AL MAHRI",
+      "name_ar": "علي بن أحمد بن سعد زعبنوت المهري",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "17"
+    },
+    {
+      "civil_id": "7769124",
+      "name_en": "ALI SALIM AWADH ALI MUQADDAM",
+      "name_ar": "علي بن سالم بن عوض علي مقدم",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "18"
+    },
+    {
+      "civil_id": "7499516",
+      "name_en": "ALI MOHAMMED AHMED RAFEET",
+      "name_ar": "علي بن محمد بن أحمد رعفيت",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "19"
+    },
+    {
+      "civil_id": "18344262",
+      "name_en": "ISSA MOHAMMED SALIM RAFEET",
+      "name_ar": "عيسى بن محمد بن سالم رعفيت",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "20"
+    },
+    {
+      "civil_id": "9939299",
+      "name_en": "FAEL MOHAMMED FAEL HUBAIS",
+      "name_ar": "فائل بن محمد بن فائل هبيس",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "21"
+    },
+    {
+      "civil_id": "2487108",
+      "name_en": "MOHAMMED SALIM AHMED SHAMAS",
+      "name_ar": "محمد بن سالم بن احمد شماس",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "22"
+    },
+    {
+      "civil_id": "19396715",
+      "name_en": "MOHAMMED SALIM SALIM AL-MAJIBI",
+      "name_ar": "محمد بن سالم بن سالم المجيبي",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "23"
+    },
+    {
+      "civil_id": "7120418",
+      "name_en": "MOHAMMED SALIM SUHAIL AL AAMRI",
+      "name_ar": "محمد بن سالم بن سهيل العامري",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "24"
+    },
+    {
+      "civil_id": "6971296",
+      "name_en": "MOHAMMED SAID TARSHOOM HUBAIS",
+      "name_ar": "محمد بن سعيد بن طرشوم هبيس",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "25"
+    },
+    {
+      "civil_id": "5530375",
+      "name_en": "MOHAMMED MASOUD AWADH AL UBATHANI",
+      "name_ar": "محمد بن مسعود بن عوض العوبثاني",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "26"
+    },
+    {
+      "civil_id": "5932821",
+      "name_en": "MOHAMMED MUSALLAM AMER HARDAN",
+      "name_ar": "محمد بن مسلم بن عامر حاردان",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "27"
+    },
+    {
+      "civil_id": "14048784",
+      "name_en": "MUSALLAM AHMED AHMED HARDAN",
+      "name_ar": "مسلم بن أحمد بن أحمد حاردان",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "28"
+    },
+    {
+      "civil_id": "10236989",
+      "name_en": "MUSALLAM AHMED MUSALLAM MAJUNAH ZAABANUT",
+      "name_ar": "مسلم بن احمد بن مسلم ماجونح زعبنوت",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "29"
+    },
+    {
+      "civil_id": "2201471",
+      "name_en": "MUSALLAM SALIM MUBARAK RAAFIT",
+      "name_ar": "مسلم بن سالم بن مبارك رعفيت",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "30"
+    },
+    {
+      "civil_id": "7932593",
+      "name_en": "NASSER SALIM ISSA RAAFIT",
+      "name_ar": "ناصر بن سالم بن عيسى رعفيت",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "31"
+    },
+    {
+      "civil_id": "10177812",
+      "name_en": "NASSER MOHAMMED SALUMA BA UWAIN",
+      "name_ar": "ناصر بن محمد بن سلومه باعوين",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "32"
+    },
+    {
+      "civil_id": "NOTA57",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "9",
+      "wil_code": "57",
+      "ballot_pos": "33"
+    },
+    {
+      "civil_id": "14032056",
+      "name_en": "AHMED BAKHIT MOHAMMED SHARAB QAMSIT",
+      "name_ar": "احمد بن بخيت بن محمد شارب قمصيت",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "50243",
+      "name_en": "AHMED SAID HASSAN ZAABANUT",
+      "name_ar": "احمد بن سعيد بن حسن زعبنوت",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "7471705",
+      "name_en": "BAKHIT SALIM MUSALLAM ZABANOOT",
+      "name_ar": "بخيت بن سالم بن مسلم زعبنوت",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "726362",
+      "name_en": "BAKHIT MUSALLAM SALIM ZAABANUT",
+      "name_ar": "بخيت بن مسلم بن سالم زعبنوت",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "8249932",
+      "name_en": "HASNAH SAID MUSALLAM AL-HARIZI",
+      "name_ar": "حسنه بنت سعيد بن مسلم الحريزية",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "12644479",
+      "name_en": "SALIM BAKHIT SALIM AL AFARI",
+      "name_ar": "سالم بن بخيت بن سالم العفاري",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "1221363",
+      "name_en": "SALIM MOHAMMED SALOOMA MAKOUF ZAABANUT",
+      "name_ar": "سالم بن محمد بن سلومه معكوف زعبنوت",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "1086067",
+      "name_en": "SALIM MUSALLAM AL GHAFILI SUNAKH ZAABANUT",
+      "name_ar": "سالم بن مسلم بن الغفيلي صوناخ زعبنوت",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "1150301",
+      "name_en": "SALIM MUSALLAM MADHAHI MAKOOF ZAABANOOT",
+      "name_ar": "سالم بن مسلم بن مضحي معكوف زعبنوت",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "11269741",
+      "name_en": "SAID SUHAIL BAKHIT SUNAKH ZABANOOT",
+      "name_ar": "سعيد بن سهيل بن بخيت صوناخ زعبنوت",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "948543",
+      "name_en": "SAID MUBARAK MUSALLAM HAZHIZ",
+      "name_ar": "سعيد بن مبارك بن مسلم حزحيز",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "7818307",
+      "name_en": "SAID MOHSIN HASSAN YASAHUL AL MAHRI",
+      "name_ar": "سعيد بن محسن بن حسن يسهول المهري",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "7932185",
+      "name_en": "SALEH HASSAN MUSALLAM GHBARAR ZABANOOT",
+      "name_ar": "صالح بن حسن بن مسلم غبرار زعبنوت",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "13"
+    },
+    {
+      "civil_id": "18605933",
+      "name_en": "ABDULLAH MUAIBED MOHAMMED GHABRAR ZABANOUT",
+      "name_ar": "عبدالله بن معيبد بن محمد غبرار زعبنوت",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "14"
+    },
+    {
+      "civil_id": "4314238",
+      "name_en": "ALI SAAD MOHAMMED BA LAHAF",
+      "name_ar": "علي بن سعد بن محمد بالحاف",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "15"
+    },
+    {
+      "civil_id": "13954768",
+      "name_en": "MOHAMMED RAMAS MOHAMMED GHBARAR ZABANOOT",
+      "name_ar": "محمد بن رامس بن محمد غبرار زعبنوت",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "16"
+    },
+    {
+      "civil_id": "99155",
+      "name_en": "MOHAMMED ALI SAID ZABANOOT",
+      "name_ar": "محمد بن علي بن سعيد زعبنوت",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "17"
+    },
+    {
+      "civil_id": "6134035",
+      "name_en": "MOHAMMED  ISSA ISSA RAAFIT",
+      "name_ar": "محمد بن عيسى بن عيسى رعفيت",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "18"
+    },
+    {
+      "civil_id": "14620246",
+      "name_en": "MUSALLAM MABKHUT NAHIS ZAABANUT",
+      "name_ar": "مسلم بن مبخوت بن نحيس زعبنوت",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "19"
+    },
+    {
+      "civil_id": "5287205",
+      "name_en": "NASSER BAKHIT ALI AL AFARI",
+      "name_ar": "ناصر بن بخيت بن علي العفاري",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "20"
+    },
+    {
+      "civil_id": "2405768",
+      "name_en": "NASSER SAID ALI RAAFIT",
+      "name_ar": "ناصر بن سعيد بن علي رعفيت",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "21"
+    },
+    {
+      "civil_id": "8430023",
+      "name_en": "NAYEM ALI FARAJ ZABANOOT",
+      "name_ar": "نايم بن علي بن فرج زعبنوت",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "22"
+    },
+    {
+      "civil_id": "NOTA60",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "9",
+      "wil_code": "60",
+      "ballot_pos": "23"
+    },
+    {
+      "civil_id": "6503266",
+      "name_en": "AHMED SAID ALI AL-HAMAR",
+      "name_ar": "أحمد بن سعيد بن علي الحمر",
+      "gov_code": "9",
+      "wil_code": "58",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "1617308",
+      "name_en": "ABDULLAH AWBID ALI AL HAMR",
+      "name_ar": "عبدالله بن عوبد بن علي الحمر",
+      "gov_code": "9",
+      "wil_code": "58",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "2048506",
+      "name_en": "MOHAMMED BAKHIT AHMED JADAD AL KATHIRI",
+      "name_ar": "محمد بن بخيت بن احمد جداد الكثيري",
+      "gov_code": "9",
+      "wil_code": "58",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "9093114",
+      "name_en": "MOHAMMED MUBARAK AHMED MASAN AL KATHIRI",
+      "name_ar": "محمد بن مبارك بن احمد مسن الكثيري",
+      "gov_code": "9",
+      "wil_code": "58",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "5975547",
+      "name_en": "MOHAMMED MABKHUT ALI ALHAMAR BAITKATHIR",
+      "name_ar": "محمد بن مبخوت بن علي الحمربيت كثير",
+      "gov_code": "9",
+      "wil_code": "58",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "1972356",
+      "name_en": "MUSALLAM SAID AHMED AL HAMAR",
+      "name_ar": "مسلم بن سعيد بن احمد الحمر",
+      "gov_code": "9",
+      "wil_code": "58",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "5975585",
+      "name_en": "MUSALLAM MABKHOOT ALI AL HAMAR",
+      "name_ar": "مسلم بن مبخوت بن علي الحمر",
+      "gov_code": "9",
+      "wil_code": "58",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "1925143",
+      "name_en": "NAEF MOHAMMED SUHAIL AL-HAMAR",
+      "name_ar": "نائف بن محمد بن سهيل الحمر",
+      "gov_code": "9",
+      "wil_code": "58",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "10560764",
+      "name_en": "NAWAF AHMED MOHAMMED MASAN",
+      "name_ar": "نواف بن أحمد بن محمد مسن",
+      "gov_code": "9",
+      "wil_code": "58",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "NOTA58",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "9",
+      "wil_code": "58",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "6270761",
+      "name_en": "AHMED JUMA BAKHIT AL BATAHARI",
+      "name_ar": "أحمد بن جمعه بن بخيت البطحري",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "8814694",
+      "name_en": "AHMED SALIM SAID THOAR AL MAHRI",
+      "name_ar": "احمد بن سالم بن سعيد ثوعار المهري",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "6502423",
+      "name_en": " AHMED SAID AHMED SAIFOOT AL MAHRI",
+      "name_ar": "أحمد بن سعيد بن احمد صعيفوت المهري",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "6342735",
+      "name_en": "AHMED DHAHAR HILAL AL BATAHARI",
+      "name_ar": "احمد بن ظاهر بن هلال البطحري",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "6658741",
+      "name_en": "AHMED MUBARAK SALEEM SAIFOOT AL MAHRI",
+      "name_ar": "أحمد بن مبارك بن سليم صعيفوت المهري",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "4483964",
+      "name_en": "AHMED MABAKHUT DHAHIN THOAR AL MAHRY",
+      "name_ar": "أحمد بن مبخوت بن ضحيان ثوعار المهرى",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "6250938",
+      "name_en": "ZAYID NASSER SAAD AL BATHARI",
+      "name_ar": "زايد بن ناصر بن سعد البطحري",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "3969617",
+      "name_en": "SAAD SALIM SAID THOUAR AL MAHRI",
+      "name_ar": "سعد بن سالم بن سعيد ثوعارالمهري",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "6757337",
+      "name_en": "SAOUD ABDUL AZIZ SALIM AL NAQSH ALMAHRI",
+      "name_ar": "سعود بن عبدالعزيز بن سالم النقش  المهري",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "5702313",
+      "name_en": "SAID JAMAN MUSLEM AMUSH AL MAHRI",
+      "name_ar": "سعيد بن جمعان بن مسلم عموش المهري",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "5826736",
+      "name_en": "SAID SALIM ALNAFTAH SAIFOOT THOAR",
+      "name_ar": "سعيد بن سالم بن النفته صعيفوت ثوعار",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "4297034",
+      "name_en": "SAID MABKHUT SALIM BAIT SAAD THOAR",
+      "name_ar": "سعيد بن مبخوت بن سالم بيت سعدثوعار",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "6012535",
+      "name_en": "ABDULLAH ABDUL RAB SAAD AL BATHARI",
+      "name_ar": "عبدالله بن عبدالرب بن سعد البطحري",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "13"
+    },
+    {
+      "civil_id": "4688584",
+      "name_en": "ABDULLAH NASSER RADHAMIM BAIT THUAR",
+      "name_ar": "عبدالله بن ناصر بن رضميم بيت ثوعار",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "14"
+    },
+    {
+      "civil_id": "4294412",
+      "name_en": "ABDULLAH HAMZAH SAID THOAR",
+      "name_ar": "عبدالله بن همزه بن سعيد ثوعار",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "15"
+    },
+    {
+      "civil_id": "5905557",
+      "name_en": "ALAWI AL HABIB ALI THUAAR",
+      "name_ar": "علوي بن الحبيب بن علي ثوعار",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "16"
+    },
+    {
+      "civil_id": "6023427",
+      "name_en": "ISSA SALEEM MAYOOF AL BATAHARI",
+      "name_ar": "عيسى بن سليم بن معيوف البطحري",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "17"
+    },
+    {
+      "civil_id": "6175568",
+      "name_en": "FAIZ AHMED OBAID AL-MAHRI",
+      "name_ar": "فايز بن أحمد بن عبيد المهري",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "18"
+    },
+    {
+      "civil_id": "5093389",
+      "name_en": "FAISAL ABDUL AZIZ MOHAMMED AL SHIHRI",
+      "name_ar": "فيصل بن عبدالعزيز بن محمد الشحري",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "19"
+    },
+    {
+      "civil_id": "12919209",
+      "name_en": "MUBARAK KHUZI SAAD THUAAR",
+      "name_ar": "مبارك بن خزي بن سعد ثوعار",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "20"
+    },
+    {
+      "civil_id": "5513619",
+      "name_en": "MOHAMMED SAID SAUOD AL JUNAIBI",
+      "name_ar": "محمد بن سعيد بن سعود الجنيبي",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "21"
+    },
+    {
+      "civil_id": "6277288",
+      "name_en": "MOHAMMED AYADHA SA'UD AL JUNAIBI",
+      "name_ar": "محمد بن عيظه بن سعود الجنيبي",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "22"
+    },
+    {
+      "civil_id": "6721129",
+      "name_en": "MOHAMMED MANA HATHITH AL BATHARI",
+      "name_ar": "محمد بن مانع بن حثيث البطحري",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "23"
+    },
+    {
+      "civil_id": "6115913",
+      "name_en": "YAHYA MOHAMED AHMED SAIFOOT AL MAHRI",
+      "name_ar": "يحيى بن محمد بن أحمد صعيفوت المهري",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "24"
+    },
+    {
+      "civil_id": "18161375",
+      "name_en": "YOUNES GHARIB SAID AL MAHRI",
+      "name_ar": "يونس بن غريب بن سعيد المهري",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "25"
+    },
+    {
+      "civil_id": "NOTA59",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "9",
+      "wil_code": "59",
+      "ballot_pos": "26"
+    },
+    {
+      "civil_id": "6038501",
+      "name_en": "SALIM ALI SALIM AL AMRI",
+      "name_ar": "سالم بن علي بن سالم العمري",
+      "gov_code": "9",
+      "wil_code": "55",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "7477081",
+      "name_en": "ABDULLAH ALI ABDULLAH AL  AMRI",
+      "name_ar": "عبدالله بن علي بن عبدالله العمري",
+      "gov_code": "9",
+      "wil_code": "55",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "NOTA55",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "9",
+      "wil_code": "55",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "3076267",
+      "name_en": "BADAR SAID SULAIMAN AL SHIHHI",
+      "name_ar": "بدر بن سعيد بن سليمان الشحي",
+      "gov_code": "3",
+      "wil_code": "19",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "3659657",
+      "name_en": "SHIHAB AHMED MOHAMMED ALI DALLAK AL SHEHHI",
+      "name_ar": "شهاب بن أحمد بن محمد بن علي دلّك الشحي",
+      "gov_code": "3",
+      "wil_code": "19",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "3939136",
+      "name_en": "ABDULRAHMAN SULAIMAN ABDULLAH SAIWED AL SHIHHI",
+      "name_ar": "عبدالرحمن بن سليمان بن عبدالله سيود الشحي",
+      "gov_code": "3",
+      "wil_code": "19",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "1404494",
+      "name_en": "ABDULSALAM MOHAMMED AHMED AL KAMALI",
+      "name_ar": "عبدالسلام بن محمد بن أحمد الكمالي",
+      "gov_code": "3",
+      "wil_code": "19",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "2194611",
+      "name_en": "ABDULLAH HASSAN ALI AL KAMZARI",
+      "name_ar": "عبدالله بن حسن بن علي الكمزاري",
+      "gov_code": "3",
+      "wil_code": "19",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "12251169",
+      "name_en": "ALI HASSAN MALIK AL KAMZARI",
+      "name_ar": "علي بن حسن بن مالك الكمزاري",
+      "gov_code": "3",
+      "wil_code": "19",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "1144232",
+      "name_en": "ALI ABDULLAH AHMED RAHMA AL SHEHHI",
+      "name_ar": "علي بن عبدالله بن احمد بن رحمه الشحي",
+      "gov_code": "3",
+      "wil_code": "19",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "1839949",
+      "name_en": "MOHAMMED AHMED ABDULLAH AL KAMZARI",
+      "name_ar": "محمد بن أحمد بن عبدالله الكمزاري",
+      "gov_code": "3",
+      "wil_code": "19",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "3208153",
+      "name_en": "MOHAMMED ALI ABDULLAH AL KAMZARI",
+      "name_ar": "محمد بن علي بن عبدالله الكمزاري",
+      "gov_code": "3",
+      "wil_code": "19",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "7443369",
+      "name_en": "MUYASSAR ALI MOHAMMED AL KAMZARI",
+      "name_ar": "ميسّر بن علي بن محمد الكمزاري",
+      "gov_code": "3",
+      "wil_code": "19",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "NOTA19",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "3",
+      "wil_code": "19",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "5531344",
+      "name_en": "ABDULLAH AHMED ABDULLAH AL MALIK",
+      "name_ar": "عبدالله بن أحمد بن عبدالله آل مالك",
+      "gov_code": "3",
+      "wil_code": "20",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "1988273",
+      "name_en": "MOHAMMED HUSSAIN ISMAIL AL SHEHHI",
+      "name_ar": "محمد بن حسين بن اسماعيل الشحي",
+      "gov_code": "3",
+      "wil_code": "20",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "NOTA20",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "3",
+      "wil_code": "20",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "5825191",
+      "name_en": "HAMED AHMED RASHID ALSHEHHI",
+      "name_ar": "حمد بن أحمد بن راشد الشحي",
+      "gov_code": "3",
+      "wil_code": "21",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "3522722",
+      "name_en": "ZAID RASHID SAID AL SHIHHI",
+      "name_ar": "زيد بن راشد بن سعيد الشحي",
+      "gov_code": "3",
+      "wil_code": "21",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "2224965",
+      "name_en": "SULTAN MOHAMMED SAID SAWAD ALSHEHHI",
+      "name_ar": "سلطان بن محمد بن سعيد سعّود الشحي",
+      "gov_code": "3",
+      "wil_code": "21",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "5683358",
+      "name_en": "MOHAMMED ALI MOHAMMED AL SHEHHI",
+      "name_ar": "محمد بن علي بن محمد الشحي",
+      "gov_code": "3",
+      "wil_code": "21",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "NOTA21",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "3",
+      "wil_code": "21",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "2253136",
+      "name_en": "KHALID AHMED SAID AL SAADI",
+      "name_ar": "خالد بن أحمد بن سعيد السعدي",
+      "gov_code": "3",
+      "wil_code": "22",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "8043654",
+      "name_en": "KHALIFA MOHAMMED ABDULLAH AL SADI",
+      "name_ar": "خليفه بن محمد بن عبدالله السعدي",
+      "gov_code": "3",
+      "wil_code": "22",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "9243442",
+      "name_en": "SAIF MOHAMMED RASHID AL SADI",
+      "name_ar": "سيف بن محمد بن راشد السعدي",
+      "gov_code": "3",
+      "wil_code": "22",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "1115653",
+      "name_en": "ABDULLAH SALEH MOHAMED AL SAADI",
+      "name_ar": "عبدالله بن صالح بن محمد السعدي",
+      "gov_code": "3",
+      "wil_code": "22",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "6764095",
+      "name_en": "ALI ABDULLAH MOHAMMED AL MADHANI",
+      "name_ar": "علي بن عبدالله بن محمد المدحاني",
+      "gov_code": "3",
+      "wil_code": "22",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "3703309",
+      "name_en": "MOHAMMED AHMED SUBAIT AL MADHANI",
+      "name_ar": "محمد بن احمد بن سبيت المدحاني",
+      "gov_code": "3",
+      "wil_code": "22",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "NOTA22",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "3",
+      "wil_code": "22",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "3059592",
+      "name_en": "AHMED KHAMIS ALI AL BADI",
+      "name_ar": "أحمد بن خميس بن علي البادي",
+      "gov_code": "4",
+      "wil_code": "23",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "11555271",
+      "name_en": "AHMED SUWAIDAN MOHAMMED FAHAD AL BADI",
+      "name_ar": "احمد بن سويدان بن محمد بن فهد البادي",
+      "gov_code": "4",
+      "wil_code": "23",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "2838465",
+      "name_en": "AHMED FARIS SALIM AL AZZANI",
+      "name_ar": "احمد بن فارس بن سالم العزاني",
+      "gov_code": "4",
+      "wil_code": "23",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "2814686",
+      "name_en": "KHALID JUMA SHAHEEN AL BALUSHI",
+      "name_ar": "خالد بن جمعه بن شاهين البلوشي",
+      "gov_code": "4",
+      "wil_code": "23",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "4199492",
+      "name_en": "RASHID AHMED RASHID HAMED  AL SHAMSI",
+      "name_ar": "راشد بن احمد بن راشد بن حمد الشامسي",
+      "gov_code": "4",
+      "wil_code": "23",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "13303153",
+      "name_en": "SAID IS'HAQ SAID AL BALUSHI",
+      "name_ar": "سعيد بن اسحاق بن سعيد البلوشي",
+      "gov_code": "4",
+      "wil_code": "23",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "9536769",
+      "name_en": "SULAIMAN AWADH ALI AL GHAITHI",
+      "name_ar": "سليمان بن عوض بن علي الغيثي",
+      "gov_code": "4",
+      "wil_code": "23",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "9018062",
+      "name_en": "SAQER ABDULLAH  AHMED AL BALUSHI",
+      "name_ar": "صقر بن عبدالله بن احمد البلوشي",
+      "gov_code": "4",
+      "wil_code": "23",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "6444009",
+      "name_en": "ALI RASHID SULTAN ALI AL GHAITHI",
+      "name_ar": "علي بن راشد بن سلطان بن علي الغيثي",
+      "gov_code": "4",
+      "wil_code": "23",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "4070752",
+      "name_en": "FATMA MOHAMMED AHMED AL BALUSHI",
+      "name_ar": "فاطمه بنت محمد بن احمد البلوشية",
+      "gov_code": "4",
+      "wil_code": "23",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "3126387",
+      "name_en": "MAJID 'ABDULLAH SAID 'ABDULLAH AL 'ISAEE",
+      "name_ar": "ماجد بن عبدالله بن سعيد بن عبدالله العيسائي",
+      "gov_code": "4",
+      "wil_code": "23",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "9371682",
+      "name_en": "MOHAMMED ABDULLAH AHMED AL JABRI",
+      "name_ar": "محمد بن عبدالله بن احمد الجابري",
+      "gov_code": "4",
+      "wil_code": "23",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "1585879",
+      "name_en": "MOHAMMED ALI SAID ALI AL BADI",
+      "name_ar": "محمد بن علي بن سعيد بن علي البادي",
+      "gov_code": "4",
+      "wil_code": "23",
+      "ballot_pos": "13"
+    },
+    {
+      "civil_id": "2343013",
+      "name_en": "MADIAN KHAMIS ANATAR KHAMIS  AL HINAI",
+      "name_ar": "مدين بن خميس بن عنتر بن خميس الهنائي",
+      "gov_code": "4",
+      "wil_code": "23",
+      "ballot_pos": "14"
+    },
+    {
+      "civil_id": "3593025",
+      "name_en": "MUNA SALIM HARIB NASSER AL SHABIBI",
+      "name_ar": "منى بنت سالم بن حارب بن ناصر الشبيبية",
+      "gov_code": "4",
+      "wil_code": "23",
+      "ballot_pos": "15"
+    },
+    {
+      "civil_id": "NOTA23",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "4",
+      "wil_code": "23",
+      "ballot_pos": "16"
+    },
+    {
+      "civil_id": "6446159",
+      "name_en": "KHALID SAID 'ABDUL RAHMAN SAIF  AL KA'ABI",
+      "name_ar": "خالد بن سعيد بن عبدالرحمن بن سيف الكعبي",
+      "gov_code": "4",
+      "wil_code": "25",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "8327376",
+      "name_en": "RASHID SALIM SAID ABDULLAH' AL KA'ABI",
+      "name_ar": "راشد بن سالم بن سعيد بن عبدالله الكعبي",
+      "gov_code": "4",
+      "wil_code": "25",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "1154511",
+      "name_en": "SALIM ALI SALIM AL KA'ABI",
+      "name_ar": "سالم بن علي بن سالم الكعبي",
+      "gov_code": "4",
+      "wil_code": "25",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "3299399",
+      "name_en": "ABDULLAH HUMAID SAIF HUMAID AL KAABI",
+      "name_ar": "عبدالله بن حميد بن سيف بن حميد الكعبي",
+      "gov_code": "4",
+      "wil_code": "25",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "1954055",
+      "name_en": "MASHAL ABDALLAH MOHAMMED ABDALLAH AL-KAABI",
+      "name_ar": "مشعل بن عبدالله بن محمد بن عبدالله الكعبي",
+      "gov_code": "4",
+      "wil_code": "25",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "NOTA25",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "4",
+      "wil_code": "25",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "2224819",
+      "name_en": "HAMDAN ALI RASHID AL-MANAI",
+      "name_ar": "حمدان بن علي بن راشد المنعي",
+      "gov_code": "4",
+      "wil_code": "61",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "4862006",
+      "name_en": "SAID 'ABDULLAH MOHAMMED MUFTAH AL SHAMSI",
+      "name_ar": "سعيد بن عبدالله بن محمد بن مفتاح الشامسي",
+      "gov_code": "4",
+      "wil_code": "61",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "NOTA61",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "4",
+      "wil_code": "61",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "1808888",
+      "name_en": "AHMED SAID SAED AL HADHRAMI",
+      "name_ar": "أحمد بن سعيد بن ساعد الحضرمي",
+      "gov_code": "6",
+      "wil_code": "28",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "5695308",
+      "name_en": "AHMED NASSER SALIM AL-ABRI",
+      "name_ar": "أحمد بن ناصر بن سالم العبري",
+      "gov_code": "6",
+      "wil_code": "28",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "13841378",
+      "name_en": "ESHAQ AZIZ AWADH AL MANDHARI",
+      "name_ar": "اسحاق بن عزيز بن عوض المنذري",
+      "gov_code": "6",
+      "wil_code": "28",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "12920245",
+      "name_en": "JABER ALI SAID AL DHUHLI",
+      "name_ar": "جابر بن علي بن سعيد الذهلي",
+      "gov_code": "6",
+      "wil_code": "28",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "1503516",
+      "name_en": "HAMED SALIM AL MUR AL KINDI",
+      "name_ar": "حمد بن سالم بن المر الكندي",
+      "gov_code": "6",
+      "wil_code": "28",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "956987",
+      "name_en": "HAMDAN NASSER MASOUD AL RUMAIDHI",
+      "name_ar": "حمدان بن ناصر بن مسعود الرميضي",
+      "gov_code": "6",
+      "wil_code": "28",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "7745294",
+      "name_en": "HAMOOD SALIM HAMOOD AL TUBI",
+      "name_ar": "حمود بن سالم بن حمود التوبي",
+      "gov_code": "6",
+      "wil_code": "28",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "10150047",
+      "name_en": "KHALID MARHOON AMIN SAALIM AL NABHANI",
+      "name_ar": "خالد بن مرهون بن أمين بن سالم النبهاني",
+      "gov_code": "6",
+      "wil_code": "28",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "1569062",
+      "name_en": "KHAMIS MAJID KHAMIS AL SABARI",
+      "name_ar": "خميس بن ماجد بن خميس الصباري",
+      "gov_code": "6",
+      "wil_code": "28",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "1337089",
+      "name_en": "ABDULLAH SAID SULAIMAN AL SIBANI",
+      "name_ar": "عبدالله بن سعيد بن سليمان السيباني",
+      "gov_code": "6",
+      "wil_code": "28",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "1577492",
+      "name_en": "ABDULLAH MOHAMMED ZAHIR KHLFAN AL 'ABRI",
+      "name_ar": "عبدالله بن محمد بن زاهر بن خلفان العبري",
+      "gov_code": "6",
+      "wil_code": "28",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "5755956",
+      "name_en": "MOHAMMED ABDULLAH HAMOOD AL AZWANI",
+      "name_ar": "محمد بن عبدالله بن حمود العزواني",
+      "gov_code": "6",
+      "wil_code": "28",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "3373818",
+      "name_en": "HAITHAM ABDULLA HAMED AL RAWAHI",
+      "name_ar": "هيثم بن عبدالله بن حمد الرواحي",
+      "gov_code": "6",
+      "wil_code": "28",
+      "ballot_pos": "13"
+    },
+    {
+      "civil_id": "13639164",
+      "name_en": "YOUSUF AZEEZ SAID AL HANDHALI",
+      "name_ar": "يوسف بن عزيز بن سعيد الحنظلي",
+      "gov_code": "6",
+      "wil_code": "28",
+      "ballot_pos": "14"
+    },
+    {
+      "civil_id": "NOTA28",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "6",
+      "wil_code": "28",
+      "ballot_pos": "15"
+    },
+    {
+      "civil_id": "6961968",
+      "name_en": "AHMED BADAR SAIF AL KHAMISI",
+      "name_ar": "أحمد بن بدر بن سيف الخميسي",
+      "gov_code": "6",
+      "wil_code": "30",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "11915951",
+      "name_en": "THABIT RASHID AL-AABED AL-DARAAI",
+      "name_ar": "ثابت بن راشد بن العبد الدرعي",
+      "gov_code": "6",
+      "wil_code": "30",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "1108028",
+      "name_en": "THUWAINI EID THUNIYAN AL OMAIRY",
+      "name_ar": "ثويني بن عيد بن ثنيان العميري",
+      "gov_code": "6",
+      "wil_code": "30",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "376275",
+      "name_en": "HAMED SALIM DARWISH AL SHAKAILI",
+      "name_ar": "حمد بن سالم بن درويش الشكيلي",
+      "gov_code": "6",
+      "wil_code": "30",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "1249066",
+      "name_en": "HAMED SULAIMAN SAIF AL SHUKAILI",
+      "name_ar": "حمد بن سليمان بن سيف الشكيلي",
+      "gov_code": "6",
+      "wil_code": "30",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "3932018",
+      "name_en": "HAMOOD BAKHIT YAQOOT AL ATTABI",
+      "name_ar": "حمود بن بخيت بن ياقوت العطابي",
+      "gov_code": "6",
+      "wil_code": "30",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "2170781",
+      "name_en": "KHALIL IBRAHIM MOHAMED AL HINAI",
+      "name_ar": "خليل بن إبراهيم بن محمد الهنائي",
+      "gov_code": "6",
+      "wil_code": "30",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "8310124",
+      "name_en": "RABIA ABDULLAH JUMA AL-ABRI",
+      "name_ar": "ربيع بن عبدالله بن جمعه العبري",
+      "gov_code": "6",
+      "wil_code": "30",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "3109814",
+      "name_en": "SALIM HAMED SAID AL MUFARRAJI",
+      "name_ar": "سالم بن حمد بن سعيد المفرجي",
+      "gov_code": "6",
+      "wil_code": "30",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "2165624",
+      "name_en": "SAUD BADAR ALI AL MAANI",
+      "name_ar": "سعود بن بدر بن علي المعني",
+      "gov_code": "6",
+      "wil_code": "30",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "3759546",
+      "name_en": "SAMIRA HAMOOD HAMDAN AL BIMANI",
+      "name_ar": "سميره بنت حمود بن حمدان البيمانية",
+      "gov_code": "6",
+      "wil_code": "30",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "7198393",
+      "name_en": "ABDULLAH MUSABAH SUWIAID AL KHAIFI",
+      "name_ar": "عبدالله بن مصبح بن سويعد الخايفي",
+      "gov_code": "6",
+      "wil_code": "30",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "2055718",
+      "name_en": "ALI SALIM 'ABDULLAH AL YAARUBI",
+      "name_ar": "علي بن سالم بن عبدالله اليعربي",
+      "gov_code": "6",
+      "wil_code": "30",
+      "ballot_pos": "13"
+    },
+    {
+      "civil_id": "1891301",
+      "name_en": "MAJID HUMAID NASSER AL YAHYAI",
+      "name_ar": "ماجد بن حميد بن ناصر اليحيائي",
+      "gov_code": "6",
+      "wil_code": "30",
+      "ballot_pos": "14"
+    },
+    {
+      "civil_id": "1682054",
+      "name_en": "MOHAMMED HUMAID NASSER AL SHU'EILI",
+      "name_ar": "محمد بن حميد بن ناصر الشعيلي",
+      "gov_code": "6",
+      "wil_code": "30",
+      "ballot_pos": "15"
+    },
+    {
+      "civil_id": "11718968",
+      "name_en": "MOHAMMED SULAIMAN TAMIM AL HINAI",
+      "name_ar": "محمد بن سليمان بن تميم الهنائي",
+      "gov_code": "6",
+      "wil_code": "30",
+      "ballot_pos": "16"
+    },
+    {
+      "civil_id": "111185",
+      "name_en": "MAS'OUD SAID SALIM AL KINDI",
+      "name_ar": "مسعود بن سعيد بن سالم الكندي",
+      "gov_code": "6",
+      "wil_code": "30",
+      "ballot_pos": "17"
+    },
+    {
+      "civil_id": "1838193",
+      "name_en": "NASSER 'ABDULLAH 'AMUR AL WARDI",
+      "name_ar": "ناصر بن عبدالله بن عامر الوردي",
+      "gov_code": "6",
+      "wil_code": "30",
+      "ballot_pos": "18"
+    },
+    {
+      "civil_id": "9539593",
+      "name_en": "NOUF SALEEM SAID HAWAISHIL AL ATTABI",
+      "name_ar": "نوف بنت سليم بن سعيد بن هويشل العطابية",
+      "gov_code": "6",
+      "wil_code": "30",
+      "ballot_pos": "19"
+    },
+    {
+      "civil_id": "NOTA30",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "6",
+      "wil_code": "30",
+      "ballot_pos": "20"
+    },
+    {
+      "civil_id": "10165398",
+      "name_en": "BADAR SALIM HAMED AL BARTAMANI",
+      "name_ar": "بدر بن سالم بن حمد البرطماني",
+      "gov_code": "6",
+      "wil_code": "33",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "12638011",
+      "name_en": "KHALSA SAID JUMA AL TUBI",
+      "name_ar": "خالصه بنت سعيد بن جمعه التوبية",
+      "gov_code": "6",
+      "wil_code": "33",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "1562863",
+      "name_en": "SALIM ALI SALIM AL BUSAIDI",
+      "name_ar": "سالم بن علي بن سالم البوسعيدي",
+      "gov_code": "6",
+      "wil_code": "33",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "1644338",
+      "name_en": "SAID MASAUD MOHAMED AL-ABDALI",
+      "name_ar": "سعيد بن مسعود بن محمد العبدلي",
+      "gov_code": "6",
+      "wil_code": "33",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "13165746",
+      "name_en": "TAHIR SALIM HAMED AL MAJ'ALI",
+      "name_ar": "طاهر بن سالم بن حمد المجعلي",
+      "gov_code": "6",
+      "wil_code": "33",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "4716066",
+      "name_en": "TALAL MOHAMMED MAS'OUD AL BUSA'IDI",
+      "name_ar": "طلال بن محمد بن مسعود البوسعيدي",
+      "gov_code": "6",
+      "wil_code": "33",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "445154",
+      "name_en": "ABDULLAH SALIM MOHAMMED AL JUNAIBI",
+      "name_ar": "عبدالله بن سالم بن محمد الجنيبي",
+      "gov_code": "6",
+      "wil_code": "33",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "408056",
+      "name_en": "ALI ISSA MOHSIN AL BUSAIDI",
+      "name_ar": "علي بن عيسى بن محسن البوسعيدي",
+      "gov_code": "6",
+      "wil_code": "33",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "NOTA33",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "6",
+      "wil_code": "33",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "2441104",
+      "name_en": "JAMAL AHMED HAMAD AL ABRI",
+      "name_ar": "جمال بن أحمد بن حمد العبري",
+      "gov_code": "6",
+      "wil_code": "32",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "7476111",
+      "name_en": "ABDULLA AHMED ZAHIR SULAIMAN AL ABRI",
+      "name_ar": "عبدالله بن أحمد بن زاهر بن سليمان العبري",
+      "gov_code": "6",
+      "wil_code": "32",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "7791931",
+      "name_en": "MOHSIN KHALFAN HAMED AL HASHIMI",
+      "name_ar": "محسن بن خلفان بن حمد الهاشمي",
+      "gov_code": "6",
+      "wil_code": "32",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "1894064",
+      "name_en": "MARHOUN SULAIMAN SHUGHAIL AL HATTALI",
+      "name_ar": "مرهون بن سليمان بن شغيل الهطالي",
+      "gov_code": "6",
+      "wil_code": "32",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "NOTA32",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "6",
+      "wil_code": "32",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "9394027",
+      "name_en": "IBRAHIM SAID SALIM AL DUREE",
+      "name_ar": "ابراهيم بن سعيد بن سالم الدرعي",
+      "gov_code": "6",
+      "wil_code": "31",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "2238657",
+      "name_en": "AHMED HAMOOD HAMED AL DARII",
+      "name_ar": "أحمد بن حمود بن حمد الدرعي",
+      "gov_code": "6",
+      "wil_code": "31",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "2070732",
+      "name_en": "SALIM HAMED SALIM AL MAHROUQI",
+      "name_ar": "سالم بن حمد بن سالم المحروقي",
+      "gov_code": "6",
+      "wil_code": "31",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "6946415",
+      "name_en": "MOHAMMED AMUR AMAIR AL RAQMI",
+      "name_ar": "محمد بن عامر بن عمير الرقمي",
+      "gov_code": "6",
+      "wil_code": "31",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "NOTA31",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "6",
+      "wil_code": "31",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "8352804",
+      "name_en": "RASHEED NASIR MANSOOR AL HADHRAMI",
+      "name_ar": "رشيد بن نصير بن منصور الحضرمي",
+      "gov_code": "6",
+      "wil_code": "34",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "627794",
+      "name_en": "ZAHIR SARHAN MARRASH AL AMRY",
+      "name_ar": "زاهر بن سرحان بن مراش العامري",
+      "gov_code": "6",
+      "wil_code": "34",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "1685646",
+      "name_en": "SAID MASOUD NASSER AL HADHRAMI",
+      "name_ar": "سعيد بن مسعود بن ناصر الحضرمي",
+      "gov_code": "6",
+      "wil_code": "34",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "5753633",
+      "name_en": "MUNA SALIM SAIF ALI AL AZRI",
+      "name_ar": "منى بنت سالم بن سيف بن علي العزرية",
+      "gov_code": "6",
+      "wil_code": "34",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "41871",
+      "name_en": "NASSER HUMAID BARGHASH AL AMRI",
+      "name_ar": "ناصر بن حميد بن برغش العامري",
+      "gov_code": "6",
+      "wil_code": "34",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "1442978",
+      "name_en": "YOUNIS ALI AZAN AL MANDHARI",
+      "name_ar": "يونس بن علي بن عزان المنذري",
+      "gov_code": "6",
+      "wil_code": "34",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "NOTA34",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "6",
+      "wil_code": "34",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "12619828",
+      "name_en": "ANISA YASSER HAMOOD AL RASHDI",
+      "name_ar": "انيسه بنت ياسر بن حمود الراشدية",
+      "gov_code": "6",
+      "wil_code": "29",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "1605855",
+      "name_en": "AAMIR SAID SAIF AL SULAIMI",
+      "name_ar": "عامر بن سعيد بن سيف السليمي",
+      "gov_code": "6",
+      "wil_code": "29",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "2291593",
+      "name_en": "ABDUL RAHMAN OMAR MOHAMMED AL JABRI",
+      "name_ar": "عبدالرحمن بن عمر بن محمد الجابري",
+      "gov_code": "6",
+      "wil_code": "29",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "1435771",
+      "name_en": "ABDUL KARIM SURUR ZAYID AL JABRI",
+      "name_ar": "عبدالكريم بن سرور بن زايد الجابري",
+      "gov_code": "6",
+      "wil_code": "29",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "1620001",
+      "name_en": "ABDULLA HAMOOD SALIM AL NADABI",
+      "name_ar": "عبدالله بن حمود بن سالم الندابي",
+      "gov_code": "6",
+      "wil_code": "29",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "816004",
+      "name_en": "ALI MUBARAK SAID AL AMRI",
+      "name_ar": "علي بن مبارك بن سعيد العامري",
+      "gov_code": "6",
+      "wil_code": "29",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "6564457",
+      "name_en": "MAHFOUDHA HAMOOD SHAMIS AL SIYABI",
+      "name_ar": "محفوظه بنت حمود بن شامس السيابية",
+      "gov_code": "6",
+      "wil_code": "29",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "2076965",
+      "name_en": "MOHAMED KHAMIS NABHAN AL HUSSAINI",
+      "name_ar": "محمد بن خميس بن نبهان الحسيني",
+      "gov_code": "6",
+      "wil_code": "29",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "1358232",
+      "name_en": "MOHAMED SULAIMAN ABDULLAH AL RAWAHI",
+      "name_ar": "محمد بن سليمان بن عبدالله الرواحي",
+      "gov_code": "6",
+      "wil_code": "29",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "1975704",
+      "name_en": "MOHAMMED MUBARAK RASHID AL RAWAHI",
+      "name_ar": "محمد بن مبارك بن راشد الرواحي",
+      "gov_code": "6",
+      "wil_code": "29",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "1633376",
+      "name_en": "MAHMOOD MOHAMMED SAIF AL HINAI",
+      "name_ar": "محمود بن محمد بن سيف الهنائي",
+      "gov_code": "6",
+      "wil_code": "29",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "8578385",
+      "name_en": "HISHAM MOHAMMED HILAL AL-HASHAMI",
+      "name_ar": "هشام بن محمد بن هلال الهشامي",
+      "gov_code": "6",
+      "wil_code": "29",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "2079446",
+      "name_en": "YAQOOB AZZAN AZIZ AL SARMI",
+      "name_ar": "يعقوب بن عزان بن عزيز الصارمي",
+      "gov_code": "6",
+      "wil_code": "29",
+      "ballot_pos": "13"
+    },
+    {
+      "civil_id": "7291534",
+      "name_en": "YOUNIS MOHAMED SALIM AL SIYABI",
+      "name_ar": "يونس بن محمد بن سالم السيابي",
+      "gov_code": "6",
+      "wil_code": "29",
+      "ballot_pos": "14"
+    },
+    {
+      "civil_id": "10244294",
+      "name_en": "YOONIS YAQOOB ISSA AL-SIYABI",
+      "name_ar": "يونس بن يعقوب بن عيسى السيابي",
+      "gov_code": "6",
+      "wil_code": "29",
+      "ballot_pos": "15"
+    },
+    {
+      "civil_id": "NOTA29",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "6",
+      "wil_code": "29",
+      "ballot_pos": "16"
+    },
+    {
+      "civil_id": "1387955",
+      "name_en": "KHALFAN NASSER MOHAMED AL SIYABI",
+      "name_ar": "خلفان بن ناصر بن محمد السيابي",
+      "gov_code": "6",
+      "wil_code": "35",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "8434341",
+      "name_en": "SALIM NASSER ALI WALAD ABDULBAQI",
+      "name_ar": "سالم بن ناصر بن علي ولد عبدالباقي",
+      "gov_code": "6",
+      "wil_code": "35",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "9994754",
+      "name_en": "FAKHR YAQOOB AMUR AL AAMRI",
+      "name_ar": "فخر بن يعقوب بن عامر العامري",
+      "gov_code": "6",
+      "wil_code": "35",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "2064109",
+      "name_en": "YAQOOB MOHAMED AMUR AL RAHBI",
+      "name_ar": "يعقوب بن محمد بن عامر الرحبي",
+      "gov_code": "6",
+      "wil_code": "35",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "NOTA35",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "6",
+      "wil_code": "35",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "7934053",
+      "name_en": "AHMED SAID KHALFAN AL-NASSERI",
+      "name_ar": "أحمد بن سعيد بن خلفان الناصري",
+      "gov_code": "2",
+      "wil_code": "7",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "1606454",
+      "name_en": "SALIM ALI SAID AL- HINAI",
+      "name_ar": "سالم بن علي بن سعيد الهنائي",
+      "gov_code": "2",
+      "wil_code": "7",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "10303794",
+      "name_en": "SULTAN ALI KHAMIS AL-JAHWARI",
+      "name_ar": "سلطان بن علي بن خميس الجهوري",
+      "gov_code": "2",
+      "wil_code": "7",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "4037972",
+      "name_en": "AADIL IBRAHIM SALEH AL SHIZAWI",
+      "name_ar": "عادل بن ابراهيم بن صالح الشيزاوي",
+      "gov_code": "2",
+      "wil_code": "7",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "7221506",
+      "name_en": "ARIF ABDULLAH ALI AL BALUSHI",
+      "name_ar": "عارف بن عبدالله بن علي البلوشي",
+      "gov_code": "2",
+      "wil_code": "7",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "118419",
+      "name_en": "ABDULLAH ALI SULAIMAN AL BALUSHI",
+      "name_ar": "عبدالله بن علي بن سليمان البلوشي",
+      "gov_code": "2",
+      "wil_code": "7",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "1550664",
+      "name_en": "ALI AHMED ABDALLAH AL BALUSHI",
+      "name_ar": "علي بن أحمد بن عبدالله البلوشي",
+      "gov_code": "2",
+      "wil_code": "7",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "798567",
+      "name_en": "ALI SALIM ALI AL MAQBALI",
+      "name_ar": "علي بن سالم بن علي المقبالي",
+      "gov_code": "2",
+      "wil_code": "7",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "3657264",
+      "name_en": "FADHILA 'ABDULLAH SULAIMAN AL RUHAILI",
+      "name_ar": "فضيله بنت عبدالله بن سليمان الرحيلية",
+      "gov_code": "2",
+      "wil_code": "7",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "1160998",
+      "name_en": "MOHAMMED IBRAHIM ISSA AL ZADJALI",
+      "name_ar": "محمد بن إبراهيم بن عيسى الزدجالي",
+      "gov_code": "2",
+      "wil_code": "7",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "2038602",
+      "name_en": "HILAL NASSER ABDALLAH AL SADRANI",
+      "name_ar": "هلال بن ناصر بن عبدالله السدراني",
+      "gov_code": "2",
+      "wil_code": "7",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "8032176",
+      "name_en": "HAITHAM YOUSUF 'ABDULLAH AL FARSI",
+      "name_ar": "هيثم بن يوسف بن عبدالله الفارسي",
+      "gov_code": "2",
+      "wil_code": "7",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "NOTA7",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "2",
+      "wil_code": "7",
+      "ballot_pos": "13"
+    },
+    {
+      "civil_id": "6677088",
+      "name_en": "IBRAHIM KAYDIH SHAMIL ALI AL BALUSHI",
+      "name_ar": "ابراهيم بن كيديه بن شمل بن علي البلوشي",
+      "gov_code": "2",
+      "wil_code": "9",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "3379826",
+      "name_en": "HASSAN ISMA'IL ALI AL MAMARI",
+      "name_ar": "حسن بن اسماعيل بن علي المعمري",
+      "gov_code": "2",
+      "wil_code": "9",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "6875424",
+      "name_en": "SALIM SAID MOHAMMED KHAMIS  ALKAABI",
+      "name_ar": "سالم بن سعيد بن محمد بن خميس الكعبي",
+      "gov_code": "2",
+      "wil_code": "9",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "1883401",
+      "name_en": "SULTAN RASHID MOHAMMED AL KAABI",
+      "name_ar": "سلطان بن راشد بن محمد الكعبي",
+      "gov_code": "2",
+      "wil_code": "9",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "2864928",
+      "name_en": "ABDUL RAHIM NASSER SALEH AL KHUZAIMI",
+      "name_ar": "عبدالرحيم بن ناصر بن صالح الخزيمي",
+      "gov_code": "2",
+      "wil_code": "9",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "7083172",
+      "name_en": "ABDULLAH KHALFAN ABDULLAH AL BALUSHI",
+      "name_ar": "عبدالله بن خلفان بن عبدالله البلوشي",
+      "gov_code": "2",
+      "wil_code": "9",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "738931",
+      "name_en": "ABDULLAH SUROOR MOHAMMED AL KAABI",
+      "name_ar": "عبدالله بن سرور بن محمد الكعبي",
+      "gov_code": "2",
+      "wil_code": "9",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "6184756",
+      "name_en": "ABDULLAH SAID AHMED AL ZAABI",
+      "name_ar": "عبدالله بن سعيد بن احمد الزعابي",
+      "gov_code": "2",
+      "wil_code": "9",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "1436473",
+      "name_en": "ALI KHALFAN ALI AL FETEISI",
+      "name_ar": "علي بن خلفان بن علي الفطيسي",
+      "gov_code": "2",
+      "wil_code": "9",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "7221071",
+      "name_en": "ALI SALIM ABDALLAH RASHID  AL MAKHMARI",
+      "name_ar": "علي بن سالم بن عبدالله بن راشد المخمري",
+      "gov_code": "2",
+      "wil_code": "9",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "1193135",
+      "name_en": "MOHAMMED SULAIMAN AHMED AL BALUSHI",
+      "name_ar": "محمد بن سليمان بن احمد البلوشي",
+      "gov_code": "2",
+      "wil_code": "9",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "137765",
+      "name_en": "MOHAMMED ALI JUMA AL KAABI",
+      "name_ar": "محمد بن علي بن جمعه الكعبي",
+      "gov_code": "2",
+      "wil_code": "9",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "7900098",
+      "name_en": "HAITHAM ALI 'OBAID AL MAYYASI",
+      "name_ar": "هيثم بن علي بن عبيد المياسي",
+      "gov_code": "2",
+      "wil_code": "9",
+      "ballot_pos": "13"
+    },
+    {
+      "civil_id": "1559401",
+      "name_en": "YOUSUF AHMED SHAHIN AL BALUSHI",
+      "name_ar": "يوسف بن احمد بن شاهين البلوشي",
+      "gov_code": "2",
+      "wil_code": "9",
+      "ballot_pos": "14"
+    },
+    {
+      "civil_id": "NOTA9",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "2",
+      "wil_code": "9",
+      "ballot_pos": "15"
+    },
+    {
+      "civil_id": "1549596",
+      "name_en": "AHMED SAID 'ABDULLAH AL SHARQI",
+      "name_ar": "احمد بن سعيد بن عبدالله الشرقي",
+      "gov_code": "2",
+      "wil_code": "10",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "2777575",
+      "name_en": "KHALFAN SULAIMAN MUSABAH AL KINDI",
+      "name_ar": "خلفان بن سليمان بن مصبح الكندي",
+      "gov_code": "2",
+      "wil_code": "10",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "7398541",
+      "name_en": "RAHMA ALI HASSAN AL GHUFAILI",
+      "name_ar": "رحمه بنت علي بن حسن الغفيلية",
+      "gov_code": "2",
+      "wil_code": "10",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "3778024",
+      "name_en": "SALIM KHALFAN SALIM AL MAAMARI",
+      "name_ar": "سالم بن خلفان بن سالم المعمري",
+      "gov_code": "2",
+      "wil_code": "10",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "8314353",
+      "name_en": "SAID MASOOD MARHOON AL-HINAAI",
+      "name_ar": "سعيد بن مسعود بن مرهون الهنائي",
+      "gov_code": "2",
+      "wil_code": "10",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "3253062",
+      "name_en": "SHAMAS KHALID AHMED AL RISI",
+      "name_ar": "شماس بن خالد بن أحمد الريسي",
+      "gov_code": "2",
+      "wil_code": "10",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "6016591",
+      "name_en": "AMER ABDALLAH SALIM AL SHAMSI",
+      "name_ar": "عامر بن عبدالله بن سالم الشامسي",
+      "gov_code": "2",
+      "wil_code": "10",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "3401221",
+      "name_en": "ALI AHMED MOHAMMED AL MAAMARI",
+      "name_ar": "علي بن أحمد بن محمد المعمري",
+      "gov_code": "2",
+      "wil_code": "10",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "13627476",
+      "name_en": "ALI SAID SALIM SAID AL-MAQBALI",
+      "name_ar": "علي بن سعيد بن سالم بن سعيد المقبالي",
+      "gov_code": "2",
+      "wil_code": "10",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "1083004",
+      "name_en": "MOHAMMED 'ABDULLAH MAS'OUD AL MAAMARI",
+      "name_ar": "محمد بن عبدالله بن مسعود المعمري",
+      "gov_code": "2",
+      "wil_code": "10",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "1662771",
+      "name_en": "MOHAMMED NASSER ALI AL SHAMSI",
+      "name_ar": "محمد بن ناصر بن علي الشامسي",
+      "gov_code": "2",
+      "wil_code": "10",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "8708876",
+      "name_en": "MOOSA ABDULLAH AHMED AL MAMARI",
+      "name_ar": "موسى بن عبدالله بن أحمد المعمري",
+      "gov_code": "2",
+      "wil_code": "10",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "2198081",
+      "name_en": "NASSER SULTAN RASHID AL MATRUSHI",
+      "name_ar": "ناصر بن سلطان بن راشد المطروشي",
+      "gov_code": "2",
+      "wil_code": "10",
+      "ballot_pos": "13"
+    },
+    {
+      "civil_id": "1683464",
+      "name_en": "NASSER SAIF ALI AL MAAMARI",
+      "name_ar": "ناصر بن سيف بن علي المعمري",
+      "gov_code": "2",
+      "wil_code": "10",
+      "ballot_pos": "14"
+    },
+    {
+      "civil_id": "2266689",
+      "name_en": "YOUSUF MOHAMMED SAID AL MAAMARI",
+      "name_ar": "يوسف بن محمد بن سعيد المعمري",
+      "gov_code": "2",
+      "wil_code": "10",
+      "ballot_pos": "15"
+    },
+    {
+      "civil_id": "NOTA10",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "2",
+      "wil_code": "10",
+      "ballot_pos": "16"
+    },
+    {
+      "civil_id": "7189153",
+      "name_en": "AHMED ALI RASHID AL-MAMARI",
+      "name_ar": "أحمد بن علي بن راشد المعمري",
+      "gov_code": "2",
+      "wil_code": "11",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "7453859",
+      "name_en": "AL MO'ATASAM ALI MOHAMMED AL SHIDI",
+      "name_ar": "المعتصم بن علي بن محمد الشيدي",
+      "gov_code": "2",
+      "wil_code": "11",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "6912727",
+      "name_en": "HAMED HAMDAN MARHOON AL-MAAMARI",
+      "name_ar": "حمد بن حمدان بن مرهون المعمري",
+      "gov_code": "2",
+      "wil_code": "11",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "1491661",
+      "name_en": "HUMAID SAID HUMAID AL BADI",
+      "name_ar": "حميد بن سعيد بن حميد البادي",
+      "gov_code": "2",
+      "wil_code": "11",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "14166233",
+      "name_en": "RIYADH ABDULLAH ABDUL AZIZ HUMAID AL BADI",
+      "name_ar": "رياض بن عبدالله بن عبدالعزيز بن حميد البادي",
+      "gov_code": "2",
+      "wil_code": "11",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "6924078",
+      "name_en": "SALIM NASSER SAID AL KAHALI",
+      "name_ar": "سالم بن ناصر بن سعيد الكحالي",
+      "gov_code": "2",
+      "wil_code": "11",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "4231901",
+      "name_en": "SULTAN ALI RASHID AL ABRI",
+      "name_ar": "سلطان بن علي بن راشد العبري",
+      "gov_code": "2",
+      "wil_code": "11",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "4077579",
+      "name_en": "SADIQ ABDALLAH YOUSUF HASAN AL AJMI",
+      "name_ar": "صادق بن عبدالله بن يوسف بن حسن العجمي",
+      "gov_code": "2",
+      "wil_code": "11",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "3871836",
+      "name_en": "FATEMA SULAIMAN MOHAMMED AL MOHAMED",
+      "name_ar": "فاطمه بنت سليمان بن محمد ال محمد",
+      "gov_code": "2",
+      "wil_code": "11",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "8542617",
+      "name_en": "MOHAMMED KHAMIS ABDULLAH AL BADI",
+      "name_ar": "محمد بن خميس بن عبدالله البادي",
+      "gov_code": "2",
+      "wil_code": "11",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "NOTA11",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "2",
+      "wil_code": "11",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "14838686",
+      "name_en": "JASIM 'ABDULLAH SULAIYAM AL SINANI",
+      "name_ar": "جاسم بن عبدالله بن سليّم السناني",
+      "gov_code": "2",
+      "wil_code": "12",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "8912255",
+      "name_en": "JAMAL SALIM ALI ALBUSAIDI",
+      "name_ar": "جمال بن سالم بن علي البوسعيدي",
+      "gov_code": "2",
+      "wil_code": "12",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "2199115",
+      "name_en": "HASSAN SAIF JUMA AL QUTAITI",
+      "name_ar": "حسن بن سيف بن جمعه القطيطي",
+      "gov_code": "2",
+      "wil_code": "12",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "3772527",
+      "name_en": "SULTAN HUMAID MOHAMED AL HOSNI",
+      "name_ar": "سلطان بن حميد بن محمد الحوسني",
+      "gov_code": "2",
+      "wil_code": "12",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "1082902",
+      "name_en": "SULAIMAN MUBARAK SALIM AL HOSNI",
+      "name_ar": "سليمان بن مبارك بن سالم الحوسني",
+      "gov_code": "2",
+      "wil_code": "12",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "822758",
+      "name_en": "ALI KHALFAN SALMAN AL QUTAITI",
+      "name_ar": "علي بن خلفان بن سلمان القطيطي",
+      "gov_code": "2",
+      "wil_code": "12",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "4150607",
+      "name_en": "ALI SALIM HAMDOON AL SAIDI",
+      "name_ar": "علي بن سالم بن حمدون السعيدي",
+      "gov_code": "2",
+      "wil_code": "12",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "3243645",
+      "name_en": "ALI KARM ALI AL BALUSHI",
+      "name_ar": "علي بن كرم بن علي البلوشي",
+      "gov_code": "2",
+      "wil_code": "12",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "2123774",
+      "name_en": "MANSOOR ABDALLAH SALIM AL SAAIDI",
+      "name_ar": "منصور بن عبدالله بن سالم السعيدي",
+      "gov_code": "2",
+      "wil_code": "12",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "NOTA12",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "2",
+      "wil_code": "12",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "8471964",
+      "name_en": "IBRAHIM HAMOOD HARIB AL-BUSAIDI",
+      "name_ar": "ابراهيم بن حمود بن حارب البوسعيدي",
+      "gov_code": "2",
+      "wil_code": "13",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "2617726",
+      "name_en": "BADAR HEDEB HASSAN AL SAADI",
+      "name_ar": "بدر بن هديب بن حسن السعدي",
+      "gov_code": "2",
+      "wil_code": "13",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "1451125",
+      "name_en": "HAMED KHAMIS IBRAHIM SAID AL JADEEDI",
+      "name_ar": "حمد بن خميس بن ابراهيم بن سعيد الجديدي",
+      "gov_code": "2",
+      "wil_code": "13",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "3444988",
+      "name_en": "SAID HAMED HILAL AL SAADI",
+      "name_ar": "سعيد بن حمد بن هلال السعدي",
+      "gov_code": "2",
+      "wil_code": "13",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "3687515",
+      "name_en": "ABDULLAH KHALIFA 'ABDULLAH AL BALUSHI",
+      "name_ar": "عبدالله بن خليفه بن عبدالله البلوشي",
+      "gov_code": "2",
+      "wil_code": "13",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "2698308",
+      "name_en": "MOHAMED KHALID SALIM AL RUSHEIDI",
+      "name_ar": "محمد بن خالد بن سالم الرشيدي",
+      "gov_code": "2",
+      "wil_code": "13",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "NOTA13",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "2",
+      "wil_code": "13",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "7089029",
+      "name_en": "AMAL ABDULLA TAYEB AL HARRASI",
+      "name_ar": "أمل بنت عبدالله بن تعيب الحراصية",
+      "gov_code": "10",
+      "wil_code": "8",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "94219",
+      "name_en": "HAMED SAIF HAMED AL HAMRASHDI",
+      "name_ar": "حمد بن سيف بن حمد الحمراشدي",
+      "gov_code": "10",
+      "wil_code": "8",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "7605793",
+      "name_en": "HAMYAR NASSER MOHAMMED AL HARRASI",
+      "name_ar": "حمير بن ناصر بن محمد الحراصي",
+      "gov_code": "10",
+      "wil_code": "8",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "403439",
+      "name_en": "KHALAF HAFEDH KHALAF AL THUHLI",
+      "name_ar": "خلف بن حافظ بن خلف الذهلي",
+      "gov_code": "10",
+      "wil_code": "8",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "1502317",
+      "name_en": "KHALFAN HABIB KHALFAN AL KHARUSI",
+      "name_ar": "خلفان بن حبيب بن خلفان الخروصي",
+      "gov_code": "10",
+      "wil_code": "8",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "7512961",
+      "name_en": "KHAMIS HAMDAN SULAIMAN AL GHAFRI",
+      "name_ar": "خميس بن حمدان بن سليمان الغافري",
+      "gov_code": "10",
+      "wil_code": "8",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "1667364",
+      "name_en": "ZAID KHALFAN ALI ALABRI",
+      "name_ar": "زايد بن خلفان بن علي العبري",
+      "gov_code": "10",
+      "wil_code": "8",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "3778619",
+      "name_en": "SAID KHAMIS SAID AL MAQBALI",
+      "name_ar": "سعيد بن خميس بن سعيد المقبالي",
+      "gov_code": "10",
+      "wil_code": "8",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "10775817",
+      "name_en": "ADIL MUBARAK ABDULLAH ZAHRAN AL SULTI",
+      "name_ar": "عادل بن مبارك بن عبدالله بن زهران الصلتي",
+      "gov_code": "10",
+      "wil_code": "8",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "2580677",
+      "name_en": "ABDUL AZIZ HUMAID SAIF AL MAHDHURI",
+      "name_ar": "عبدالعزيز بن حميد بن سيف المحذوري",
+      "gov_code": "10",
+      "wil_code": "8",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "1682705",
+      "name_en": "ABDULLAH HAMED ZAHIR AL GHAFRI",
+      "name_ar": "عبدالله بن حمد بن زاهر الغافري",
+      "gov_code": "10",
+      "wil_code": "8",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "2418196",
+      "name_en": "ABDALLAH SALIM KHAMIS AL KHATRI",
+      "name_ar": "عبدالله بن سالم بن خميس الخاطري",
+      "gov_code": "10",
+      "wil_code": "8",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "9860544",
+      "name_en": "LAILA KHAMIS JUMA AL-SHAQSI",
+      "name_ar": "ليلى بنت خميس بن جمعه الشقصية",
+      "gov_code": "10",
+      "wil_code": "8",
+      "ballot_pos": "13"
+    },
+    {
+      "civil_id": "2256588",
+      "name_en": "MUBARAK SALIM HAMOOD AL SHUKAILI",
+      "name_ar": "مبارك بن سالم بن حمود الشكيلي",
+      "gov_code": "10",
+      "wil_code": "8",
+      "ballot_pos": "14"
+    },
+    {
+      "civil_id": "1642161",
+      "name_en": "MOHAMMED HAMED AHMED AL HARRASI",
+      "name_ar": "محمد بن حمد بن احمد الحراصي",
+      "gov_code": "10",
+      "wil_code": "8",
+      "ballot_pos": "15"
+    },
+    {
+      "civil_id": "9239682",
+      "name_en": "MOHAMMED ALI HAMED AL SHUKAILI",
+      "name_ar": "محمد بن علي بن حمد الشكيلي",
+      "gov_code": "10",
+      "wil_code": "8",
+      "ballot_pos": "16"
+    },
+    {
+      "civil_id": "1633802",
+      "name_en": "NASSER RASHID HUMAID AL ABRI",
+      "name_ar": "ناصر بن راشد بن حميد العبري",
+      "gov_code": "10",
+      "wil_code": "8",
+      "ballot_pos": "17"
+    },
+    {
+      "civil_id": "17923798",
+      "name_en": "HAROUN NASSER SAID AL OFI",
+      "name_ar": "هارون بن ناصر بن سعيد العوفي",
+      "gov_code": "10",
+      "wil_code": "8",
+      "ballot_pos": "18"
+    },
+    {
+      "civil_id": "NOTA8",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "10",
+      "wil_code": "8",
+      "ballot_pos": "19"
+    },
+    {
+      "civil_id": "2363215",
+      "name_en": "BADAR NASSER MOHAMMED AL SHURAIQI",
+      "name_ar": "بدر بن ناصر بن محمد الشريقي",
+      "gov_code": "10",
+      "wil_code": "16",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "1359604",
+      "name_en": "KHALIFA ALI KHALIFA AL-DHOUYANI",
+      "name_ar": "خليفة بن علي بن خليفة الضوياني",
+      "gov_code": "10",
+      "wil_code": "16",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "4135074",
+      "name_en": "ZAYID NAJEEM GHUBAISH AL HATTALI",
+      "name_ar": "زايد بن نجيم بن غبيش الهطالي",
+      "gov_code": "10",
+      "wil_code": "16",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "247193",
+      "name_en": "ABDULAZIZ HILAL ZAHIR AL KHARUSI",
+      "name_ar": "عبدالعزيز بن هلال بن زاهر الخروصي",
+      "gov_code": "10",
+      "wil_code": "16",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "1335741",
+      "name_en": "ABDULLAH MOHAMMED KHALFAN AL GHEFEILI",
+      "name_ar": "عبدالله بن محمد بن خلفان الغفيلي",
+      "gov_code": "10",
+      "wil_code": "16",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "117628",
+      "name_en": "HILAL 'ABDUL RAHMAN SAIF AL KHARUSI",
+      "name_ar": "هلال بن عبدالرحمن بن سيف الخروصي",
+      "gov_code": "10",
+      "wil_code": "16",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "NOTA16",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "10",
+      "wil_code": "16",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "9640175",
+      "name_en": "BADAR NASSER ALI AL JABRI",
+      "name_ar": "بدر بن ناصر بن علي الجابري",
+      "gov_code": "10",
+      "wil_code": "14",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "1009549",
+      "name_en": "JUMA NASSER ALI AL HARRASI",
+      "name_ar": "جمعه بن ناصر بن علي الحراصي",
+      "gov_code": "10",
+      "wil_code": "14",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "8673005",
+      "name_en": "SALIM SALEH ALI AL SUBHI",
+      "name_ar": "سالم بن صالح بن علي الصبحي",
+      "gov_code": "10",
+      "wil_code": "14",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "3121189",
+      "name_en": "MOHAMMED SULAIMAN HAMOOD AL KINDI",
+      "name_ar": "محمد بن سليمان بن حمود الكندي",
+      "gov_code": "10",
+      "wil_code": "14",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "NOTA14",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "10",
+      "wil_code": "14",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "1657211",
+      "name_en": "BADAR MALIK SAIF AL MAAWALI",
+      "name_ar": "بدر بن مالك بن سيف المعولي",
+      "gov_code": "10",
+      "wil_code": "15",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "2605279",
+      "name_en": "KHALID HILAL NASSER AL MAAWALI",
+      "name_ar": "خالد بن هلال بن ناصر المعولي",
+      "gov_code": "10",
+      "wil_code": "15",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "2178933",
+      "name_en": "KHALAF SAID ALI AL MAWALI",
+      "name_ar": "خلف بن سعيد بن علي المعولي",
+      "gov_code": "10",
+      "wil_code": "15",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "442232",
+      "name_en": "KHALFAN SULAIMAN SAIF AL-MAAWALI",
+      "name_ar": "خلفان بن سليمان بن سيف المعولي",
+      "gov_code": "10",
+      "wil_code": "15",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "9823451",
+      "name_en": "RAYA HAMOOD SAIF AL RAWAHI",
+      "name_ar": "راية بنت حمود بن سيف الرواحية",
+      "gov_code": "10",
+      "wil_code": "15",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "NOTA15",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "10",
+      "wil_code": "15",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "1959375",
+      "name_en": "IBRAHIM MOHAMED ALI AL HINAI",
+      "name_ar": "ابراهيم بن محمد بن علي الهنائي",
+      "gov_code": "10",
+      "wil_code": "18",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "1511398",
+      "name_en": "AHMED ABDUL KARIM HUSSAIN AL HOOTI",
+      "name_ar": "أحمد بن عبدالكريم بن حسين الهوتي",
+      "gov_code": "10",
+      "wil_code": "18",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "1900887",
+      "name_en": "BADAR SAUD ABDUL AZIZ AL BALUSHI",
+      "name_ar": "بدر بن سعود بن عبدالعزيز البلوشي",
+      "gov_code": "10",
+      "wil_code": "18",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "1491904",
+      "name_en": "HAMDAN RASHID MOHAMMED AL MALKI",
+      "name_ar": "حمدان بن راشد بن محمد المالكي",
+      "gov_code": "10",
+      "wil_code": "18",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "2295357",
+      "name_en": "HAMZA ABDUL RAHIM ABDUL RAHMAN AL BALUSHI",
+      "name_ar": "حمزه بن عبدالرحيم بن عبدالرحمن البلوشي",
+      "gov_code": "10",
+      "wil_code": "18",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "3053462",
+      "name_en": "SAID MOHAMED SALIM AL SIYABI",
+      "name_ar": "سعيد بن محمد بن سالم السيابي",
+      "gov_code": "10",
+      "wil_code": "18",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "2120725",
+      "name_en": "SAIF SALIM KHALAIF AL FUDHAILI",
+      "name_ar": "سيف بن سالم بن خليف الفضيلي",
+      "gov_code": "10",
+      "wil_code": "18",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "6266063",
+      "name_en": "ABDULLAH AHMED DARWISH ALI AL-FARSI",
+      "name_ar": "عبدالله بن أحمد بن درويش بن علي الفارسي",
+      "gov_code": "10",
+      "wil_code": "18",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "3430082",
+      "name_en": "ABDULLAH SAID GHABISH AL HAMDANI",
+      "name_ar": "عبدالله بن سعيد بن غابش الحمداني",
+      "gov_code": "10",
+      "wil_code": "18",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "8715277",
+      "name_en": "FAISAL HAMOOD HASHIL AL RUSHAIDI",
+      "name_ar": "فيصل بن حمود بن هاشل الرشيدي",
+      "gov_code": "10",
+      "wil_code": "18",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "4770158",
+      "name_en": "MOHAMED DARWISH SHINOON AL AJMI",
+      "name_ar": "محمد بن درويش بن شنون العجمي",
+      "gov_code": "10",
+      "wil_code": "18",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "2231539",
+      "name_en": "MOHAMED ABDULLAH RASHID AL FAZARI",
+      "name_ar": "محمد بن عبدالله بن راشد الفزاري",
+      "gov_code": "10",
+      "wil_code": "18",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "5956755",
+      "name_en": "MUSTAFA JUMA SULTAN AL LAWATI",
+      "name_ar": "مصطفى بن جمعه بن سلطان اللواتي",
+      "gov_code": "10",
+      "wil_code": "18",
+      "ballot_pos": "13"
+    },
+    {
+      "civil_id": "5593031",
+      "name_en": "HANI HAMDAN HASSAN AL AJMI",
+      "name_ar": "هاني بن حمدان بن حسن العجمي",
+      "gov_code": "10",
+      "wil_code": "18",
+      "ballot_pos": "14"
+    },
+    {
+      "civil_id": "7843966",
+      "name_en": "YASIR ALI SULTAN ALI AL MABIYAHASI",
+      "name_ar": "ياسر بن علي بن سلطان بن علي المبيحسي",
+      "gov_code": "10",
+      "wil_code": "18",
+      "ballot_pos": "15"
+    },
+    {
+      "civil_id": "NOTA18",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "10",
+      "wil_code": "18",
+      "ballot_pos": "16"
+    },
+    {
+      "civil_id": "10615603",
+      "name_en": "AIMAN JAMIL SAIF AL NAAMANI",
+      "name_ar": "أيمن بن جميل بن سيف النعماني",
+      "gov_code": "10",
+      "wil_code": "17",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "2041961",
+      "name_en": "DAAYAJ KHALIFA AHMED AL MUJAINI",
+      "name_ar": "دعيج بن خليفه بن احمد المجيني",
+      "gov_code": "10",
+      "wil_code": "17",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "2045955",
+      "name_en": "RASHID MOHAMMED NASSER AL SADI",
+      "name_ar": "راشد بن محمد بن ناصر السعدي",
+      "gov_code": "10",
+      "wil_code": "17",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "10186888",
+      "name_en": "SALIM ABDALLAH NASSER AL HARRASI",
+      "name_ar": "سالم بن عبدالله بن ناصر الحراصي",
+      "gov_code": "10",
+      "wil_code": "17",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "202045",
+      "name_en": "SAID SALIM KHAMIS AL SULI",
+      "name_ar": "سعيد بن سالم بن خميس الصولي",
+      "gov_code": "10",
+      "wil_code": "17",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "1204978",
+      "name_en": "SAIF 'ABDULLAH SAIF AL NOFLI",
+      "name_ar": "سيف بن عبدالله بن سيف النوفلي",
+      "gov_code": "10",
+      "wil_code": "17",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "149064",
+      "name_en": "ABDULLAH SAID NASSER AL SAADI",
+      "name_ar": "عبدالله بن سعيد بن ناصر السعدي",
+      "gov_code": "10",
+      "wil_code": "17",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "1769219",
+      "name_en": "ABDALLAH ALI HIKAL AL BALUSHI",
+      "name_ar": "عبدالله بن علي بن هيكل البلوشي",
+      "gov_code": "10",
+      "wil_code": "17",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "2293231",
+      "name_en": "ABDULLAH MOHAMED JUMA AL BALUSHI",
+      "name_ar": "عبدالله بن محمد بن جمعة البلوشي",
+      "gov_code": "10",
+      "wil_code": "17",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "3424701",
+      "name_en": "ABDULLAH MASOUD MOHAMED AL FAJRI",
+      "name_ar": "عبدالله بن مسعود بن محمد الفجري",
+      "gov_code": "10",
+      "wil_code": "17",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "3404443",
+      "name_en": "ADNAN MOHAMMED 'ABDULLAH AL NASRI",
+      "name_ar": "عدنان بن محمد بن عبدالله النصري",
+      "gov_code": "10",
+      "wil_code": "17",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "11923992",
+      "name_en": "AMMAR SALIM MOHAMMED AL MARDHUF AL SAADI",
+      "name_ar": "عمار بن سالم بن محمد المرضوف السعدي",
+      "gov_code": "10",
+      "wil_code": "17",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "2699175",
+      "name_en": "WALEED SHABIB SABIL AL BALUSHI",
+      "name_ar": "وليد بن شبيب بن سبيل البلوشي",
+      "gov_code": "10",
+      "wil_code": "17",
+      "ballot_pos": "13"
+    },
+    {
+      "civil_id": "14890174",
+      "name_en": "YOUSUF MOHAMMED ALI AL BALUSHI",
+      "name_ar": "يوسف بن محمد بن علي البلوشي",
+      "gov_code": "10",
+      "wil_code": "17",
+      "ballot_pos": "14"
+    },
+    {
+      "civil_id": "NOTA17",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "10",
+      "wil_code": "17",
+      "ballot_pos": "15"
+    },
+    {
+      "civil_id": "10141094",
+      "name_en": "JEHAD ABDULLAH SAID AL FANNA",
+      "name_ar": "جهاد بن عبدالله بن سعيد ال فنه",
+      "gov_code": "11",
+      "wil_code": "36",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "2188701",
+      "name_en": "HAFEDH ALI 'ABDULLAH MUBARAK AL GHAILANI",
+      "name_ar": "حافظ بن علي بن عبدالله بن مبارك الغيلاني",
+      "gov_code": "11",
+      "wil_code": "36",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "11231384",
+      "name_en": "HABIBA HADID FAIYL MARZOUQ AL URAIMI",
+      "name_ar": "حبيبه بنت حديد بن فايل بن مرزوق العريمية",
+      "gov_code": "11",
+      "wil_code": "36",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "2159152",
+      "name_en": "HAMAD MOHAMMED HAMAD MATAIR AL SHAMMAKHI",
+      "name_ar": "حمد بن محمد بن حمد بن مطير الشماخي",
+      "gov_code": "11",
+      "wil_code": "36",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "3529962",
+      "name_en": "SALMA NASEEB KHALFAN SALIM  AL FARSI",
+      "name_ar": "سالمه بنت نصيب بن خلفان بن سالم الفارسية",
+      "gov_code": "11",
+      "wil_code": "36",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "6336539",
+      "name_en": "SAID MOHAMMED SAID RASHID  AL SINANI",
+      "name_ar": "سعيد بن محمد بن سعيد بن راشد السناني",
+      "gov_code": "11",
+      "wil_code": "36",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "3910267",
+      "name_en": "SULTAN HAMED MUBARAK AL GHAILANI",
+      "name_ar": "سلطان بن حمد بن مبارك الغيلاني",
+      "gov_code": "11",
+      "wil_code": "36",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "71339",
+      "name_en": "TALIB KHAMIS NAJMAN ALI AL BULUSHI",
+      "name_ar": "طالب بن خميس بن ناجمان بن علي البلوشي",
+      "gov_code": "11",
+      "wil_code": "36",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "191187",
+      "name_en": "AMER SAID ALI AL MASHARFI",
+      "name_ar": "عامر بن سعيد بن علي المشرفي",
+      "gov_code": "11",
+      "wil_code": "36",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "9772784",
+      "name_en": "ABDULLAH SALEEM 'ABDULLAH AL MUKHAINI",
+      "name_ar": "عبدالله بن سليم بن عبدالله المخيني",
+      "gov_code": "11",
+      "wil_code": "36",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "1675418",
+      "name_en": "ALI 'ABDULLAH SALIM AL MUHAIJRI",
+      "name_ar": "علي بن عبدالله بن سالم المحيجري",
+      "gov_code": "11",
+      "wil_code": "36",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "2245203",
+      "name_en": "QAIS JUMA RASHID AL HATROSHI",
+      "name_ar": "قيس بن جمعه بن راشد الحتروشي",
+      "gov_code": "11",
+      "wil_code": "36",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "2274983",
+      "name_en": "MOHAMMED HAMED KHAMIS AL HASHIMI",
+      "name_ar": "محمد بن حمد بن خميس الهاشمي",
+      "gov_code": "11",
+      "wil_code": "36",
+      "ballot_pos": "13"
+    },
+    {
+      "civil_id": "1873009",
+      "name_en": "MOHAMMED ALI 'ABDULLAH RASHID AL SINANI",
+      "name_ar": "محمد بن علي بن عبدالله بن راشد السناني",
+      "gov_code": "11",
+      "wil_code": "36",
+      "ballot_pos": "14"
+    },
+    {
+      "civil_id": "2483006",
+      "name_en": "NASSER SAID NASSER SALIM  AL ALAWI",
+      "name_ar": "ناصر بن سعيد بن ناصر بن سالم العلوي",
+      "gov_code": "11",
+      "wil_code": "36",
+      "ballot_pos": "15"
+    },
+    {
+      "civil_id": "6661476",
+      "name_en": "YAHYA KHAMIS NASSER AL SINANI",
+      "name_ar": "يحيى بن خميس بن ناصر السناني",
+      "gov_code": "11",
+      "wil_code": "36",
+      "ballot_pos": "16"
+    },
+    {
+      "civil_id": "NOTA36",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "11",
+      "wil_code": "36",
+      "ballot_pos": "17"
+    },
+    {
+      "civil_id": "1895155",
+      "name_en": "KHALID WANI KHAMIS ABDUULLAH AL RASBI",
+      "name_ar": "خالد بن وني بن خميس بن عبدالله الراسبي",
+      "gov_code": "11",
+      "wil_code": "42",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "1717957",
+      "name_en": "RASHID WANI HEDEB MESHIMIL AL HASHIMI",
+      "name_ar": "راشد بن وني بن هديب بن مشيمل الهاشمي",
+      "gov_code": "11",
+      "wil_code": "42",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "3464557",
+      "name_en": "SALIM DAGHIMAL SALIM AL MADHUSHI",
+      "name_ar": "سالم بن دغمال بن سالم المدهوشي",
+      "gov_code": "11",
+      "wil_code": "42",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "1574546",
+      "name_en": "ABDULLAH MUSLEM HAMED AL RASBI",
+      "name_ar": "عبدالله بن مسلم بن حمد الراسبي",
+      "gov_code": "11",
+      "wil_code": "42",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "12727439",
+      "name_en": "ALI SAID HILAL AL-TAOUNI",
+      "name_ar": "علي بن سعيد بن هلال الطاعوني",
+      "gov_code": "11",
+      "wil_code": "42",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "NOTA42",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "11",
+      "wil_code": "42",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "4666513",
+      "name_en": "BADAR NASSER AMUR AL MASROORI",
+      "name_ar": "بدر بن ناصر بن عامر المسروري",
+      "gov_code": "11",
+      "wil_code": "44",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "9316648",
+      "name_en": "HUSAIN MOHAMMED HAMED AL DARII",
+      "name_ar": "حسين بن محمد بن حمد الدرعي",
+      "gov_code": "11",
+      "wil_code": "44",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "8856928",
+      "name_en": "SULAIMAN AAMIR SAID AL RAJHI",
+      "name_ar": "سليمان بن عامر بن سعيد الراجحي",
+      "gov_code": "11",
+      "wil_code": "44",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "3596017",
+      "name_en": "ALI SALIM HAMED MASOOUD AL UWAISI",
+      "name_ar": "علي بن سالم بن حمد بن مسعود العويسي",
+      "gov_code": "11",
+      "wil_code": "44",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "253632",
+      "name_en": "MOHAMMED HAMED MOHAMMED AL MASHAIKHI",
+      "name_ar": "محمد بن حمد بن محمد المشايخي",
+      "gov_code": "11",
+      "wil_code": "44",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "NOTA44",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "11",
+      "wil_code": "44",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "14713926",
+      "name_en": "TURKI HUMAID SALIM AL GHEILANI",
+      "name_ar": "تركي بن حميد بن سالم الغيلاني",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "5647004",
+      "name_en": "JASSIM MOHAMED RASHID AL ARAIMI",
+      "name_ar": "جاسم بن محمد بن راشد العريمي",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "724597",
+      "name_en": "JUMA SALIM SAID AL GHEILANI",
+      "name_ar": "جمعه بن سالم بن سعيد الغيلاني",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "3337043",
+      "name_en": "HAMID 'ABDULLAH HAMED AL KASBI",
+      "name_ar": "حامد بن عبدالله بن حمد الكاسبي",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "5913916",
+      "name_en": "HUSSEIN ALI KHAMIS AL-OWAISI",
+      "name_ar": "حسين بن علي بن خميس العويسي",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "1617149",
+      "name_en": "HAMED MOHAMMED HAMED ALI AL MAQHOUSI",
+      "name_ar": "حمد بن محمد بن حمد بن علي المقحوصي",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "11773148",
+      "name_en": "KHAMIS KHALIFA RASHID SALIM AL SAA'DI",
+      "name_ar": "خميس بن خليفه بن راشد بن سالم الساعدي",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "12458365",
+      "name_en": "RASHID ABDULLAH SALIM AL GHAILANI",
+      "name_ar": "راشد بن عبدالله بن سالم الغيلاني",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "2020039",
+      "name_en": "RABI'A SAID AL ASAKARI AL ALAWI",
+      "name_ar": "ربيع بن سعيد بن العسكري العلوي",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "1923997",
+      "name_en": "SALIM RASHID ALI AL ALAWI",
+      "name_ar": "سالم بن راشد بن علي العلوي",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "540745",
+      "name_en": "SALIM SALEEM MOHAMED AL GHANBOOSI",
+      "name_ar": "سالم بن سليم بن محمد الغنبوصي",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "11754797",
+      "name_en": "SALIM ALI MOHAMMED AL KASBI",
+      "name_ar": "سالم بن علي بن محمد الكاسبي",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "1678907",
+      "name_en": "SALIM NASSER SULTAN AL-JAAFARI",
+      "name_ar": "سالم بن ناصر بن سلطان الجعفري",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "13"
+    },
+    {
+      "civil_id": "1466954",
+      "name_en": "SAID MOHAMMED JUMA HAMED AL SAADI",
+      "name_ar": "سعيد بن محمد بن جمعه بن حمد الساعدي",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "14"
+    },
+    {
+      "civil_id": "7515053",
+      "name_en": "SAID MASOUD SALIM AL MUAASBI",
+      "name_ar": "سعيد بن مسعود بن سالم المعاصبي",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "15"
+    },
+    {
+      "civil_id": "1130821",
+      "name_en": "SULTAN MOHAMMED SULTAN AL KASBI",
+      "name_ar": "سلطان بن محمد بن سلطان الكاسبي",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "16"
+    },
+    {
+      "civil_id": "4825992",
+      "name_en": "SHAKIR KHAMIS MOHAMMED AL SINAIDI",
+      "name_ar": "شاكر بن خميس بن محمد السنيدي",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "17"
+    },
+    {
+      "civil_id": "6058525",
+      "name_en": "ABDALLAH KHADAM ABDALLAH AL SINAIDI",
+      "name_ar": "عبدالله بن خادم بن عبدالله السنيدي",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "18"
+    },
+    {
+      "civil_id": "536206",
+      "name_en": "ALI KHAMIS HAMED AL JA'FARI",
+      "name_ar": "علي بن خميس بن حمد الجعفري",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "19"
+    },
+    {
+      "civil_id": "5806994",
+      "name_en": "ALI MOHAMMED JUMA AL SAADI",
+      "name_ar": "علي بن محمد بن جمعه الساعدي",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "20"
+    },
+    {
+      "civil_id": "7925484",
+      "name_en": "FAISAL ABDALLAH MOHAMMED AL SENAIDI",
+      "name_ar": "فيصل بن عبدالله بن محمد السنيدي",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "21"
+    },
+    {
+      "civil_id": "137943",
+      "name_en": "MOHAMMED JUMA RASHID AL JAAFARI",
+      "name_ar": "محمد بن جمعه بن راشد الجعفري",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "22"
+    },
+    {
+      "civil_id": "7083729",
+      "name_en": "MOHAMMED HAMED MOHAMMED AL JA'FARI",
+      "name_ar": "محمد بن حمد بن محمد الجعفري",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "23"
+    },
+    {
+      "civil_id": "12525765",
+      "name_en": "WALEED KHALID NASSER KHALFAN  AL-ALAWI",
+      "name_ar": "وليد بن خالد بن ناصر بن خلفان العلوي",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "24"
+    },
+    {
+      "civil_id": "NOTA43",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "11",
+      "wil_code": "43",
+      "ballot_pos": "25"
+    },
+    {
+      "civil_id": "2454802",
+      "name_en": "SALMAN HAMED KHAMIS AL FARSI",
+      "name_ar": "سلمان بن حمد بن خميس الفارسي",
+      "gov_code": "11",
+      "wil_code": "46",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "1322198",
+      "name_en": "ABDULLAH KHALIFA KHAMIS AL MAJALI",
+      "name_ar": "عبدالله بن خليفه بن خميس المجعلي",
+      "gov_code": "11",
+      "wil_code": "46",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "2436778",
+      "name_en": "ALI AQIL SAID AL FARSI",
+      "name_ar": "علّي بن عقيل بن سعيد الفارسي",
+      "gov_code": "11",
+      "wil_code": "46",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "8666867",
+      "name_en": "ALI MOHAMMED FREISH AL WAHEIBI",
+      "name_ar": "علي بن محمد بن فريش الوهيبي",
+      "gov_code": "11",
+      "wil_code": "46",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "1376266",
+      "name_en": "GHANIM SAID KHAMIS AL JUNAIBI",
+      "name_ar": "غانم بن سعيد بن خميس الجنيبي",
+      "gov_code": "11",
+      "wil_code": "46",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "5683096",
+      "name_en": "MOHAMMED SAID ABDULLAH HAMED  AL OWAISI",
+      "name_ar": "محمد بن سعيد بن عبدالله بن حمد العويسي",
+      "gov_code": "11",
+      "wil_code": "46",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "12011549",
+      "name_en": "MUSALLAM SAID ABDULLAH AL FARSI",
+      "name_ar": "مسلم بن سعيد بن عبدالله الفارسي",
+      "gov_code": "11",
+      "wil_code": "46",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "NOTA46",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "11",
+      "wil_code": "46",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "3587491",
+      "name_en": "AMIRA MAS'OUD MOHAMMED SULAIYAM AL ISMAILI",
+      "name_ar": "أميره بنت مسعود بن محمد بن سليّم الإسماعيلية",
+      "gov_code": "7",
+      "wil_code": "37",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "5743213",
+      "name_en": "KHALID MOHAMMED AHMED AAL KHLAIFIN",
+      "name_ar": "خالد بن محمد بن أحمد آل خليفين",
+      "gov_code": "7",
+      "wil_code": "37",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "2827892",
+      "name_en": "RASHID SAID NASIIR AL MANJI",
+      "name_ar": "راشد بن سعيد بن نصير المنجي",
+      "gov_code": "7",
+      "wil_code": "37",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "1632425",
+      "name_en": "RASHID ABDULLAH MAS OUD RASHID AL ABRAWI",
+      "name_ar": "راشد بن عبدالله بن مسعود بن راشد الابروي",
+      "gov_code": "7",
+      "wil_code": "37",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "1342212",
+      "name_en": "ABDULLAH HAMED MOHAMMED AL HARTHI",
+      "name_ar": "عبدالله بن حمد بن محمد الحارثي",
+      "gov_code": "7",
+      "wil_code": "37",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "7457052",
+      "name_en": "MOHAMMED HILAL RASHID MAS'OUD  AL MASKARI",
+      "name_ar": "محمد بن هلال بن راشد بن مسعود المسكري",
+      "gov_code": "7",
+      "wil_code": "37",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "2690742",
+      "name_en": "HILAL ABDULLAH SAID HAMOOD AL MASKARI",
+      "name_ar": "هلال بن عبدالله بن سعيد بن حمود المسكري",
+      "gov_code": "7",
+      "wil_code": "37",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "2134385",
+      "name_en": "YAHYA SAID SAIF AL MUSALHI",
+      "name_ar": "يحيي بن سعيد بن سيف المصلحي",
+      "gov_code": "7",
+      "wil_code": "37",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "NOTA37",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "7",
+      "wil_code": "37",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "7320834",
+      "name_en": "AHMED RASHID SAID HAMED AL HABSI",
+      "name_ar": "أحمد بن راشد بن سعيد بن حمد الحبسي",
+      "gov_code": "7",
+      "wil_code": "40",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "10502987",
+      "name_en": "HASSAN SULAIYAM NASSER AHMED  AL RAWAHI",
+      "name_ar": "حسن بن سليّم بن ناصر بن أحمد الرواحي",
+      "gov_code": "7",
+      "wil_code": "40",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "236403",
+      "name_en": "HAMDOON HAMOOD GHANEEM AL FAZARI",
+      "name_ar": "حمدون بن حمود بن غنيم الفزاري",
+      "gov_code": "7",
+      "wil_code": "40",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "232653",
+      "name_en": "HAMOOD GHANIM HAMED SALIM AL WAHIBI",
+      "name_ar": "حمود بن غانم بن حمد بن سالم الوهيبي",
+      "gov_code": "7",
+      "wil_code": "40",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "1894115",
+      "name_en": "KHALID YAHYA MOHAMMED AL FARII",
+      "name_ar": "خالد بن يحيى بن محمد الفرعي",
+      "gov_code": "7",
+      "wil_code": "40",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "3006563",
+      "name_en": "RASHID MOHAMMED SAID SAIF AL HABSI",
+      "name_ar": "راشد بن محمد بن سعيد بن سيف الحبسي",
+      "gov_code": "7",
+      "wil_code": "40",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "650913",
+      "name_en": "SALIM SALEEM SALIM AL JAHAFI",
+      "name_ar": "سالم بن سليم بن سالم الجحافي",
+      "gov_code": "7",
+      "wil_code": "40",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "8502213",
+      "name_en": "SAEID HAMOOD ABDULLAH MUSABAH  AL BARASHDI",
+      "name_ar": "سعيد بن حمود بن عبدالله بن مصبح البراشدي",
+      "gov_code": "7",
+      "wil_code": "40",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "614222",
+      "name_en": "SAID SAIF BARGHUSH OMAIR AL AMRI",
+      "name_ar": "سعيد بن سيف بن برغوش بن عمير العامري",
+      "gov_code": "7",
+      "wil_code": "40",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "3384129",
+      "name_en": "SAID SAIF RASHID AL HABSI",
+      "name_ar": "سعيد بن سيف بن راشد الحبسي",
+      "gov_code": "7",
+      "wil_code": "40",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "2038462",
+      "name_en": "ALI SAID MUSALAM AL HABSI",
+      "name_ar": "علي بن سعيد بن مسلم الحبسي",
+      "gov_code": "7",
+      "wil_code": "40",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "10497869",
+      "name_en": "NASSER SULTAN MOHAMMED AL-HABSI",
+      "name_ar": "ناصر بن سلطان بن محمد الحبسي",
+      "gov_code": "7",
+      "wil_code": "40",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "NOTA40",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "7",
+      "wil_code": "40",
+      "ballot_pos": "13"
+    },
+    {
+      "civil_id": "1087993",
+      "name_en": "SALIM ALI HAMOOD AL HAJRI",
+      "name_ar": "سالم بن علي بن حمود الحجري",
+      "gov_code": "7",
+      "wil_code": "38",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "12468039",
+      "name_en": "MOHAMMED HAMED OBAID AL WAHEIBI",
+      "name_ar": "محمد بن حمد بن عبيد الوهيبي",
+      "gov_code": "7",
+      "wil_code": "38",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "2636434",
+      "name_en": "MOHAMMED AMUR MOHAMMED SULTAN AL HAJRI",
+      "name_ar": "محمد بن عامر بن محمد بن سلطان الحجري",
+      "gov_code": "7",
+      "wil_code": "38",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "4999481",
+      "name_en": "MANSOOR ZAHIR SALIM AL HAJRI",
+      "name_ar": "منصور بن زاهر بن سالم الحجري",
+      "gov_code": "7",
+      "wil_code": "38",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "NOTA38",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "7",
+      "wil_code": "38",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "6037527",
+      "name_en": "AHMED SAID AHMED 'AMUR AL SAADI",
+      "name_ar": "أحمد بن سعيد بن أحمد بن عامر السعدي",
+      "gov_code": "7",
+      "wil_code": "39",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "2940987",
+      "name_en": "HAMOOD AHMED SAID AMUR AL-HARTHI",
+      "name_ar": "حمود بن أحمد بن سعيد بن عامر الحارثي",
+      "gov_code": "7",
+      "wil_code": "39",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "601987",
+      "name_en": "RASHID SAID SALIM AL SUDAIRI",
+      "name_ar": "راشد بن سعيد بن سالم السديري",
+      "gov_code": "7",
+      "wil_code": "39",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "3066785",
+      "name_en": "SAUD ALI ABDALLAH HAMED  AL HARTHI",
+      "name_ar": "سعود بن علي بن عبدالله بن حمد الحارثي",
+      "gov_code": "7",
+      "wil_code": "39",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "4853507",
+      "name_en": "SAID SULTAN SAID RASHID  AL MALKI",
+      "name_ar": "سعيد بن سلطان بن سعيد بن راشد المالكي",
+      "gov_code": "7",
+      "wil_code": "39",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "953681",
+      "name_en": "SULTAN AHMED ABDULLA AL HARTHI",
+      "name_ar": "سلطان بن احمد بن عبدالله الحارثي",
+      "gov_code": "7",
+      "wil_code": "39",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "3561702",
+      "name_en": "SAIF ALI SALIM SAID AL GHUNAIMI",
+      "name_ar": "سيف بن علي بن سالم بن سعيد الغنيمي",
+      "gov_code": "7",
+      "wil_code": "39",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "3063633",
+      "name_en": "YAQOOB MOHAMMED KHALIFA AL HARTHI",
+      "name_ar": "يعقوب بن محمد بن خليفه الحارثي",
+      "gov_code": "7",
+      "wil_code": "39",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "NOTA39",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "7",
+      "wil_code": "39",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "5306334",
+      "name_en": "AHMED HUSSEIN KHAMAS FREISH AL SADI",
+      "name_ar": "أحمد بن حسين بن خماس بن فريش السعدي",
+      "gov_code": "7",
+      "wil_code": "45",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "11818065",
+      "name_en": "HAMOOD SAID SAIF MASOUD  AL SAADI",
+      "name_ar": "حمود بن سعيد بن سيف بن مسعود السعدي",
+      "gov_code": "7",
+      "wil_code": "45",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "6615087",
+      "name_en": "SALIM ALI 'AMUR SAIF  AL SAADI",
+      "name_ar": "سالم بن علي بن عامر بن سيف السعدي",
+      "gov_code": "7",
+      "wil_code": "45",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "5272699",
+      "name_en": "ABDULLAH SAID 'ABDULLAH MAHIL AL RIZEIQI",
+      "name_ar": "عبدالله بن سعيد بن عبدالله بن محيل الرزيقي",
+      "gov_code": "7",
+      "wil_code": "45",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "NOTA45",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "7",
+      "wil_code": "45",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "13712282",
+      "name_en": "JABER MOHAMMED SA'UD SAIF AL HASANI",
+      "name_ar": "جابر بن محمد بن سعود بن سيف الحسني",
+      "gov_code": "7",
+      "wil_code": "41",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "2276827",
+      "name_en": "KHALFAN SA'UD 'ABDULLAH AL AGHBARI",
+      "name_ar": "خلفان بن سعود بن عبدالله الأغبري",
+      "gov_code": "7",
+      "wil_code": "41",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "516572",
+      "name_en": "KHALFAN NASSER SALIM AL HASANI",
+      "name_ar": "خلفان بن ناصر بن سالم الحسني",
+      "gov_code": "7",
+      "wil_code": "41",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "9120987",
+      "name_en": "KHALIL SAID HUMAID AL SABQI",
+      "name_ar": "خليل بن سعيد بن حميد السابقي",
+      "gov_code": "7",
+      "wil_code": "41",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "115751",
+      "name_en": "ABDULLA ALI HAMED MOHAMMED AL HAMHAMI",
+      "name_ar": "عبدالله بن علي بن حمد بن محمد الحمحامي",
+      "gov_code": "7",
+      "wil_code": "41",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "NOTA41",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "7",
+      "wil_code": "41",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "10861063",
+      "name_en": "AL-KHATAB ABDULLAH HUMAID AL MANDHARI",
+      "name_ar": "الخطاب بن عبدالله بن حميد المنظري",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "1612331",
+      "name_en": "JAMIL KHALFAN HUWAISHAL AL GHAFRI",
+      "name_ar": "جميل بن خلفان بن هويشل الغافري",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "2749149",
+      "name_en": "JOKHA ALI SALEH ALI AL SHAMAKHI",
+      "name_ar": "جوخه بنت علي بن صالح بن علي الشماخية",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "2597296",
+      "name_en": "HAMED HAMDAN SAIF NASER  AL RUBAIE",
+      "name_ar": "حمد بن حمدان بن سيف بن ناصر الربيعي",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "3085811",
+      "name_en": "HAMED SAIF SALEH SAIF  AL JABRI",
+      "name_ar": "حمد بن سيف بن صالح بن سيف الجابري",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "973329",
+      "name_en": "HUMAID ALI HUMAID RASHID  AL NASIRI",
+      "name_ar": "حميد بن علي بن حميد بن راشد الناصري",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "3055447",
+      "name_en": "HUMAID MASOUD ABDULLAH AL SHAMLI",
+      "name_ar": "حميد بن مسعود بن عبدالله الشملي",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "14118295",
+      "name_en": "DAWOOD NASSER KHALIFA ALI  AL KALBANI",
+      "name_ar": "داود بن ناصر بن خليفه بن علي الكلباني",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "3707013",
+      "name_en": "SULTAN RASHID SAID MOHAMMED  AL KALBANI",
+      "name_ar": "سلطان بن راشد بن سعيد بن محمد الكلباني",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "1799195",
+      "name_en": "SHAHAM RASHID SAIF MUSABAH AL SHUHUMI",
+      "name_ar": "شهم بن راشد بن سيف بن مصبح الشهومي",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "3907181",
+      "name_en": "SHEIKHA SAID KHAMIS BARAD AL ABRI",
+      "name_ar": "شيخه بنت سعيد بن خميس بن براد العبرية",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "6177863",
+      "name_en": "ABDUL 'AZIZ HAMDAN 'ABDULLAH MOHAMMED  AL BALUSHI",
+      "name_ar": "عبدالعزيز بن حمدان بن عبدالله بن محمد البلوشي",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "12"
+    },
+    {
+      "civil_id": "3027191",
+      "name_en": "ABDALLAH HAMED MUSLEM HAMED  AL MAHMOODI AL DARII",
+      "name_ar": "عبدالله بن حمد بن مسلم بن حمد المحمودي الدرعي",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "13"
+    },
+    {
+      "civil_id": "2667885",
+      "name_en": "ABDULLAH SALIM HAMED HASHAL AL HINAI",
+      "name_ar": "عبدالله بن سالم بن حمد بن هاشل الهنائي",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "14"
+    },
+    {
+      "civil_id": "4838171",
+      "name_en": "ABDULLAH SALIM SUWAIDAN AL HINAI",
+      "name_ar": "عبدالله بن سالم بن سويدان الهنائي",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "15"
+    },
+    {
+      "civil_id": "5116995",
+      "name_en": "ABDULNASSER SAIF NASSER SALMEEN AL HINAI",
+      "name_ar": "عبدالناصر بن سيف بن ناصر بن سالمين الهنائي",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "16"
+    },
+    {
+      "civil_id": "1048061",
+      "name_en": "ALI TALIB FAIZ KHAMIS AL HADHRAMI",
+      "name_ar": "علي بن طالب بن فايز بن خميس الحضرمي",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "17"
+    },
+    {
+      "civil_id": "6592494",
+      "name_en": "OMAR HUMAID SALIM SAIF  AL ABRI",
+      "name_ar": "عمر بن حميد بن سالم بن سيف العبري",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "18"
+    },
+    {
+      "civil_id": "2119619",
+      "name_en": "MARHOUN MAS'OUD HUMAID 'ABDULLAH  AL KALBANI",
+      "name_ar": "مرهون بن مسعود بن حميد بن عبدالله الكلباني",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "19"
+    },
+    {
+      "civil_id": "4105628",
+      "name_en": "MOOSA JUMA 'ABDULLAH AL HOSNI",
+      "name_ar": "موسى بن جمعه بن عبدالله الحوسني",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "20"
+    },
+    {
+      "civil_id": "5614004",
+      "name_en": "NASSER HAMED MATTAR MOHAMMED  AL DARAI",
+      "name_ar": "ناصر بن حمد بن مطر بن محمد الدرعي",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "21"
+    },
+    {
+      "civil_id": "1539654",
+      "name_en": "NASSER SAIF SULAIMAN AL RUBAI'EY",
+      "name_ar": "ناصر بن سيف بن سليمان الربيعي",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "22"
+    },
+    {
+      "civil_id": "3908529",
+      "name_en": "HILAL SULAIYAM RASHID HAMDAN AL-MAMARI",
+      "name_ar": "هلال بن سليّم بن راشد بن حمدان المعمري",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "23"
+    },
+    {
+      "civil_id": "5592019",
+      "name_en": "HILAL ALI HAMED SAIF AL ABRI",
+      "name_ar": "هلال بن علي بن حمد بن سيف العبري",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "24"
+    },
+    {
+      "civil_id": "9611347",
+      "name_en": "WALEED JAMIL KHALFAN 'OBAID AL MANDHARI",
+      "name_ar": "وليد بن جميل بن خلفان بن عبيد المنظري",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "25"
+    },
+    {
+      "civil_id": "NOTA24",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "5",
+      "wil_code": "24",
+      "ballot_pos": "26"
+    },
+    {
+      "civil_id": "1155954",
+      "name_en": "HAMED SALIM SAID KHAMIS  AL 'ALAWI",
+      "name_ar": "حمد بن سالم بن سعيد بن خميس العلوي",
+      "gov_code": "5",
+      "wil_code": "26",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "670407",
+      "name_en": "ALI MOHAMMED SALMEEN AL ALAWI",
+      "name_ar": "علي بن محمد بن سالمين العلوي",
+      "gov_code": "5",
+      "wil_code": "26",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "1835393",
+      "name_en": "MOHAMMED SALEH HAMED  MOHAMMED  AL BADI",
+      "name_ar": "محمد بن صالح بن حمد بن محمد البادي",
+      "gov_code": "5",
+      "wil_code": "26",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "82311",
+      "name_en": "NASSER ALI NASSER 'OBAID  AL SIDAIRI",
+      "name_ar": "ناصر بن علي بن ناصر بن عبيد السديري",
+      "gov_code": "5",
+      "wil_code": "26",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "NOTA26",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "5",
+      "wil_code": "26",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "1239532",
+      "name_en": "AHMED SALIM RASHID ALI  AL BADI",
+      "name_ar": "أحمد بن سالم بن راشد بن علي البادي",
+      "gov_code": "5",
+      "wil_code": "27",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "1698355",
+      "name_en": "HAMED RASHID SAIF AL ZEIDI",
+      "name_ar": "حمد بن راشد بن سيف الزيدي",
+      "gov_code": "5",
+      "wil_code": "27",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "1748718",
+      "name_en": "HAMOOD AHMED HAMED AL-YAHYAAI",
+      "name_ar": "حمود بن أحمد بن حمد اليحيائي",
+      "gov_code": "5",
+      "wil_code": "27",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "1782862",
+      "name_en": "ALI HAMOOD ALI MOHAMMED AL SHAMLI",
+      "name_ar": "علي بن حمود بن علي بن محمد الشملي",
+      "gov_code": "5",
+      "wil_code": "27",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "NOTA27",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "5",
+      "wil_code": "27",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "13883796",
+      "name_en": "BADAR SALIM MUAIQAL AL-HARSOUSI",
+      "name_ar": "بدر بن سالم بن معيقل الحرسوسي",
+      "gov_code": "8",
+      "wil_code": "47",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "11206611",
+      "name_en": "HAMED AL GHOUYASI SALEH AL HARSUSI",
+      "name_ar": "حمد بن الغويسي بن صالح الحرسوسي",
+      "gov_code": "8",
+      "wil_code": "47",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "9118584",
+      "name_en": "HAMED ALI DHIBAN AL HARSUSI",
+      "name_ar": "حمد بن علي بن ذيبان الحرسوسي",
+      "gov_code": "8",
+      "wil_code": "47",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "10413324",
+      "name_en": "HAMAD NAEEM MOHAMMED AL-HARSOUSI",
+      "name_ar": "حمد بن نعيم بن محمد الحرسوسي",
+      "gov_code": "8",
+      "wil_code": "47",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "2715203",
+      "name_en": "KHALID AL RAMALI HAMED AL HARSUSI",
+      "name_ar": "خالد بن الرملي بن حمد الحرسوسي",
+      "gov_code": "8",
+      "wil_code": "47",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "6247903",
+      "name_en": "KHALIFA HAMID MUSLEM AL HARSOOSI",
+      "name_ar": "خليفه بن حامد بن مسلم الحرسوسي",
+      "gov_code": "8",
+      "wil_code": "47",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "13021168",
+      "name_en": "SALIM KHALID SALIM HUWAILA AL HARSOOSI",
+      "name_ar": "سالم بن خالد بن سالم بن هويله الحرسوسي",
+      "gov_code": "8",
+      "wil_code": "47",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "2769412",
+      "name_en": "SUWAIBAQ MOHAMMED SAID AL HARSOOSI",
+      "name_ar": "سويبق بن محمد بن سعيد الحرسوسي",
+      "gov_code": "8",
+      "wil_code": "47",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "10241226",
+      "name_en": "GHANIM AL AMAR HAMOOD AL-HARSOUSI",
+      "name_ar": "غانم بن العمر بن حمود الحرسوسي",
+      "gov_code": "8",
+      "wil_code": "47",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "2142688",
+      "name_en": "MOHAMMED AL ATHA HAMOOD AL HARSOOSI",
+      "name_ar": "محمد بن العثه بن حمود الحرسوسي",
+      "gov_code": "8",
+      "wil_code": "47",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "NOTA47",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "8",
+      "wil_code": "47",
+      "ballot_pos": "11"
+    },
+    {
+      "civil_id": "5178996",
+      "name_en": "SAID MABROOK SALIM AL WAHAIBI",
+      "name_ar": "سعيد بن مبروك بن سالم الوهيبي",
+      "gov_code": "8",
+      "wil_code": "48",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "15317802",
+      "name_en": "SALEEM HASHIM SULTAN SAID AL HIKMANI",
+      "name_ar": "سليم بن هاشم بن سلطان بن سعيد الحكماني",
+      "gov_code": "8",
+      "wil_code": "48",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "9873248",
+      "name_en": "SULAIYAM SALIM SULAIYAM SULTAN  AL ASKARI",
+      "name_ar": "سليّم بن سالم بن سليّم بن سلطان العسكري",
+      "gov_code": "8",
+      "wil_code": "48",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "2685937",
+      "name_en": "SULAYEM ALI SULAYEM AL HIKMANI",
+      "name_ar": "سليّم بن علي بن سليّم الحكماني",
+      "gov_code": "8",
+      "wil_code": "48",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "2097728",
+      "name_en": "SALEH HAMED MUBARAK AL HAKMANI",
+      "name_ar": "صالح بن حمد بن مبارك الحكماني",
+      "gov_code": "8",
+      "wil_code": "48",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "18391283",
+      "name_en": "ABDDULLAH MOHAMMED HAMED AL HINDI",
+      "name_ar": "عبدالله بن محمد بن حمد الهندي",
+      "gov_code": "8",
+      "wil_code": "48",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "7468028",
+      "name_en": "OBAID ABDULLAH MUSALLIM AL HIKMANI",
+      "name_ar": "عبيد بن عبدالله بن مسلم الحكماني",
+      "gov_code": "8",
+      "wil_code": "48",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "9728671",
+      "name_en": "MOHAMMED SAOUD SAID SALIM AL MUGHAIRI",
+      "name_ar": "محمد بن سعود بن سعيد بن سالم المغيري",
+      "gov_code": "8",
+      "wil_code": "48",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "8605446",
+      "name_en": "MOHAMMED ALI SUWAIDAN AL-AMRI",
+      "name_ar": "محمد بن علي بن سويدان العمري",
+      "gov_code": "8",
+      "wil_code": "48",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "NOTA48",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "8",
+      "wil_code": "48",
+      "ballot_pos": "10"
+    },
+    {
+      "civil_id": "8068998",
+      "name_en": "AIMAN SABAYAH MOHAMMED AL-JUNAIBI",
+      "name_ar": "ايمن بن صبيح بن محمد الجنيبي",
+      "gov_code": "8",
+      "wil_code": "49",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "3060528",
+      "name_en": "THUWAINI RAMAS AL ATHA AL JUNAIBI",
+      "name_ar": "ثويني بن رامس بن العثه الجنيبي",
+      "gov_code": "8",
+      "wil_code": "49",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "1345448",
+      "name_en": "HAMED SAID SALEH AL JUNAIBI",
+      "name_ar": "حمد بن سعيد بن صالح الجنيبي",
+      "gov_code": "8",
+      "wil_code": "49",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "1075826",
+      "name_en": "ZAYID JUMA ANBAR AL JUNAIBI",
+      "name_ar": "زايد بن جمعه بن عنبر الجنيبي",
+      "gov_code": "8",
+      "wil_code": "49",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "7656123",
+      "name_en": "SAID HAMED MOHAMMED AL JUNAIBI",
+      "name_ar": "سعيد بن حمد بن محمد الجنيبي",
+      "gov_code": "8",
+      "wil_code": "49",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "10193031",
+      "name_en": "TAHER MABKHUT ALI AL-JUNAIBI",
+      "name_ar": "طاهر بن مبخوت بن علي الجنيبي",
+      "gov_code": "8",
+      "wil_code": "49",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "11018681",
+      "name_en": "ALI HAMOOD FAYAL AL-MAHARBI",
+      "name_ar": "علي بن حمود بن فايل المحاربي",
+      "gov_code": "8",
+      "wil_code": "49",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "NOTA49",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "8",
+      "wil_code": "49",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "1025579",
+      "name_en": "AHMED SAAD MUSALLAM AL-JUNAIBI",
+      "name_ar": "أحمد بن سعد بن مسلم الجنيبي",
+      "gov_code": "8",
+      "wil_code": "50",
+      "ballot_pos": "1"
+    },
+    {
+      "civil_id": "9292115",
+      "name_en": "BADAR KHALIFA SALIM AL JUNAIBI",
+      "name_ar": "بدر بن خليفه بن سالم الجنيبي",
+      "gov_code": "8",
+      "wil_code": "50",
+      "ballot_pos": "2"
+    },
+    {
+      "civil_id": "11566852",
+      "name_en": "SALEEM ABDULLAH DHABAB AL JUNAIBI",
+      "name_ar": "سليم بن عبدالله بن ضباب الجنيبي",
+      "gov_code": "8",
+      "wil_code": "50",
+      "ballot_pos": "3"
+    },
+    {
+      "civil_id": "18828184",
+      "name_en": "SAIF SAID SAAD AL JUNAIBI",
+      "name_ar": "سيف بن سعيد بن سعد الجنيبي",
+      "gov_code": "8",
+      "wil_code": "50",
+      "ballot_pos": "4"
+    },
+    {
+      "civil_id": "19539578",
+      "name_en": "ABDULLAH SALEEM SALEH AL JUNAIBI",
+      "name_ar": "عبدالله بن سليم بن صالح الجنيبي",
+      "gov_code": "8",
+      "wil_code": "50",
+      "ballot_pos": "5"
+    },
+    {
+      "civil_id": "3276631",
+      "name_en": "FAISAL SULAIYAM NASIB AL JUNAIBI",
+      "name_ar": "فيصل بن سليّم بن نصيب الجنيبي",
+      "gov_code": "8",
+      "wil_code": "50",
+      "ballot_pos": "6"
+    },
+    {
+      "civil_id": "6528811",
+      "name_en": "MOHAMMED AHMED KHANAFOUR AL JUNAIBI",
+      "name_ar": "محمد بن أحمد بن خنفور الجنيبي",
+      "gov_code": "8",
+      "wil_code": "50",
+      "ballot_pos": "7"
+    },
+    {
+      "civil_id": "3422074",
+      "name_en": "HILAL AL ABD SALIM AL JUNAIBI",
+      "name_ar": "هلال بن العبد بن سالم الجنيبي",
+      "gov_code": "8",
+      "wil_code": "50",
+      "ballot_pos": "8"
+    },
+    {
+      "civil_id": "12528865",
+      "name_en": "HILAL GHARIB SAAD AL JUNAIBI",
+      "name_ar": "هلال بن غريب بن سعد الجنيبي",
+      "gov_code": "8",
+      "wil_code": "50",
+      "ballot_pos": "9"
+    },
+    {
+      "civil_id": "NOTA50",
+      "name_en": "No candidate",
+      "name_ar": "لا أرغب في ترشيح أحد",
+      "gov_code": "8",
+      "wil_code": "50",
+      "ballot_pos": "10"
+    }
+  ]
+}

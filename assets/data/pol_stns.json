@@ -1,0 +1,995 @@
+{
+  "version": 1,
+  "pol_stns": [
+    {
+      "id": "1",
+      "name_en": "Zahra School for Basic Education",
+      "name_ar": "مدرسة الزهراء للتعليم الأساسي",
+      "lat": "23.613119",
+      "lng": "58.5893",
+      "is_uni": "0",
+      "wil_code": "1"
+    },
+    {
+      "id": "2",
+      "name_en": "Sofana bint Hatim al-Tai School for Basic Education",
+      "name_ar": "مدرسة سفانة بنت حاتم الطائي للتعليم الأساسي",
+      "lat": "23.506477",
+      "lng": "58.662851",
+      "is_uni": "0",
+      "wil_code": "1"
+    },
+    {
+      "id": "3",
+      "name_en": "Besatin Al-Marfa school for basic education",
+      "name_ar": "مدرسة بساتين المعرفة للتعليم الأساسي",
+      "lat": "23.596851",
+      "lng": "58.219209",
+      "is_uni": "0",
+      "wil_code": "2"
+    },
+    {
+      "id": "4",
+      "name_en": "Rua Al-Mustakbil School for basic education",
+      "name_ar": "مدرسة رؤى المستقبل  للتعليم الأساسي",
+      "lat": "23.63803",
+      "lng": "58.128485",
+      "is_uni": "0",
+      "wil_code": "2"
+    },
+    {
+      "id": "5",
+      "name_en": "Al Wtuaya School for basic education",
+      "name_ar": "مدرسة الوطية للتعليم الأساسي",
+      "lat": "23.601735",
+      "lng": "58.510776",
+      "is_uni": "0",
+      "wil_code": "3"
+    },
+    {
+      "id": "6",
+      "name_en": "Imam Jabir bin Zaid School beyond primary Education",
+      "name_ar": "مدرسة الإمام جابر بن زيد للتعليم ما بعد الأساسي",
+      "lat": "23.617171",
+      "lng": "58.511999",
+      "is_uni": "0",
+      "wil_code": "3"
+    },
+    {
+      "id": "7",
+      "name_en": "Athuriya School for basic education",
+      "name_ar": "مدرسة الثريا للتعليم الأساسي",
+      "lat": "22.949051",
+      "lng": "57.905414",
+      "is_uni": "1",
+      "wil_code": "4"
+    },
+    {
+      "id": "8",
+      "name_en": "Al-Ela School for Basic Education ",
+      "name_ar": "مدرسة العلا للتعليم الأساسي",
+      "lat": "23.594967",
+      "lng": "58.401664",
+      "is_uni": "1",
+      "wil_code": "4"
+    },
+    {
+      "id": "9",
+      "name_en": "Sahba bint Rabia School Public Education for girls",
+      "name_ar": "مدرسة الصهباء بنت ربيعة للتعليم العام للبنات",
+      "lat": "23.491912",
+      "lng": "58.479823",
+      "is_uni": "0",
+      "wil_code": "5"
+    },
+    {
+      "id": "10",
+      "name_en": "Obaida bint muslim school for basic education",
+      "name_ar": "مدرسة عبيدة بنت مسلم للتعليم الأساسي",
+      "lat": "23.465603",
+      "lng": "58.477116",
+      "is_uni": "0",
+      "wil_code": "5"
+    },
+    {
+      "id": "11",
+      "name_en": "Rufaida Al-Ansari School for basic education",
+      "name_ar": "مرسة رفيدة الانصارية للتعليم الأساسي",
+      "lat": "23.304851",
+      "lng": "58.727554",
+      "is_uni": "0",
+      "wil_code": "6"
+    },
+    {
+      "id": "12",
+      "name_en": "Zainab bint abi Sufyan School for basic education",
+      "name_ar": "مدرسة زينب بنت أبي سيفان للتعليم الأساسي",
+      "lat": "23.224669",
+      "lng": "58.895966",
+      "is_uni": "0",
+      "wil_code": "6"
+    },
+    {
+      "id": "13",
+      "name_en": "Aubi bin Thabit School for basic education",
+      "name_ar": "مدرسة أبي بن ثابت للتعليم الأساسي",
+      "lat": "22.986428",
+      "lng": "59.130852",
+      "is_uni": "0",
+      "wil_code": "6"
+    },
+    {
+      "id": "14",
+      "name_en": "Naim bin Masood School for boys",
+      "name_ar": "مدرسة نعيم بن مسعود للبنين",
+      "lat": "24.419174",
+      "lng": "56.664998",
+      "is_uni": "0",
+      "wil_code": "7"
+    },
+    {
+      "id": "15",
+      "name_en": "Al Heekma School for basic education",
+      "name_ar": "مدرسة الحكمة للتعليم الأساسي",
+      "lat": "24.340417",
+      "lng": "56.73925",
+      "is_uni": "0",
+      "wil_code": "7"
+    },
+    {
+      "id": "16",
+      "name_en": "Al Resala School for basic education",
+      "name_ar": "مدرسة الرسالة للتعليم الأساسي",
+      "lat": "24.269099",
+      "lng": "56.802068",
+      "is_uni": "0",
+      "wil_code": "7"
+    },
+    {
+      "id": "17",
+      "name_en": "Saad bin Rabiee School for basic education",
+      "name_ar": "مدرسة سعد بن الربيع للتعليم الأساسي",
+      "lat": "23.385732",
+      "lng": "57.4255",
+      "is_uni": "0",
+      "wil_code": "8"
+    },
+    {
+      "id": "18",
+      "name_en": "Rustaq School for basic education",
+      "name_ar": "مدرسة الرستاق للتعليم الأساسي",
+      "lat": "23.472343",
+      "lng": "57.442828",
+      "is_uni": "0",
+      "wil_code": "8"
+    },
+    {
+      "id": "19",
+      "name_en": "Othman bin Mazgon School for basic education",
+      "name_ar": "مدرسة عثمان بن مظغون للتعليم الأساسي",
+      "lat": "23.614335",
+      "lng": "57.368496",
+      "is_uni": "0",
+      "wil_code": "8"
+    },
+    {
+      "id": "20",
+      "name_en": "Asma bint Yazeed school for basic education",
+      "name_ar": "مدرسة اسماء بنت يزيد للتعليم الاساسي",
+      "lat": "23.473285",
+      "lng": "57.445038",
+      "is_uni": "0",
+      "wil_code": "8"
+    },
+    {
+      "id": "21",
+      "name_en": "Al Marefa School for basic education",
+      "name_ar": "مدرسة المعرفة للتعليم الأساسي",
+      "lat": "24.731117",
+      "lng": "56.470751",
+      "is_uni": "0",
+      "wil_code": "9"
+    },
+    {
+      "id": "22",
+      "name_en": "Saad bin abi Waqas School education beyond primary",
+      "name_ar": "مدرسة سعد بن أبي وقاص للتعليم ما بعد الأساسي",
+      "lat": "24.7345",
+      "lng": "56.469707",
+      "is_uni": "0",
+      "wil_code": "9"
+    },
+    {
+      "id": "23",
+      "name_en": "Al Batinah School for basic education",
+      "name_ar": "مدرسة الباطنة للتعليم الأساسي",
+      "lat": "24.517822",
+      "lng": "56.569124",
+      "is_uni": "0",
+      "wil_code": "10"
+    },
+    {
+      "id": "24",
+      "name_en": "Hilal bin Attaiya school for basic education",
+      "name_ar": "مدرسة هلال بن عطية  للتعليم الأساسي",
+      "lat": "24.144287",
+      "lng": "56.865029",
+      "is_uni": "0",
+      "wil_code": "11"
+    },
+    {
+      "id": "25",
+      "name_en": "Saham School education beyond primary",
+      "name_ar": "مدرسة صحم للتعليم ما بعد الأساسي",
+      "lat": "24.139499",
+      "lng": "56.857593",
+      "is_uni": "0",
+      "wil_code": "11"
+    },
+    {
+      "id": "26",
+      "name_en": "Afra bint Obid Al-Ansariya School for basic education",
+      "name_ar": "مدرسة عفراء بنت عبيد الأنصارية للتعليم الأساسي",
+      "lat": "24.057475",
+      "lng": "56.981459",
+      "is_uni": "0",
+      "wil_code": "11"
+    },
+    {
+      "id": "27",
+      "name_en": "Manar Al-Elem School for basic education",
+      "name_ar": "مدرسة منار العلم للتعليم الأساسي",
+      "lat": "24.05853",
+      "lng": "56.982241",
+      "is_uni": "0",
+      "wil_code": "11"
+    },
+    {
+      "id": "28",
+      "name_en": "Dora Al-Elem School for basic education",
+      "name_ar": "مدرسة درة العلم للتعليم الأساسي",
+      "lat": "23.962679",
+      "lng": "57.064118",
+      "is_uni": "0",
+      "wil_code": "12"
+    },
+    {
+      "id": "29",
+      "name_en": "Al Fukur Al-Saami school for basic education",
+      "name_ar": "مدرسة الفكر السامي  للتعليم الأساسي",
+      "lat": "23.952643",
+      "lng": "57.051573",
+      "is_uni": "0",
+      "wil_code": "12"
+    },
+    {
+      "id": "30",
+      "name_en": "Al-Nasaam school for basic education",
+      "name_ar": "مدرسة النسائم للتعليم الاساسي ",
+      "lat": "23.812419",
+      "lng": "57.429974",
+      "is_uni": "0",
+      "wil_code": "13"
+    },
+    {
+      "id": "31",
+      "name_en": "Al-Suwaiq School for basic education",
+      "name_ar": "مدرسة السويق  للتعليم الاساسي",
+      "lat": "23.828146",
+      "lng": "57.414139",
+      "is_uni": "0",
+      "wil_code": "13"
+    },
+    {
+      "id": "32",
+      "name_en": "Al-Gawaher School for basic education",
+      "name_ar": "مدرسة الجواهر للتعليم الاساسى",
+      "lat": "23.889329",
+      "lng": "57.275864",
+      "is_uni": "0",
+      "wil_code": "13"
+    },
+    {
+      "id": "33",
+      "name_en": "Asma bint Amro Al Ansarieh School for basic education",
+      "name_ar": "مدرسة أسماء بنت عمرو الانصارية للتعليم الاساسى ",
+      "lat": "23.904261",
+      "lng": "57.215327",
+      "is_uni": "0",
+      "wil_code": "13"
+    },
+    {
+      "id": "34",
+      "name_en": "Al-Huda School for basic education",
+      "name_ar": "مدرسة الهدى للتعليم الأساسي",
+      "lat": "23.404683",
+      "lng": "57.821023",
+      "is_uni": "0",
+      "wil_code": "14"
+    },
+    {
+      "id": "35",
+      "name_en": "Wadi Al-Mawel School for basic education",
+      "name_ar": "مدرسة وادي المعاول للتعليم الأساسي",
+      "lat": "23.436385",
+      "lng": "57.814643",
+      "is_uni": "0",
+      "wil_code": "15"
+    },
+    {
+      "id": "36",
+      "name_en": "Salma bint Qais School for basic education",
+      "name_ar": "مدرسة سلمى بنت قيس للتعليم الأساسي",
+      "lat": "23.302453",
+      "lng": "57.536916",
+      "is_uni": "0",
+      "wil_code": "16"
+    },
+    {
+      "id": "37",
+      "name_en": "At-Tufai bin Aamru school for basic education",
+      "name_ar": "مدرسة الطفيل بن عمرو للتعليم الأساسي",
+      "lat": "23.788163",
+      "lng": "57.594982",
+      "is_uni": "0",
+      "wil_code": "17"
+    },
+    {
+      "id": "38",
+      "name_en": "Umm Kulthum bint Aqaba School for basic education",
+      "name_ar": "مدرسة  أم كلثوم بنت عقبة للتعليم الاساسي",
+      "lat": "23.77607",
+      "lng": "57.634899",
+      "is_uni": "0",
+      "wil_code": "17"
+    },
+    {
+      "id": "39",
+      "name_en": "Shams Al-Huda School for basic education",
+      "name_ar": "مدرسة شمس الهدى للتعليم الأساسي",
+      "lat": "23.761295",
+      "lng": "57.65305",
+      "is_uni": "0",
+      "wil_code": "17"
+    },
+    {
+      "id": "40",
+      "name_en": "Al-Bala School for basic education",
+      "name_ar": "مدرسة البله للتعليم الأساسي",
+      "lat": "23.712951",
+      "lng": "57.753529",
+      "is_uni": "0",
+      "wil_code": "18"
+    },
+    {
+      "id": "41",
+      "name_en": "Al-Rumais School for basic education",
+      "name_ar": "مدرسة الرميس للتعليم الأساسي",
+      "lat": "23.677893",
+      "lng": "57.995858",
+      "is_uni": "0",
+      "wil_code": "18"
+    },
+    {
+      "id": "42",
+      "name_en": "Al-Amal school for basic education",
+      "name_ar": "مدرسة الامل للتعليم الأساسي",
+      "lat": "23.703788",
+      "lng": "57.897974",
+      "is_uni": "0",
+      "wil_code": "18"
+    },
+    {
+      "id": "43",
+      "name_en": "Asma bint Numan School for basic education",
+      "name_ar": "مدرسة أسماء بنت النعمان للتعليم الأساسي",
+      "lat": "23.71264",
+      "lng": "57.848023",
+      "is_uni": "0",
+      "wil_code": "18"
+    },
+    {
+      "id": "44",
+      "name_en": "Abu Bakr al-Siddiq School for basic education",
+      "name_ar": "مدرسة أبو بكر الصديق للتعليم الأساسي",
+      "lat": "26.177116",
+      "lng": "56.246484",
+      "is_uni": "1",
+      "wil_code": "19"
+    },
+    {
+      "id": "45",
+      "name_en": "Hamza bin Abdul Muttalib School for basic education",
+      "name_ar": "مدرسة حمزة بن عبد المطلب للتعليم الأساسي",
+      "lat": "25.944446",
+      "lng": "56.423059",
+      "is_uni": "0",
+      "wil_code": "19"
+    },
+    {
+      "id": "46",
+      "name_en": "Mohammed bin Salleh Almentfiqi School of public education",
+      "name_ar": "مدرسة محمد بن صالح المنتفقي للتعليم العام",
+      "lat": "26.338167",
+      "lng": "56.415467",
+      "is_uni": "0",
+      "wil_code": "19"
+    },
+    {
+      "id": "47",
+      "name_en": "Musandam School for basic education",
+      "name_ar": "مدرسة مسندم للتعليم الأساسي",
+      "lat": "26.16936",
+      "lng": "56.243052",
+      "is_uni": "1",
+      "wil_code": "19"
+    },
+    {
+      "id": "48",
+      "name_en": "Al Muhammadiyah School for basic education",
+      "name_ar": "مدرسة المحمدية للتعليم الأساسي",
+      "lat": "26.14088",
+      "lng": "56.151757",
+      "is_uni": "0",
+      "wil_code": "20"
+    },
+    {
+      "id": "49",
+      "name_en": "Sakina bin Al Hussin School",
+      "name_ar": "مدرسة سكينة بنت الحسين",
+      "lat": "25.640071",
+      "lng": "56.255623",
+      "is_uni": "0",
+      "wil_code": "21"
+    },
+    {
+      "id": "50",
+      "name_en": "Al Naser School for basic education",
+      "name_ar": "مدرسة النصر للتعليم الأساسي",
+      "lat": "25.282072",
+      "lng": "56.332628",
+      "is_uni": "0",
+      "wil_code": "22"
+    },
+    {
+      "id": "51",
+      "name_en": "Amna bint Al Imam Jabir bin Zaid School beyond primary Education",
+      "name_ar": "مدرسة آمنة بنت الإمام جابر بن زيد للتعليم ما بعد الأساسي",
+      "lat": "24.247594",
+      "lng": "55.797799",
+      "is_uni": "0",
+      "wil_code": "23"
+    },
+    {
+      "id": "52",
+      "name_en": "Al Majed School for basic education",
+      "name_ar": "مدرسة المجد للتعليم الأساسي",
+      "lat": "24.245662",
+      "lng": "55.79918",
+      "is_uni": "0",
+      "wil_code": "23"
+    },
+    {
+      "id": "53",
+      "name_en": "Al-Imam saif bin Sultan School for basic education",
+      "name_ar": "مدرسة الإمام  سيف بن سلطان للتعليم الأساسي",
+      "lat": "23.231449",
+      "lng": "56.523276",
+      "is_uni": "0",
+      "wil_code": "24"
+    },
+    {
+      "id": "54",
+      "name_en": "Mohammed bin Suleiman Al-Ghaferi School for basic education",
+      "name_ar": "مدرسة محمد بن سليمان الغافري للتعليم الأساسي",
+      "lat": "23.320568",
+      "lng": "56.608298",
+      "is_uni": "0",
+      "wil_code": "24"
+    },
+    {
+      "id": "55",
+      "name_en": "Al-Hial School for basic education",
+      "name_ar": "مدرسة الهيال للتعليم الأساسي",
+      "lat": "23.400067",
+      "lng": "56.738364",
+      "is_uni": "0",
+      "wil_code": "24"
+    },
+    {
+      "id": "56",
+      "name_en": "Leila bint Hakim Al-Ansari School for basic education ",
+      "name_ar": "مدرسة ليلى بنت حكيم الأنصاري للتعليم الأساسي",
+      "lat": "23.222311",
+      "lng": "56.988524",
+      "is_uni": "0",
+      "wil_code": "24"
+    },
+    {
+      "id": "57",
+      "name_en": "Muhda School for basic eduction",
+      "name_ar": "مدرسة محضة للتعليم الأساسي",
+      "lat": "24.410284",
+      "lng": "55.961936",
+      "is_uni": "0",
+      "wil_code": "25"
+    },
+    {
+      "id": "58",
+      "name_en": "Al-Rashad School for basic education",
+      "name_ar": "مدرسة الرشاد للتعليم الأساسي",
+      "lat": "23.614306",
+      "lng": "56.545799",
+      "is_uni": "0",
+      "wil_code": "26"
+    },
+    {
+      "id": "59",
+      "name_en": "Al-Anwar School for basic Education",
+      "name_ar": "مدرسة الأنوار للتعليم الأساسي",
+      "lat": "23.554245",
+      "lng": "56.249883",
+      "is_uni": "0",
+      "wil_code": "27"
+    },
+    {
+      "id": "60",
+      "name_en": "Shamsin Nahda school",
+      "name_ar": "مدرسة شمس النهضة ",
+      "lat": "22.908451",
+      "lng": "57.52334",
+      "is_uni": "0",
+      "wil_code": "28"
+    },
+    {
+      "id": "61",
+      "name_en": "Reboo Al jabal Al Akdar School for basic education",
+      "name_ar": "مدرسة ربوع الجبل الأخضر للتعليم الأساسي",
+      "lat": "23.076167",
+      "lng": "57.675541",
+      "is_uni": "0",
+      "wil_code": "28"
+    },
+    {
+      "id": "62",
+      "name_en": "Maria Al Qubtia School for basic education",
+      "name_ar": "مدرسة ماريه القبطية للتعليم الأساسي",
+      "lat": "23.283504",
+      "lng": "57.94162",
+      "is_uni": "0",
+      "wil_code": "29"
+    },
+    {
+      "id": "63",
+      "name_en": "Amina bint Al-Arkam Al-Makhzoumya school for basic education",
+      "name_ar": "مدرسة أمنة بنت الارقم المخزومية للتعليم الاساسي ",
+      "lat": "22.987426",
+      "lng": "57.321998",
+      "is_uni": "0",
+      "wil_code": "30"
+    },
+    {
+      "id": "64",
+      "name_en": "Jimah School for basic education",
+      "name_ar": "مدرسة جماح للتعليم الأساسي",
+      "lat": "22.949857",
+      "lng": "57.258192",
+      "is_uni": "0",
+      "wil_code": "30"
+    },
+    {
+      "id": "65",
+      "name_en": "Adam School for basic education",
+      "name_ar": "مدرسة أدم للتعليم الأساسي",
+      "lat": "22.393664",
+      "lng": "57.529239",
+      "is_uni": "1",
+      "wil_code": "31"
+    },
+    {
+      "id": "66",
+      "name_en": "Al-Hamra schoold for basic education",
+      "name_ar": "مدرسة الحمراء للتعليم الأساسي",
+      "lat": "23.097821",
+      "lng": "57.27876",
+      "is_uni": "0",
+      "wil_code": "32"
+    },
+    {
+      "id": "67",
+      "name_en": "Sheikh Mohammed bin Masoud Al Busaidi School",
+      "name_ar": "مدرسة الشيخ محمد بن مسعود البوسعيدي",
+      "lat": "22.787025",
+      "lng": "57.615015",
+      "is_uni": "0",
+      "wil_code": "33"
+    },
+    {
+      "id": "68",
+      "name_en": "Um Ayman School for basic education",
+      "name_ar": "مدرسة أم أيمن للتعليم الأساسي",
+      "lat": "22.933434",
+      "lng": "57.776104",
+      "is_uni": "0",
+      "wil_code": "34"
+    },
+    {
+      "id": "69",
+      "name_en": "Izki School for basic education",
+      "name_ar": "مدرسة إزكي للتعليم الأساسي",
+      "lat": "22.932523",
+      "lng": "57.775845",
+      "is_uni": "0",
+      "wil_code": "34"
+    },
+    {
+      "id": "70",
+      "name_en": "Al Eithar School for basic education",
+      "name_ar": "مدرسة الإيثار للتعليم الاساسي ",
+      "lat": "23.394528",
+      "lng": "58.103306",
+      "is_uni": "0",
+      "wil_code": "35"
+    },
+    {
+      "id": "71",
+      "name_en": "Al Burr school for basic education",
+      "name_ar": "مدرسة البر للتعليم الاساسي",
+      "lat": "22.605773",
+      "lng": "59.469552",
+      "is_uni": "0",
+      "wil_code": "36"
+    },
+    {
+      "id": "72",
+      "name_en": "Sur Asahil school for basic education",
+      "name_ar": "مدرسة صور الساحل  للتعليم الأساسي",
+      "lat": "22.577502",
+      "lng": "59.520813",
+      "is_uni": "0",
+      "wil_code": "36"
+    },
+    {
+      "id": "73",
+      "name_en": "Tiwi School for basic education",
+      "name_ar": "مدرسة طيوي للتعليم الأساسي",
+      "lat": "22.831333",
+      "lng": "59.252616",
+      "is_uni": "0",
+      "wil_code": "36"
+    },
+    {
+      "id": "74",
+      "name_en": "Al-Albab School for basic educatin",
+      "name_ar": "مدرسة الألباب للتعليم الأساسي",
+      "lat": "22.71026",
+      "lng": "58.538173",
+      "is_uni": "0",
+      "wil_code": "37"
+    },
+    {
+      "id": "75",
+      "name_en": "Bidiyah School for Basic education",
+      "name_ar": "مدرسة بدية للتعليم الأساسي",
+      "lat": "22.433234",
+      "lng": "58.805563",
+      "is_uni": "0",
+      "wil_code": "38"
+    },
+    {
+      "id": "76",
+      "name_en": "Al-Shaikh Salah bin Ali Al-Harfi school",
+      "name_ar": "مدرسة الشيخ صالح بن علي  الحارثي ",
+      "lat": "22.594574",
+      "lng": "58.680843",
+      "is_uni": "0",
+      "wil_code": "39"
+    },
+    {
+      "id": "77",
+      "name_en": "Al-Mnara School for basic education",
+      "name_ar": "مدرسة المنارة للتعليم الأساسي",
+      "lat": "22.57635",
+      "lng": "58.115203",
+      "is_uni": "0",
+      "wil_code": "40"
+    },
+    {
+      "id": "78",
+      "name_en": "Abu Bilal Al-Tamimi School for basic education",
+      "name_ar": "مدرسة أبو بلال التميمي للتعليم الأساسي",
+      "lat": "22.496625",
+      "lng": "58.032494",
+      "is_uni": "0",
+      "wil_code": "40"
+    },
+    {
+      "id": "79",
+      "name_en": "Samad School for basic education",
+      "name_ar": "مدرسة سمد للتعليم الاساسي",
+      "lat": "22.838433",
+      "lng": "58.170778",
+      "is_uni": "0",
+      "wil_code": "40"
+    },
+    {
+      "id": "80",
+      "name_en": "Abdullah bin Al-Arkam school for basic education",
+      "name_ar": "مدرسة عبدالله بن الارقم  للتعليم الأساسي",
+      "lat": "23.049321",
+      "lng": "58.595992",
+      "is_uni": "0",
+      "wil_code": "41"
+    },
+    {
+      "id": "81",
+      "name_en": "Abbas bin Abdul Muttalib School for basic education",
+      "name_ar": "مدرسة العباس بن عبد المطلب للتعليم الأساسي",
+      "lat": "22.186674",
+      "lng": "59.221693",
+      "is_uni": "0",
+      "wil_code": "42"
+    },
+    {
+      "id": "82",
+      "name_en": "Al-Hedah School for basic education",
+      "name_ar": "مدرسة الحدة للتعليم الأساسي",
+      "lat": "22.131786",
+      "lng": "59.725798",
+      "is_uni": "0",
+      "wil_code": "43"
+    },
+    {
+      "id": "83",
+      "name_en": "Al-Margan School for basic education",
+      "name_ar": "مدرسة المرجان للتعليم الأساسي",
+      "lat": "21.861421",
+      "lng": "59.560477",
+      "is_uni": "0",
+      "wil_code": "43"
+    },
+    {
+      "id": "84",
+      "name_en": "Sultan Qaboos School education beyoned primary ",
+      "name_ar": "مدرسة السلطان قابوس للتعليم ما بعد الأساسي",
+      "lat": "22.010817",
+      "lng": "59.337046",
+      "is_uni": "0",
+      "wil_code": "43"
+    },
+    {
+      "id": "85",
+      "name_en": "Al-Rofah School for basic education",
+      "name_ar": "مدرسة الرفعة للتعليم الأساسي",
+      "lat": "22.077969",
+      "lng": "59.293451",
+      "is_uni": "0",
+      "wil_code": "44"
+    },
+    {
+      "id": "86",
+      "name_en": "Saud bin Azzan School for basic education",
+      "name_ar": "مدرسة سعود بن عزان للتعليم الأساسي",
+      "lat": "22.083779",
+      "lng": "59.295085",
+      "is_uni": "0",
+      "wil_code": "44"
+    },
+    {
+      "id": "87",
+      "name_en": "Abu Malik School for basic education",
+      "name_ar": "مدرسة أبو مالك للتعليم الأساسي",
+      "lat": "22.584073",
+      "lng": "59.087073",
+      "is_uni": "0",
+      "wil_code": "45"
+    },
+    {
+      "id": "88",
+      "name_en": "Mashel Al-Elm School for basic education",
+      "name_ar": "مدرسة مشاعل العلم للتعليم الأساسي",
+      "lat": "20.647913",
+      "lng": "58.874366",
+      "is_uni": "0",
+      "wil_code": "46"
+    },
+    {
+      "id": "89",
+      "name_en": "Haima School for basic education",
+      "name_ar": "مدرسة هيما للتعليم الأساسي",
+      "lat": "19.949876",
+      "lng": "56.29046",
+      "is_uni": "1",
+      "wil_code": "47"
+    },
+    {
+      "id": "90",
+      "name_en": "Haj School for basic education",
+      "name_ar": "مدرسة حج للتعليم الأساسي",
+      "lat": "20.776829",
+      "lng": "58.284747",
+      "is_uni": "0",
+      "wil_code": "48"
+    },
+    {
+      "id": "91",
+      "name_en": "Al-Duqm School for basic education",
+      "name_ar": "مدرسة الدقم للتعليم الأساسي",
+      "lat": "19.62147",
+      "lng": "57.631074",
+      "is_uni": "0",
+      "wil_code": "49"
+    },
+    {
+      "id": "92",
+      "name_en": "Al-khel School for basic education",
+      "name_ar": "مدرسة الكحل للتعليم الأساسي",
+      "lat": "18.587677",
+      "lng": "56.590121",
+      "is_uni": "0",
+      "wil_code": "50"
+    },
+    {
+      "id": "93",
+      "name_en": "Khawla bint Hakeem School beyond primary Education",
+      "name_ar": "مدرسة خولة بنت حكيم للتعليم ما بعد الأساسي",
+      "lat": "17.009053",
+      "lng": "54.057792",
+      "is_uni": "0",
+      "wil_code": "51"
+    },
+    {
+      "id": "94",
+      "name_en": "Manba Al-Haqma School for basic education",
+      "name_ar": "مدرسة منبع الحمكمة الأساسي",
+      "lat": "17.061563",
+      "lng": "54.14713",
+      "is_uni": "0",
+      "wil_code": "51"
+    },
+    {
+      "id": "95",
+      "name_en": "Zeeik School for basic education",
+      "name_ar": "مدرسة زيك للتعليم الأساسي",
+      "lat": "17.274379",
+      "lng": "54.147349",
+      "is_uni": "0",
+      "wil_code": "51"
+    },
+    {
+      "id": "96",
+      "name_en": "Gado School for basic education",
+      "name_ar": "مدرسة غدو للتعليم الأساسي",
+      "lat": "17.126365",
+      "lng": "53.996779",
+      "is_uni": "0",
+      "wil_code": "51"
+    },
+    {
+      "id": "97",
+      "name_en": "Jaber bin Hayan School for Boys",
+      "name_ar": "مدرسة جابر بن حيان للبنين",
+      "lat": "17.621698",
+      "lng": "54.048672",
+      "is_uni": "1",
+      "wil_code": "52"
+    },
+    {
+      "id": "98",
+      "name_en": "Thumrait School for Girls",
+      "name_ar": "مدرسة ثمريت للبنات",
+      "lat": "17.621316",
+      "lng": "54.049504",
+      "is_uni": "1",
+      "wil_code": "52"
+    },
+    {
+      "id": "99",
+      "name_en": "Al-Saida Maizon bint Ahmed school for basic education",
+      "name_ar": "مدرسة السيدة ميزون بنت أحمد للتعليم الأساسي",
+      "lat": "17.049056",
+      "lng": "54.387566",
+      "is_uni": "0",
+      "wil_code": "53"
+    },
+    {
+      "id": "100",
+      "name_en": "Mirbat basic education school",
+      "name_ar": "مدرسة مرباط للتعليم الأساسي ",
+      "lat": "16.985691",
+      "lng": "54.695442",
+      "is_uni": "0",
+      "wil_code": "54"
+    },
+    {
+      "id": "101",
+      "name_en": "Sadah School for basic education",
+      "name_ar": "مدرسة سدح للتعليم الأساسي",
+      "lat": "17.050599",
+      "lng": "55.071449",
+      "is_uni": "0",
+      "wil_code": "55"
+    },
+    {
+      "id": "102",
+      "name_en": "Shahab Oassaab School for basic education",
+      "name_ar": "مدرسة شهب أصعيب للتعليم الأساسي",
+      "lat": "16.816511",
+      "lng": "53.47724",
+      "is_uni": "0",
+      "wil_code": "56"
+    },
+    {
+      "id": "103",
+      "name_en": "Dhalkut School for basic education",
+      "name_ar": "مدرسة ضلكوت للتعليم الأساسي",
+      "lat": "16.707603",
+      "lng": "53.256875",
+      "is_uni": "0",
+      "wil_code": "57"
+    },
+    {
+      "id": "104",
+      "name_en": "Makecn School for basic education",
+      "name_ar": "مدرسة مقشن للتعليم الأساسي",
+      "lat": "19.564765",
+      "lng": "54.889872",
+      "is_uni": "0",
+      "wil_code": "58"
+    },
+    {
+      "id": "105",
+      "name_en": "Abu Faraz school for basic education",
+      "name_ar": "مدرسة أبو فراس  الأساسي",
+      "lat": "18.11019",
+      "lng": "55.648901",
+      "is_uni": "0",
+      "wil_code": "59"
+    },
+    {
+      "id": "106",
+      "name_en": "Al-Mayzona school for basic education",
+      "name_ar": "مدرسة المزيونة للتعليم الاساسي",
+      "lat": "17.837286",
+      "lng": "52.65652",
+      "is_uni": "0",
+      "wil_code": "60"
+    },
+    {
+      "id": "107",
+      "name_en": "Al Senynh School for basic education",
+      "name_ar": "مدرسة السينينة للتعليم الأساسي",
+      "lat": "23.61702",
+      "lng": "55.954875",
+      "is_uni": "0",
+      "wil_code": "61"
+    },
+    {
+      "id": "110",
+      "name_en": "Rabia Al-Adawia School for general education",
+      "name_ar": "رابعة العدوية للتعليم العام",
+      "lat": "23.229836",
+      "lng": "58.895081",
+      "is_uni": "0",
+      "wil_code": "6"
+    },
+    {
+      "id": "111",
+      "name_en": "Al-Muwarit Schoold for basic education",
+      "name_ar": "مدرسة الموارد للتعليم الأساسي",
+      "lat": "22.51776",
+      "lng": "59.790739",
+      "is_uni": "0",
+      "wil_code": "36"
+    },
+    {
+      "id": "112",
+      "name_en": "Madinat at-turat school",
+      "name_ar": "مدرسة مدينة التراث ",
+      "lat": "22.944667",
+      "lng": "57.272404",
+      "is_uni": "0",
+      "wil_code": "30"
+    }
+  ]
+}

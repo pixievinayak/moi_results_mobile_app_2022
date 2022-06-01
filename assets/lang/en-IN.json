@@ -1,0 +1,15 @@
+{
+  "home_page_content": "Home Page Content",
+
+  "settings_page_title": "Settings",
+  "settings_page_reg_wilayat": "Registered Wilayat",
+  "settings_page_reg_wilayat_place_holder": "Select your Registered Wilayat",
+  "maps_page_select_wilayat": "Select Wilayat",
+  "maps_page_select_wilayat_place_holder": "Select",
+  "candidates_page_select_wilayat": "Select Wilayat",
+  "candidates_page_select_wilayat_place_holder": "Select",
+  "stats_page_select_wilayat": "Select Wilayat",
+  "stats_page_select_wilayat_place_holder": "Select",
+  "generic_select_wilayat": "Select Wilayat",
+  "generic_select_wilayat_place_holder": "Select a Wilayat"
+}
