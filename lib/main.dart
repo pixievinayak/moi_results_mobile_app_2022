@@ -79,7 +79,7 @@ class _MyAppState extends State<MyApp> {
         // ),
         '/': (context) => ChangeNotifierProvider(
           create: (context) => AppStartProvider(),
-          child: SplashScreen(),
+          child: const SplashScreen(),
         ),
         '/main_app': (context) => MultiProvider(
           providers: [
@@ -90,10 +90,10 @@ class _MyAppState extends State<MyApp> {
               create: (context) => CountdownTimerProvider(),
             )
           ],
-          child: BottomNavBarPage()
+          child: const BottomNavBarPage()
         ),
-        '/error_page': (context) => ErrorPage(),
-        '/voter_profile': (context) => VoterProfile(),
+        '/error_page': (context) => const ErrorPage(),
+        '/voter_profile': (context) => const VoterProfile(),
       },
     );
 

@@ -13,9 +13,8 @@ class CandidateProfile extends StatefulWidget {
   //final CandidateProfileVM candidateProfileVM;
   final Function onReturn;
 
-  const CandidateProfile({Key? key, required Function onReturn})
-    : onReturn = onReturn,
-        super(key: key);
+  const CandidateProfile({Key? key, required this.onReturn})
+    : super(key: key);
 
   @override
   _CandidateProfileState createState() => _CandidateProfileState();

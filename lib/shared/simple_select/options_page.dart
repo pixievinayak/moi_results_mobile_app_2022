@@ -14,7 +14,7 @@ class SelectOptionsPage extends StatefulWidget {
   final bool isMultiSelect;
   final List<String>? selectedValues;
 
-  SelectOptionsPage(this.selectedValue, this.options, this.isGrouped, this.optionsPageTitle, this.isMultiSelect, this.selectedValues);
+  const SelectOptionsPage(this.selectedValue, this.options, this.isGrouped, this.optionsPageTitle, this.isMultiSelect, this.selectedValues, {Key? key}) : super(key: key);
 
   @override
   _SelectOptionsPageState createState() => _SelectOptionsPageState();
@@ -60,8 +60,8 @@ class _SelectOptionsPageState extends State<SelectOptionsPage> {
       },
       title: Row(
         children: [
-          SizedBox(width: 10),
-          Text(item.display!, style: TextStyle(fontSize: 18)),
+          const SizedBox(width: 10),
+          Text(item.display!, style: const TextStyle(fontSize: 18)),
         ],
       ),
       trailing: widget.isMultiSelect ?
@@ -80,7 +80,7 @@ class _SelectOptionsPageState extends State<SelectOptionsPage> {
       Radio(
         value: item.value,
         groupValue: _selectedOptionsProvider!.getSelectedValue(),
-        onChanged: (dynamic? value) {
+        onChanged: (dynamic value) {
           debugPrint('radio onChanged() called: value = $value');
           _selectedOptionsProvider!.setSelectedValue(value);
           _confirmSelected();
@@ -106,12 +106,12 @@ class _SelectOptionsPageState extends State<SelectOptionsPage> {
       header: Container(
         height: 60.0,
         color: Colors.grey[100],
-        padding: EdgeInsets.symmetric(horizontal: 16.0),
+        padding: const EdgeInsets.symmetric(horizontal: 16.0),
         alignment: Alignment.centerLeft,
         child: Row(
           children: [
-            Expanded(flex: 8, child: Text(groupDisplay, style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),)),
-            Expanded(flex: 2, child: Text(optionsInGroup.length.toString(), style: TextStyle(fontSize: 18), textAlign: TextAlign.end)),
+            Expanded(flex: 8, child: Text(groupDisplay, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),)),
+            Expanded(flex: 2, child: Text(optionsInGroup.length.toString(), style: const TextStyle(fontSize: 18), textAlign: TextAlign.end)),
           ],
         ),
       ),
@@ -128,13 +128,13 @@ class _SelectOptionsPageState extends State<SelectOptionsPage> {
     List<SliverStickyHeader> _optionHeaders = [];
     String? groupValue = '';
     List<OptionItem> optionsInGroup;
-    widget.options!.forEach((option) {
+    for (var option in widget.options!) {
       if(groupValue != option.groupValue){
         groupValue = option.groupValue;
         optionsInGroup = widget.options!.where((o) => o.groupValue == groupValue).toList();
         _optionHeaders.add(_getHeaderItems(option.groupDisplay!, optionsInGroup));
       }
-    });
+    }
     return _optionHeaders;
   }
 
@@ -168,15 +168,15 @@ class _SelectOptionsPageState extends State<SelectOptionsPage> {
         title: Text(widget.optionsPageTitle),
         actions: [
           //button for select all
-          widget.isMultiSelect ? IconButton(icon: Icon(CupertinoIcons.text_badge_checkmark), onPressed: (){
+          widget.isMultiSelect ? IconButton(icon: const Icon(CupertinoIcons.text_badge_checkmark), onPressed: (){
             _selectedOptionsProvider!.setSelectedValues(widget.options!.map((o) => o.value!).toList());
           }) : Container(),
           //button for clear all
-          IconButton(icon: Icon(CupertinoIcons.trash), onPressed: (){
+          IconButton(icon: const Icon(CupertinoIcons.trash), onPressed: (){
             _clearSelected();
           }),
           //button for confirm multi election
-          widget.isMultiSelect ? IconButton(icon: Icon(CupertinoIcons.checkmark), onPressed: (){
+          widget.isMultiSelect ? IconButton(icon: const Icon(CupertinoIcons.checkmark), onPressed: (){
             _confirmSelected();
           }) : Container()
         ],

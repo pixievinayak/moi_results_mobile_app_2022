@@ -39,7 +39,7 @@ class _BottomNavBarPageState extends State<BottomNavBarPage> {
             create: (context) => CandidatesListProvider(candidates: GlobalVars.candidates, wilayats: GlobalVars.wilayats),
           )
         ],
-        child: CandidatesPage()
+        child: const CandidatesPage()
     ),
     MultiProvider(
         providers: [
@@ -50,7 +50,7 @@ class _BottomNavBarPageState extends State<BottomNavBarPage> {
             create: (context) => PollingStationMapProvider(pollingStations: GlobalVars.pollingStations, wilayats: GlobalVars.wilayats, isEnglish: Languages.isEnglish),
           )
         ],
-        child: MapPageJSON()
+        child: const MapPageJSON()
     ),
     MultiProvider(
       providers: [
@@ -61,7 +61,7 @@ class _BottomNavBarPageState extends State<BottomNavBarPage> {
           create: (context) => VoterEligibilityProvider(),
         )
       ],
-      child: HomePage()
+      child: const HomePage()
     ),
     MultiProvider(
         providers: [
@@ -72,10 +72,10 @@ class _BottomNavBarPageState extends State<BottomNavBarPage> {
             create: (context) => StatsProvider(candidates: GlobalVars.candidates),
           )
         ],
-        child: StatsPage()
+        child: const StatsPage()
     ),
     // StatsPage(),
-    SettingsPage()
+    const SettingsPage()
   ];
 
   _requestPermissions() async {

@@ -4,7 +4,7 @@ import '../models/candidate_vm.dart';
 import '../models/wilayat_vm.dart';
 
 class StatsProvider extends ChangeNotifier{
-  List<CandidateVM> _candidates;
+  final List<CandidateVM> _candidates;
   WilayatVM? _wilayat;
   int _noOfSeats = 0, _noOfCandidates = 0;
   int _totRegCnt = 0, _maleRegCnt = 0, _femaleRegCnt = 0;

@@ -20,7 +20,7 @@ class SimpleSelect extends StatefulWidget {
   final List<String> selectedValues;
   final ValueChanged<List<String>?>? onMultiChange;
 
-  SimpleSelect(this.context, this.options, {
+  const SimpleSelect(this.context, this.options, {Key? key,
     this.onChange,
     this.selectedValue,
     this.isGrouped = false,
@@ -29,7 +29,7 @@ class SimpleSelect extends StatefulWidget {
     this.isMultiSelect = false,
     this.selectedValues = const [],
     this.onMultiChange,
-  });
+  }) : super(key: key);
 
   @override
   _SimpleSelectState createState() => _SimpleSelectState();
@@ -62,7 +62,7 @@ class _SimpleSelectState extends State<SimpleSelect> {
 
   void _setSelectedValues(List<String> selectedValues){
     debugPrint('_setSelectedValues() called, selectedValues = $selectedValues');
-    String dispVal = selectedValues.length == 0 ? widget.placeHolder! : _getDisplayValueForSelectedValues(selectedValues);
+    String dispVal = selectedValues.isEmpty ? widget.placeHolder! : _getDisplayValueForSelectedValues(selectedValues);
     debugPrint('_setSelectedValue() called, dispVal = $dispVal');
     _txtCtlrDispVal!.text = dispVal;
   }
@@ -112,7 +112,7 @@ class _SimpleSelectState extends State<SimpleSelect> {
   @override
   Widget build(BuildContext context) {
     debugPrint('build() called in options select');
-    _txtCtlrDispVal = TextEditingController(text: _selectedValue == null || _selectedValue!.length == 0 ? widget.placeHolder : _getDisplayValueForSelectedValue(_selectedValue));
+    _txtCtlrDispVal = TextEditingController(text: _selectedValue == null || _selectedValue!.isEmpty ? widget.placeHolder : _getDisplayValueForSelectedValue(_selectedValue));
     return InkWell(
       child: Row(
         children: [
@@ -122,8 +122,8 @@ class _SimpleSelectState extends State<SimpleSelect> {
               keyboardType: TextInputType.multiline,
               maxLines: null,
               controller: _txtCtlrDispVal,
-              style: TextStyle(color: Colors.black54, fontSize: 18),
-              decoration: InputDecoration(
+              style: const TextStyle(color: Colors.black54, fontSize: 18),
+              decoration: const InputDecoration(
                 isDense: true,
                 contentPadding: EdgeInsets.fromLTRB(1, 20, 10, 0),
                 enabledBorder: OutlineInputBorder(

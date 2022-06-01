@@ -4,11 +4,11 @@ import 'package:flutter/foundation.dart';
 class VoterEligibilityProvider extends ChangeNotifier{
   String _civilId;
   DateTime? _dob;
-  final _dateFormat = new DateFormat('dd/MM/yyyy');
+  final _dateFormat = DateFormat('dd/MM/yyyy');
 
   VoterEligibilityProvider({String civilID = '', DateTime? dob})
-    : this._civilId = civilID,
-      this._dob = dob;
+    : _civilId = civilID,
+      _dob = dob;
 
   String getCivilID() => _civilId;
   setCivilId(String value){

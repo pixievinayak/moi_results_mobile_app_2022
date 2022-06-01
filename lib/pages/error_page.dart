@@ -1,11 +1,11 @@
-import 'package:flutter/cupertino.dart';
+
 import 'package:flutter/material.dart';
 
 class ErrorPage extends StatefulWidget {
 
   final Exception? ex;
 
-  ErrorPage({this.ex});
+  const ErrorPage({Key? key, this.ex}) : super(key: key);
 
   @override
   _ErrorPageState createState() => _ErrorPageState();
@@ -41,7 +41,7 @@ class _ErrorPageState extends State<ErrorPage> {
     debugPrint('build() on Error Page - $msg');
     return Scaffold(
       appBar: AppBar(
-        title: Text('Error Page'),
+        title: const Text('Error Page'),
         centerTitle: true,
       ),
       body: Container(
@@ -66,7 +66,7 @@ class _ErrorPageState extends State<ErrorPage> {
                               ),
                             ],
                           ),
-                          SizedBox(height: 20,),
+                          const SizedBox(height: 20,),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
@@ -77,7 +77,7 @@ class _ErrorPageState extends State<ErrorPage> {
                               ),
                             ],
                           ),
-                          SizedBox(height: 20,),
+                          const SizedBox(height: 20,),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [

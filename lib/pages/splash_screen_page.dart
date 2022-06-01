@@ -4,6 +4,8 @@ import 'package:provider/provider.dart';
 import '../providers/app_start_provider.dart';
 
 class SplashScreen extends StatefulWidget {
+  const SplashScreen({Key? key}) : super(key: key);
+
   @override
   _SplashScreenState createState() => _SplashScreenState();
 }
@@ -36,7 +38,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.white,
-      child: Center(
+      child: const Center(
         child: Directionality(
           textDirection: TextDirection.ltr,
           child: SpinKitSquareCircle(

@@ -5,8 +5,8 @@ class SelectedOptionsProvider extends ChangeNotifier{
   List<String>? _selectedValues;
 
   SelectedOptionsProvider({String? selectedValue = '', List<String>? selectedValues = const []})
-    : this._selectedValue = selectedValue,
-      this._selectedValues = selectedValues;
+    : _selectedValue = selectedValue,
+      _selectedValues = selectedValues;
 
   String? getSelectedValue() => _selectedValue;
   setSelectedValue(String? selectedValue){

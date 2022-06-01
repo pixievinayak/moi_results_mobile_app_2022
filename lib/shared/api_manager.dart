@@ -11,7 +11,7 @@ class ApiManager{
 
     GlobalVars.dio.options.headers['content-type'] = 'application/json';
 
-    var resp;
+    dynamic resp;
     if(isPost){
       resp = await GlobalVars.dio.post('${GlobalVars.mobileApiURL}/$apiMethod', queryParameters: queryParams, data: data);
     }else{

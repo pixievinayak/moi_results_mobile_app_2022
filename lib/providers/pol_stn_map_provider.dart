@@ -6,12 +6,12 @@ import '../models/wilayat_vm.dart';
 
 
 class PollingStationMapProvider extends ChangeNotifier{
-  List<WilayatVM> _wilayats;
-  List<PollingStationVM> _pollingStations;
-  Map<MarkerId, Marker> _markers = <MarkerId, Marker>{};
-  List<GeoJSONMapMarker> _geoJSONMapMarkers = [];
+  final List<WilayatVM> _wilayats;
+  final List<PollingStationVM> _pollingStations;
+  final Map<MarkerId, Marker> _markers = <MarkerId, Marker>{};
+  final List<GeoJSONMapMarker> _geoJSONMapMarkers = [];
   int _regularPolStnCount = 0, _unifiedPolStnCount = 0;
-  bool _isEnglish;
+  final bool _isEnglish;
 
   PollingStationMapProvider({required List<PollingStationVM> pollingStations, required List<WilayatVM> wilayats, required bool isEnglish})
     : _pollingStations = pollingStations,
@@ -23,7 +23,7 @@ class PollingStationMapProvider extends ChangeNotifier{
     _geoJSONMapMarkers.clear();
     _unifiedPolStnCount = 0;
     _regularPolStnCount = 0;
-    _pollingStations.forEach((polStn) {
+    for (var polStn in _pollingStations) {
       if(polStn.wilayatCode == wilayatCode || wilayatCode == "0"){
         if(polStn.isUnified!){
           _unifiedPolStnCount += 1;
@@ -50,7 +50,7 @@ class PollingStationMapProvider extends ChangeNotifier{
           // }
         );
       }
-    });
+    }
     if(callNotifyListeners){
       notifyListeners();
     }

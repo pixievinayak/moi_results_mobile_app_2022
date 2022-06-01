@@ -90,12 +90,12 @@ class _CandidatesPageState extends State<CandidatesPage> with WidgetsBindingObse
       _candidatesListProvider!.getWilayat()!.isFinalCountingOver = resultsDataJson['is_final_counting_over'];
       Iterable resultsDataIterable = resultsDataJson['candidate_data'];
       CandidateVM candidateVM;
-      resultsDataIterable.forEach((resultDataItem) {
+      for (var resultDataItem in resultsDataIterable) {
         candidateVM = _candidatesListProvider!.getCandidates().firstWhere((candidate) => candidate.civilId == resultDataItem['candidate_civil_id']);
         candidateVM.voteCount = resultDataItem['vote_count'];
         candidateVM.pollPosition = resultDataItem['position'];
         candidateVM.isElected = resultDataItem['is_elected'];
-      });
+      }
       _checkCanShowResults();
     });
     debugPrint('after calling api GetLiveCount()');

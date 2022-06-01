@@ -5,9 +5,9 @@ import '../models/wilayat_vm.dart';
 import '../shared/global.dart';
 
 class CandidatesListProvider extends ChangeNotifier{
-  List<CandidateVM> _allCandidates;
+  final List<CandidateVM> _allCandidates;
   List<CandidateVM> _filteredCandidates = [];
-  List<WilayatVM> _wilayats;
+  final List<WilayatVM> _wilayats;
   // bool _isEnglish;
   WilayatVM? _wilayat;
   bool _canShowResults = false;
