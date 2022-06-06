@@ -8,6 +8,7 @@ import '../providers/candidate_profile_provider.dart';
 import '../shared/api_manager.dart';
 import '../shared/global.dart';
 import '../shared/refresh_timer.dart';
+import 'error_page.dart';
 
 class CandidateProfile extends StatefulWidget {
   //final CandidateProfileVM candidateProfileVM;
@@ -55,7 +56,8 @@ class _CandidateProfileState extends State<CandidateProfile> with WidgetsBinding
       if(msg.isNotEmpty){
         _refreshTimer.cancelRefreshTimer();
         _invokeOnReturn = false;
-        Navigator.pushReplacementNamed(context, '/error_page', arguments: {'msg': msg});
+        // Navigator.pushReplacementNamed(context, '/error_page', arguments: {'msg': msg});
+        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => ErrorPage(ex: null, title: msg,)));
       }else{
         CandidateProfileVM candidate = _candidatesProfileProvider!.getCandidate();
         candidate.isInitialCountingOver = resultsDataJson['is_initial_counting_over'];
@@ -140,10 +142,11 @@ class _CandidateProfileState extends State<CandidateProfile> with WidgetsBinding
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: const Text('Candidate Profile'),
-          centerTitle: true,
-        ),
+        appBar: Wjts.appBar(context, 'Candidate Profile', showIcons: false),
+        // appBar: AppBar(
+        //   title: Wjts.text(context, 'Candidate Profile'),
+        //   centerTitle: true,
+        // ),
         body: Container(
           padding: const EdgeInsets.all(4),
           child: Row(

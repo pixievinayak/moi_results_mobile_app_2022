@@ -18,7 +18,7 @@ class GlobalVars{
   //static String mobileApiURL = "https://10.0.2.2:44359/api/MoI";
 
   //use when on phone/emulator in iipl office
-  static String mobileApiURL = "https://10.10.7.139/moi_results_web_api_2020/api/MoI";
+  static String mobileApiURL = "https://10.10.7.139/moi_results_web_api_2022/api/MoI";
 
   //use when on phone/emulator in sandeep vihar
   // static String mobileApiURL = "https://192.168.1.101/moi_results_web_api_2020/api/MoI";
@@ -30,7 +30,7 @@ class GlobalVars{
   static List<OptionItem> optionsDataWilayatsEn = [];
   static List<OptionItem> optionsDataWilayatsAr = [];
   static late Dio dio;
-  static DateTime countStartTime = DateTime(2022, 5, 20, 0, 0, 0);
+  static DateTime countStartTime = DateTime(2022, 12, 25, 07, 0, 0);
   static late DateTime currentOmanTime;
   static bool hasCountTimeStarted = false;
   static bool hasDataLoadingErrorOccurred = false;
@@ -46,24 +46,63 @@ class GlobalVars{
 }
 
 class TextSize{
-  static const double cardHeader = 20;
-  static const double msgRegular = 20;
-  static const double msgLarge = 26;
-  static const double regular = 14;
-  static const double large = 18;
-  static const double small = 12;
   static const double counter = 40;
+  static const double xxl = 26;
+  static const double xl = 20;
+  static const double l = 18;
+  static const double m = 14;
+  static const double s = 12;
+}
+
+class FontNames{
+  static const String tajawal = 'Tajawal';
+}
+
+class AppColours{
+  static Color? appBarColour = Colors.grey[100];
+  static Color? timerBg = Colors.grey[100];
+  static Color white = Colors.white;
+  static Color? ratingStar = Colors.amber;
+  static Color text = Colors.black54;
 }
 
 class Wjts{
-  static Text text(String text, {double size = 14, Color? color = Colors.black54, FontWeight weight = FontWeight.normal, TextAlign align = TextAlign.start}){
+  static Text text(BuildContext context, String text,
+      {
+        double? size,
+        Color? color,
+        FontWeight? weight,
+        TextAlign? align,
+        String? family
+      }){
+
     return Text(text,
-      textAlign: align,
-      style: TextStyle(
-          fontSize: size,
-          color: color,
-          fontWeight: weight
-      ),
+        textAlign: align,
+        style: txtStyle(context, weight: weight, size: size, color: color, align: align, family: family));
+  }
+
+  static TextStyle txtStyle(BuildContext context,
+      {
+        double? size,
+        Color? color,
+        FontWeight? weight,
+        TextAlign? align,
+        String? family
+      }){
+    // color = color ?? Theme.of(context).colorScheme.onBackground;
+    color = color ?? AppColours.text;
+    size = size ?? TextSize.m;
+    weight = weight ?? FontWeight.normal;
+    align = align ?? TextAlign.start;
+    family = family ?? DefaultTextStyle.of(context).style.fontFamily;
+    if(family == FontNames.tajawal){
+      size = size + 0;
+    }
+    return TextStyle(
+        fontSize: size,
+        color: color,
+        fontFamily: family,
+        fontWeight: weight
     );
   }
 
@@ -81,6 +120,30 @@ class Wjts{
       isGrouped: true,
       placeHolder: placeHolder,
       optionsPageTitle: Translations.genericSelectWilayat.tr(),
+    );
+  }
+
+  static AppBar appBar(BuildContext context, String title, {bool showIcons = true}){
+    return AppBar(
+      title: Wjts.text(context, title, color: AppColours.text, size: TextSize.l, weight: FontWeight.bold),
+      // title: Widgets.text(context, title, color: Theme.of(context).colorScheme.onBackground, size: TextSize.large, weight: FontWeight.bold),
+      centerTitle: true,
+      backgroundColor: AppColours.appBarColour!,
+      foregroundColor: AppColours.text,
+      leading: showIcons ? const Padding(
+        padding: EdgeInsets.all(5),
+        child: Image(
+          image: AssetImage("assets/images/moi-logo-shadow.png"),
+        ),
+      ) : null,
+      actions: showIcons ? const [
+        Padding(
+          padding: EdgeInsets.all(5),
+          child: Image(
+            image: AssetImage("assets/images/shura logo 2019.png"),
+          ),
+        )
+      ] : null,
     );
   }
 

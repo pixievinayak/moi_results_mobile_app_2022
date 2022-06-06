@@ -43,10 +43,7 @@ class _SettingsPageState extends State<SettingsPage> {
   Widget build(BuildContext context) {
     debugPrint('build() called on settings page');
     return Scaffold(
-      appBar: AppBar(
-        title: Text(Translations.settingsPageTitle.tr()),
-        centerTitle: true,
-      ),
+      appBar: Wjts.appBar(context, Translations.settingsPageTitle.tr()),
       body: ListView(
         children: <Widget>[
           Card(

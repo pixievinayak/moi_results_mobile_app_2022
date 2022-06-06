@@ -181,10 +181,7 @@ class _CandidatesPageState extends State<CandidatesPage> with WidgetsBindingObse
   Widget build(BuildContext context) {
     debugPrint('build() on candidate list page');
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Candidates'),
-        centerTitle: true,
-      ),
+      appBar: Wjts.appBar(context, 'Candidates'),
       body: Column(
         children: <Widget>[
           Row(

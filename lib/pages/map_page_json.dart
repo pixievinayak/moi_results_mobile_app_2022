@@ -134,11 +134,7 @@ class _MapPageJSONState extends State<MapPageJSON> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Polling Stations'),
-        centerTitle: true,
-        elevation: 10,
-      ),
+      appBar: Wjts.appBar(context, 'Polling Stations'),
       body: Column(
         children: <Widget>[
           Row(

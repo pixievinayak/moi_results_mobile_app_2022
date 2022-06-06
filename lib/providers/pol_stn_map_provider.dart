@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:google_maps_flutter/google_maps_flutter.dart';
+// import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 import '../models/polling_station_vm.dart';
 import '../models/wilayat_vm.dart';
@@ -8,7 +8,7 @@ import '../models/wilayat_vm.dart';
 class PollingStationMapProvider extends ChangeNotifier{
   final List<WilayatVM> _wilayats;
   final List<PollingStationVM> _pollingStations;
-  final Map<MarkerId, Marker> _markers = <MarkerId, Marker>{};
+  // final Map<MarkerId, Marker> _markers = <MarkerId, Marker>{};
   final List<GeoJSONMapMarker> _geoJSONMapMarkers = [];
   int _regularPolStnCount = 0, _unifiedPolStnCount = 0;
   final bool _isEnglish;
@@ -19,7 +19,7 @@ class PollingStationMapProvider extends ChangeNotifier{
       _isEnglish = isEnglish;
 
   void filterPollingStations(String? wilayatCode, {bool callNotifyListeners = true}){
-    _markers.clear();
+    // _markers.clear();
     _geoJSONMapMarkers.clear();
     _unifiedPolStnCount = 0;
     _regularPolStnCount = 0;
@@ -37,18 +37,18 @@ class PollingStationMapProvider extends ChangeNotifier{
           lng: polStn.lng!,
           isUnified: polStn.isUnified!)
         );
-        final MarkerId markerId = MarkerId(polStn.id.toString());
-        _markers[markerId] = Marker(
-          markerId: markerId,
-          position: LatLng(polStn.lat!, polStn.lng!),
-          icon: polStn.isUnified! ? BitmapDescriptor.defaultMarkerWithHue(BitmapDescriptor.hueAzure) : BitmapDescriptor.defaultMarker,
-          infoWindow: InfoWindow(
-              title: _isEnglish ? polStn.nameEn : polStn.nameAr
-          ),
-          // onTap: () {
-          //   _onMarkerTapped(markerId);
-          // }
-        );
+        // final MarkerId markerId = MarkerId(polStn.id.toString());
+        // _markers[markerId] = Marker(
+        //   markerId: markerId,
+        //   position: LatLng(polStn.lat!, polStn.lng!),
+        //   icon: polStn.isUnified! ? BitmapDescriptor.defaultMarkerWithHue(BitmapDescriptor.hueAzure) : BitmapDescriptor.defaultMarker,
+        //   infoWindow: InfoWindow(
+        //       title: _isEnglish ? polStn.nameEn : polStn.nameAr
+        //   ),
+        //   // onTap: () {
+        //   //   _onMarkerTapped(markerId);
+        //   // }
+        // );
       }
     }
     if(callNotifyListeners){
@@ -58,7 +58,7 @@ class PollingStationMapProvider extends ChangeNotifier{
 
   int getRegularPolStnCount() => _regularPolStnCount;
   int getUnifiedPolStnCount() => _unifiedPolStnCount;
-  Map<MarkerId, Marker> getMapMarkers() => _markers;
+  // Map<MarkerId, Marker> getMapMarkers() => _markers;
   List<GeoJSONMapMarker> getGeoJSONMapMarkers() => _geoJSONMapMarkers;
 
 // void _onMarkerTapped(MarkerId markerId) {

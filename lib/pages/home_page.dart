@@ -92,10 +92,7 @@ class _HomePageState extends State<HomePage> {// with WidgetsBindingObserver {
   Widget build(BuildContext context) {
     debugPrint('======= build on home page =========');
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Home'),
-        centerTitle: true,
-      ),
+      appBar: Wjts.appBar(context, 'Home'),
       body: SingleChildScrollView(
         child: Container(
           //color: Colors.red[100],

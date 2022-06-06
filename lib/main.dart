@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'localization/localization_constants.dart';
 import 'pages/bottom_nav_bar_page.dart';
-import 'pages/error_page.dart';
 import 'pages/splash_screen_page.dart';
 import 'pages/voter_profile_page.dart';
 import 'providers/app_start_provider.dart';
 import 'providers/bottom_nav_bar_provider.dart';
 import 'providers/countdown_timer_provider.dart';
+import 'shared/global.dart';
 
 // this is from the RnD branch
 void main() async {
@@ -66,7 +66,7 @@ class _MyAppState extends State<MyApp> {
 
     return MaterialApp(
       theme: ThemeData(
-        fontFamily: 'Tajawal',
+        fontFamily: FontNames.tajawal,
       ),
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
@@ -92,7 +92,7 @@ class _MyAppState extends State<MyApp> {
           ],
           child: const BottomNavBarPage()
         ),
-        '/error_page': (context) => const ErrorPage(),
+        // '/error_page': (context) => const ErrorPage(),
         '/voter_profile': (context) => const VoterProfile(),
       },
     );

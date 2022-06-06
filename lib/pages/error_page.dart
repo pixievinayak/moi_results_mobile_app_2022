@@ -1,11 +1,14 @@
 
 import 'package:flutter/material.dart';
 
+import '../shared/global.dart';
+
 class ErrorPage extends StatefulWidget {
 
   final Exception? ex;
+  final String title;
 
-  const ErrorPage({Key? key, this.ex}) : super(key: key);
+  const ErrorPage({Key? key, this.ex, this.title = ''}) : super(key: key);
 
   @override
   _ErrorPageState createState() => _ErrorPageState();
@@ -13,89 +16,113 @@ class ErrorPage extends StatefulWidget {
 
 class _ErrorPageState extends State<ErrorPage> {
   Map? _params = {};
-  String? msg = "";
-
-  // @override
-  // initState() {
-  //   debugPrint('initState() on Error Page');
-  //   Future.delayed(Duration.zero,() {
-  //     if(widget.ex != null){
-  //       msg = widget.ex.toString();
-  //     }else{
-  //       _params = _params.isNotEmpty ? _params : ModalRoute.of(context).settings.arguments;
-  //       msg = _params['msg'];
-  //     }
-  //   });
-  //   super.initState();
-  // }
+  String? _msg = "";
+  String? _title = "";
+  bool _isMsgExpanded = false;
 
   @override
   Widget build(BuildContext context) {
 
     if(widget.ex != null){
-      msg = widget.ex.toString();
+      _msg = widget.ex.toString();
+      _title = widget.title;
     }else{
       _params = _params!.isNotEmpty ? _params : ModalRoute.of(context)!.settings.arguments as Map<dynamic, dynamic>?;
-      msg = _params!['msg'];
+      _msg = _params!['msg'];
+      _title = _params!['title'];
     }
-    debugPrint('build() on Error Page - $msg');
+    debugPrint('build() on Error Page - $_msg');
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Error Page'),
-        centerTitle: true,
-      ),
-      body: Container(
-        color: Colors.white,
-        child: Column(
-          mainAxisAlignment:  MainAxisAlignment.center,
-          children: [
-            Row(
+      appBar: Wjts.appBar(context, 'Oops...'),
+      body: Stack(
+        children: [
+          Container(
+            decoration: const BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage("assets/images/bg_01.png"),
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
+          SingleChildScrollView(
+            child: Column(
+              mainAxisAlignment:  MainAxisAlignment.center,
               children: [
-                Expanded(
-                  child: Card(
-                    child: Padding(
-                      padding: const EdgeInsets.all(20),
-                      child: Column(
-                        children: [
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Flexible(
-                                child: Text('Oops! We seem to have an issue.',
-                                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.grey[600]),),
-                              ),
-                            ],
+                const SizedBox(height: 40,),
+                Row(
+                  children: [
+                    Expanded(
+                        child: FractionallySizedBox(
+                          widthFactor: 0.7,
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(100),
+                            child: const Image(
+                              image: AssetImage('assets/images/oops_02.png'),
+                            ),
                           ),
-                          const SizedBox(height: 20,),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Flexible(
-                                child: Text(msg!,
-                                  textAlign: TextAlign.center,
-                                  style: TextStyle(fontSize: 14, color: Colors.grey[600]),),
-                              ),
-                            ],
-                          ),
-                          const SizedBox(height: 20,),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Flexible(
-                                child: Text('Press back to close',
-                                  style: TextStyle(fontSize: 14, color: Colors.grey[500]),),
-                              ),
-                            ],
-                          ),
-                        ],
+                        )
+                    ),
+                  ],
+                ),
+                Row(
+                  children: [
+                    Expanded(
+                      child: Padding(
+                        padding: const EdgeInsets.all(20),
+                        child: Column(
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
+                              // child: Flexible(
+                              //     child: Wjts.text(context, _title!, size: TextSize.regular, weight: FontWeight.bold)
+                              // ),
+                              child: Wjts.text(context, _title!, size: TextSize.m, weight: FontWeight.bold)
+                            ),
+                            const SizedBox(height: 10,),
+                            ExpansionPanelList(
+                                animationDuration: const Duration(milliseconds:1000),
+                                dividerColor: Theme.of(context).errorColor,
+                                elevation:1,
+                                expansionCallback: (int item, bool status) {
+                                  setState(() {
+                                    _isMsgExpanded = !_isMsgExpanded;
+                                  });
+                                },
+                                children: [
+                                  ExpansionPanel(
+                                    headerBuilder: (context, isExpanded) {
+                                      return Padding(
+                                        padding: const EdgeInsets.fromLTRB(10, 5, 10, 0),
+                                        child: Row(
+                                          children: [
+                                            Wjts.text(context, 'Technical Details', size: TextSize.m),
+                                          ],
+                                        ),
+                                      );
+                                    },
+                                    body: Padding(
+                                      padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
+                                      child: Flexible(
+                                          child: Wjts.text(context, _msg!, size: TextSize.s)
+                                      ),
+                                    ),
+                                    canTapOnHeader: true,
+                                    isExpanded: _isMsgExpanded,
+                                  ),
+                                ]
+                            ),
+                            const SizedBox(height: 40,),
+                            Wjts.text(context, 'Press back to close', size: TextSize.m),
+                          ],
+                        ),
                       ),
                     ),
-                  ),
+                  ],
                 ),
               ],
             ),
-          ],
-        ),
+          )
+        ],
       ),
     );
   }

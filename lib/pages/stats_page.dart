@@ -245,7 +245,7 @@ class _StatsPageState extends State<StatsPage> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Padding(
-                    padding: const EdgeInsets.fromLTRB(0, 20, 0, 0),
+                    padding: const EdgeInsets.fromLTRB(0, 20, 0, 30),
                     child: Text("Voter Turnout", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.grey[800]),),
                   ),
                   SizedBox(
@@ -372,6 +372,9 @@ class _StatsPageState extends State<StatsPage> {
                                   // ),
                                   leftTitles: AxisTitles(
                                     sideTitles: SideTitles(showTitles: false)
+                                  ),
+                                  topTitles: AxisTitles(
+                                      sideTitles: SideTitles(showTitles: false)
                                   ),
                                 ),
                                 borderData: FlBorderData(

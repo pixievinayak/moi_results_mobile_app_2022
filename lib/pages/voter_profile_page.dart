@@ -60,48 +60,48 @@ class _VoterProfileState extends State<VoterProfile> {
                                   children: [
                                     Row(
                                       children: [
-                                        Wjts.text('Voter Eligibility', size: TextSize.cardHeader, weight: FontWeight.bold, color: Colors.grey[600]),
+                                        Wjts.text(context, 'Voter Eligibility', size: TextSize.xl, weight: FontWeight.bold, color: Colors.grey[600]),
                                       ],
                                     ),
                                     const SizedBox(height: 20,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text('Name: ')),
-                                        Expanded(flex: 7, child: Wjts.text(_voterEligibilityVM!.voterName!)),
+                                        Expanded(flex: 3, child: Wjts.text(context, 'Name: ')),
+                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.voterName!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text('Civil ID: ')),
-                                        Expanded(flex: 7, child: Wjts.text(_voterEligibilityVM!.civilId!)),
+                                        Expanded(flex: 3, child: Wjts.text(context, 'Civil ID: ')),
+                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.civilId!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text('Date of Birth: ')),
-                                        Expanded(flex: 7, child: Wjts.text(_voterEligibilityVM!.dob!)),
+                                        Expanded(flex: 3, child: Wjts.text(context, 'Date of Birth: ')),
+                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.dob!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text('Governorate: ')),
-                                        Expanded(flex: 7, child: Wjts.text(_voterEligibilityVM!.govName!)),
+                                        Expanded(flex: 3, child: Wjts.text(context, 'Governorate: ')),
+                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.govName!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text('Wilayat: ')),
-                                        Expanded(flex: 7, child: Wjts.text(_voterEligibilityVM!.wilayatName!)),
+                                        Expanded(flex: 3, child: Wjts.text(context, 'Wilayat: ')),
+                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.wilayatName!)),
                                       ],
                                     ),
                                     const SizedBox(height: 20,),
                                     Row(
                                       children: [
-                                        Expanded(child: Wjts.text(_voterEligibilityVM!.msgToVoter, size: TextSize.msgRegular, weight: FontWeight.bold, color: Colors.blue[800], align: TextAlign.center)),
+                                        Expanded(child: Wjts.text(context, _voterEligibilityVM!.msgToVoter, size: TextSize.xl, weight: FontWeight.bold, color: Colors.blue[800], align: TextAlign.center)),
                                       ],
                                     ),
                                     Row(
@@ -135,21 +135,21 @@ class _VoterProfileState extends State<VoterProfile> {
                                   children: [
                                     Row(
                                       children: [
-                                        Wjts.text('Voter History 2011', size: TextSize.cardHeader, weight: FontWeight.bold, color: Colors.grey[600]),
+                                        Wjts.text(context, 'Voter History 2011', size: TextSize.xl, weight: FontWeight.bold, color: Colors.grey[600]),
                                       ],
                                     ),
                                     const SizedBox(height: 20,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text('Wilayat: ')),
-                                        Expanded(flex: 7, child: Wjts.text(_voterEligibilityVM!.wilayatName2011!)),
+                                        Expanded(flex: 3, child: Wjts.text(context, 'Wilayat: ')),
+                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.wilayatName2011!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text('Polling Station: ')),
-                                        Expanded(flex: 7, child: Wjts.text(_voterEligibilityVM!.polStnName2011!)),
+                                        Expanded(flex: 3, child: Wjts.text(context, 'Polling Station: ')),
+                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.polStnName2011!)),
                                       ],
                                     ),
                                   ],
@@ -169,21 +169,21 @@ class _VoterProfileState extends State<VoterProfile> {
                                   children: [
                                     Row(
                                       children: [
-                                        Wjts.text('Voter History 2012', size: TextSize.cardHeader, weight: FontWeight.bold, color: Colors.grey[600]),
+                                        Wjts.text(context, 'Voter History 2012', size: TextSize.xl, weight: FontWeight.bold, color: Colors.grey[600]),
                                       ],
                                     ),
                                     const SizedBox(height: 20,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text('Wilayat: ')),
-                                        Expanded(flex: 7, child: Wjts.text(_voterEligibilityVM!.wilayatName2012!)),
+                                        Expanded(flex: 3, child: Wjts.text(context, 'Wilayat: ')),
+                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.wilayatName2012!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text('Polling Station: ')),
-                                        Expanded(flex: 7, child: Wjts.text(_voterEligibilityVM!.polStnName2012!)),
+                                        Expanded(flex: 3, child: Wjts.text(context, 'Polling Station: ')),
+                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.polStnName2012!)),
                                       ],
                                     ),
                                   ],
@@ -203,21 +203,21 @@ class _VoterProfileState extends State<VoterProfile> {
                                   children: [
                                     Row(
                                       children: [
-                                        Wjts.text('Voter History 2015', size: TextSize.cardHeader, weight: FontWeight.bold, color: Colors.grey[600]),
+                                        Wjts.text(context, 'Voter History 2015', size: TextSize.xl, weight: FontWeight.bold, color: Colors.grey[600]),
                                       ],
                                     ),
                                     const SizedBox(height: 20,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text('Wilayat: ')),
-                                        Expanded(flex: 7, child: Wjts.text(_voterEligibilityVM!.wilayatName2015!)),
+                                        Expanded(flex: 3, child: Wjts.text(context, 'Wilayat: ')),
+                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.wilayatName2015!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text('Polling Station: ')),
-                                        Expanded(flex: 7, child: Wjts.text(_voterEligibilityVM!.polStnName2015!)),
+                                        Expanded(flex: 3, child: Wjts.text(context, 'Polling Station: ')),
+                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.polStnName2015!)),
                                       ],
                                     ),
                                   ],
@@ -237,21 +237,21 @@ class _VoterProfileState extends State<VoterProfile> {
                                   children: [
                                     Row(
                                       children: [
-                                        Wjts.text('Voter History 2016', size: TextSize.cardHeader, weight: FontWeight.bold, color: Colors.grey[600]),
+                                        Wjts.text(context, 'Voter History 2016', size: TextSize.xl, weight: FontWeight.bold, color: Colors.grey[600]),
                                       ],
                                     ),
                                     const SizedBox(height: 20,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text('Wilayat: ')),
-                                        Expanded(flex: 7, child: Wjts.text(_voterEligibilityVM!.wilayatName2016!)),
+                                        Expanded(flex: 3, child: Wjts.text(context, 'Wilayat: ')),
+                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.wilayatName2016!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text('Polling Station: ')),
-                                        Expanded(flex: 7, child: Wjts.text(_voterEligibilityVM!.polStnName2016!)),
+                                        Expanded(flex: 3, child: Wjts.text(context, 'Polling Station: ')),
+                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.polStnName2016!)),
                                       ],
                                     ),
                                   ],
