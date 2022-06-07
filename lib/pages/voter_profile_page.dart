@@ -6,7 +6,8 @@ import '../models/voter_eligibility_vm.dart';
 import '../shared/global.dart';
 
 class VoterProfile extends StatefulWidget {
-  const VoterProfile({Key? key}) : super(key: key);
+  final VoterEligibilityVM? voterEligibilityVM;
+  const VoterProfile({Key? key, this.voterEligibilityVM}) : super(key: key);
 
   @override
   _VoterProfileState createState() => _VoterProfileState();
@@ -14,32 +15,32 @@ class VoterProfile extends StatefulWidget {
 
 class _VoterProfileState extends State<VoterProfile> {
 
-  VoterEligibilityVM? _voterEligibilityVM;
-  Map? _params = {};
+  // VoterEligibilityVM? widget.voterEligibilityVM;
+  // Map? _params = {};
 
   @override
   Widget build(BuildContext context) {
 
-    _params = _params!.isNotEmpty ? _params : ModalRoute.of(context)!.settings.arguments as Map<dynamic, dynamic>?;
-    _voterEligibilityVM = _params!['voter_profile_vm'];
-    if(_voterEligibilityVM!.isRegisteredToVote!){
-      if(_voterEligibilityVM!.hasCompletedRemoteVoting!){
-        _voterEligibilityVM!.msgToVoter = 'You have successfully completed remote voting.';
-      }else if(_voterEligibilityVM!.hasCompletedKioskVoting!){
-        _voterEligibilityVM!.msgToVoter = 'You have successfully completed kiosk voting.';
-        if(_voterEligibilityVM!.canShowCertificate!){
-          _voterEligibilityVM!.msgToVoter += '\nClick on the button below to view your participation certificate.';
+    // _params = _params!.isNotEmpty ? _params : ModalRoute.of(context)!.settings.arguments as Map<dynamic, dynamic>?;
+    // widget.voterEligibilityVM = _params!['voter_profile_vm'];
+    if(widget.voterEligibilityVM!.isRegisteredToVote!){
+      if(widget.voterEligibilityVM!.hasCompletedRemoteVoting!){
+        widget.voterEligibilityVM!.msgToVoter = 'You have successfully completed remote voting.';
+      }else if(widget.voterEligibilityVM!.hasCompletedKioskVoting!){
+        widget.voterEligibilityVM!.msgToVoter = 'You have successfully completed kiosk voting.';
+        if(widget.voterEligibilityVM!.canShowCertificate!){
+          widget.voterEligibilityVM!.msgToVoter += '\nClick on the button below to view your participation certificate.';
         }
       }else{
-        _voterEligibilityVM!.msgToVoter = 'You are a registered voter.';
+        widget.voterEligibilityVM!.msgToVoter = 'You are a registered voter.';
       }
     }else{
-      _voterEligibilityVM!.msgToVoter = 'You have not registered for voting.';
+      widget.voterEligibilityVM!.msgToVoter = 'You have not registered for voting.';
     }
 
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Voter Profile'),
+          title: Wjts.text(context, 'Voter Profile'),
           centerTitle: true,
         ),
         body: SingleChildScrollView(
@@ -67,52 +68,52 @@ class _VoterProfileState extends State<VoterProfile> {
                                     Row(
                                       children: [
                                         Expanded(flex: 3, child: Wjts.text(context, 'Name: ')),
-                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.voterName!)),
+                                        Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.voterName!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
                                         Expanded(flex: 3, child: Wjts.text(context, 'Civil ID: ')),
-                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.civilId!)),
+                                        Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.civilId!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
                                         Expanded(flex: 3, child: Wjts.text(context, 'Date of Birth: ')),
-                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.dob!)),
+                                        Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.dob!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
                                         Expanded(flex: 3, child: Wjts.text(context, 'Governorate: ')),
-                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.govName!)),
+                                        Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.govName!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
                                         Expanded(flex: 3, child: Wjts.text(context, 'Wilayat: ')),
-                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.wilayatName!)),
+                                        Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.wilayatName!)),
                                       ],
                                     ),
                                     const SizedBox(height: 20,),
                                     Row(
                                       children: [
-                                        Expanded(child: Wjts.text(context, _voterEligibilityVM!.msgToVoter, size: TextSize.xl, weight: FontWeight.bold, color: Colors.blue[800], align: TextAlign.center)),
+                                        Expanded(child: Wjts.text(context, widget.voterEligibilityVM!.msgToVoter, size: TextSize.xl, weight: FontWeight.bold, color: Colors.blue[800], align: TextAlign.center)),
                                       ],
                                     ),
                                     Row(
                                       mainAxisAlignment: MainAxisAlignment.center,
                                       children: [
-                                        !_voterEligibilityVM!.canShowCertificate! ? Container() :
+                                        !widget.voterEligibilityVM!.canShowCertificate! ? Container() :
                                         OutlinedButton(
-                                          child: Text('View Certificate', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16, color: Colors.grey[800]),),
+                                          child: Wjts.text(context, 'View Certificate', weight: FontWeight.bold, size: TextSize.l),
                                           onPressed: () async {
                                             //String certificatePath = "https://img1.wsimg.com/blobby/go/7cfa76f8-4a5b-497c-878f-e2d104424cc9/JIO%20IN%20SANDEEP%20VIHAR.pdf";
-                                            await launchUrlString(_voterEligibilityVM!.certificatePath!);
+                                            await launchUrlString(widget.voterEligibilityVM!.certificatePath!);
                                           },
                                         ),
                                       ],
@@ -142,14 +143,14 @@ class _VoterProfileState extends State<VoterProfile> {
                                     Row(
                                       children: [
                                         Expanded(flex: 3, child: Wjts.text(context, 'Wilayat: ')),
-                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.wilayatName2011!)),
+                                        Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.wilayatName2011!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
                                         Expanded(flex: 3, child: Wjts.text(context, 'Polling Station: ')),
-                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.polStnName2011!)),
+                                        Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.polStnName2011!)),
                                       ],
                                     ),
                                   ],
@@ -176,14 +177,14 @@ class _VoterProfileState extends State<VoterProfile> {
                                     Row(
                                       children: [
                                         Expanded(flex: 3, child: Wjts.text(context, 'Wilayat: ')),
-                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.wilayatName2012!)),
+                                        Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.wilayatName2012!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
                                         Expanded(flex: 3, child: Wjts.text(context, 'Polling Station: ')),
-                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.polStnName2012!)),
+                                        Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.polStnName2012!)),
                                       ],
                                     ),
                                   ],
@@ -210,14 +211,14 @@ class _VoterProfileState extends State<VoterProfile> {
                                     Row(
                                       children: [
                                         Expanded(flex: 3, child: Wjts.text(context, 'Wilayat: ')),
-                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.wilayatName2015!)),
+                                        Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.wilayatName2015!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
                                         Expanded(flex: 3, child: Wjts.text(context, 'Polling Station: ')),
-                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.polStnName2015!)),
+                                        Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.polStnName2015!)),
                                       ],
                                     ),
                                   ],
@@ -244,14 +245,14 @@ class _VoterProfileState extends State<VoterProfile> {
                                     Row(
                                       children: [
                                         Expanded(flex: 3, child: Wjts.text(context, 'Wilayat: ')),
-                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.wilayatName2016!)),
+                                        Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.wilayatName2016!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
                                         Expanded(flex: 3, child: Wjts.text(context, 'Polling Station: ')),
-                                        Expanded(flex: 7, child: Wjts.text(context, _voterEligibilityVM!.polStnName2016!)),
+                                        Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.polStnName2016!)),
                                       ],
                                     ),
                                   ],

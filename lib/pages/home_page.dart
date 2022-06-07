@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:moi_results_mobile_app_2022/pages/voter_profile_page.dart';
 import 'package:provider/provider.dart';
 
 import '../localization/localization_constants.dart';
@@ -67,7 +68,8 @@ class _HomePageState extends State<HomePage> {// with WidgetsBindingObserver {
       voterEligibilityVM.wilayatName2015 = GlobalMethods.getWilayatNameFromCode(eligibilityDataJson['voter_history']['wilayat_code_2015']);
       voterEligibilityVM.wilayatName2016 = GlobalMethods.getWilayatNameFromCode(eligibilityDataJson['voter_history']['wilayat_code_2016']);
 
-      Navigator.pushNamed(context, '/voter_profile', arguments: {'voter_profile_vm': voterEligibilityVM});
+      // Navigator.pushNamed(context, '/voter_profile', arguments: {'voter_profile_vm': voterEligibilityVM});
+      Navigator.push(context, MaterialPageRoute(builder: (context) => VoterProfile(voterEligibilityVM: voterEligibilityVM)));
     });
     // debugPrint('after calling api GetVoterEligibility()');
   }
@@ -109,17 +111,17 @@ class _HomePageState extends State<HomePage> {// with WidgetsBindingObserver {
                           children: [
                             Row(
                               children: [
-                                Text('Countdown to results', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.grey[600]),),
+                                Wjts.text(context, 'Countdown to results', size: TextSize.xl, weight: FontWeight.bold),
                               ],
                             ),
                             const SizedBox(height: 20,),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                //Text(_countdownTimerProvider!.getRemainingTime(), style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.blue[800],))
+                                //Wjts.text(_countdownTimerProvider!.getRemainingTime(), style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.blue[800],))
                                 Consumer<CountdownTimerProvider>(
                                   builder: (context, data, child){
-                                    return Text(data.getRemainingTimeAsStr(), style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.blue[800],));
+                                    return Wjts.text(context, data.getRemainingTimeAsStr(), size: TextSize.xl, weight: FontWeight.bold);
                                   }
                                 )
                               ],
@@ -143,7 +145,7 @@ class _HomePageState extends State<HomePage> {// with WidgetsBindingObserver {
                             children: [
                               Row(
                                 children: [
-                                  Text('Check voter eligibility', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.grey[600]),),
+                                  Wjts.text(context, 'Check voter eligibility', size: TextSize.xl, weight: FontWeight.bold),
                                 ],
                               ),
                               const SizedBox(height: 20,),
@@ -228,7 +230,7 @@ class _HomePageState extends State<HomePage> {// with WidgetsBindingObserver {
                                             Padding(
                                               padding: const EdgeInsets.fromLTRB(0, 5, 0, 0),
                                               child: OutlinedButton(
-                                                child: Text('Check Eligibility', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16, color: Colors.grey[800]),),
+                                                child: Wjts.text(context, 'Check Eligibility', weight: FontWeight.bold, size: TextSize.l),
                                                 onPressed: (){
                                                   // _countdownTimerProvider!.updateRemainingTime('hello world! - ${_counter++}');
                                                   if (_eligibilityFormKey.currentState!.validate()) {

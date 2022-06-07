@@ -4,7 +4,6 @@ import 'package:provider/provider.dart';
 import 'localization/localization_constants.dart';
 import 'pages/bottom_nav_bar_page.dart';
 import 'pages/splash_screen_page.dart';
-import 'pages/voter_profile_page.dart';
 import 'providers/app_start_provider.dart';
 import 'providers/bottom_nav_bar_provider.dart';
 import 'providers/countdown_timer_provider.dart';
@@ -93,7 +92,7 @@ class _MyAppState extends State<MyApp> {
           child: const BottomNavBarPage()
         ),
         // '/error_page': (context) => const ErrorPage(),
-        '/voter_profile': (context) => const VoterProfile(),
+        // '/voter_profile': (context) => const VoterProfile(),
       },
     );
 

@@ -181,15 +181,12 @@ class _CandidateProfileState extends State<CandidateProfile> with WidgetsBinding
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Flexible(
-                              child: Text(
+                              child: Wjts.text(context, 
                                 _candidatesProfileProvider!.getCandidate().candidateName!,
-                                maxLines: 2,
-                                textAlign: TextAlign.center,
-                                style: TextStyle(
-                                    fontSize: 26,
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.grey[800]
-                                ),
+                                // maxLines: 2,
+                                align: TextAlign.center,
+                                size: TextSize.xxl,
+                                weight: FontWeight.bold,
                               ),
                             )
                           ],
@@ -198,20 +195,14 @@ class _CandidateProfileState extends State<CandidateProfile> with WidgetsBinding
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Text(
+                            Wjts.text(context, 
                               'Governorate: ',
-                              style: TextStyle(
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.grey[800]
-                              ),
+                              size: TextSize.l,
+                              weight: FontWeight.bold,
                             ),
-                            Text(
+                            Wjts.text(context, 
                               _candidatesProfileProvider!.getCandidate().govName!,
-                              style: TextStyle(
-                                fontSize: 18,
-                                color: Colors.grey[800],
-                              ),
+                              size: TextSize.l,
                             ),
                           ],
                         ),
@@ -219,20 +210,14 @@ class _CandidateProfileState extends State<CandidateProfile> with WidgetsBinding
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Text(
+                            Wjts.text(context, 
                               'Wilayat: ',
-                              style: TextStyle(
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.grey[800]
-                              ),
+                              size: TextSize.l,
+                              weight: FontWeight.bold,
                             ),
-                            Text(
+                            Wjts.text(context, 
                               _candidatesProfileProvider!.getCandidate().wilayatName!,
-                              style: TextStyle(
-                                fontSize: 18,
-                                color: Colors.grey[800],
-                              ),
+                              size: TextSize.l,
                             ),
                           ],
                         ),
@@ -252,12 +237,10 @@ class _CandidateProfileState extends State<CandidateProfile> with WidgetsBinding
                                               Row(
                                                 mainAxisAlignment: MainAxisAlignment.center,
                                                 children: [
-                                                  Text(
+                                                  Wjts.text(context, 
                                                     data.getResultType(),
-                                                    style: const TextStyle(
-                                                      fontSize: 26,
-                                                      fontWeight: FontWeight.bold,
-                                                    ),
+                                                    size: 26,
+                                                    weight: FontWeight.bold,
                                                   ),
                                                 ],
                                               ),
@@ -267,13 +250,13 @@ class _CandidateProfileState extends State<CandidateProfile> with WidgetsBinding
                                               Row(
                                                 mainAxisAlignment: MainAxisAlignment.center,
                                                 children: [
-                                                  Text(
+                                                  Wjts.text(context, 
                                                     'Position: ',
-                                                    style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.grey[800]),
+                                                    size: TextSize.xl, weight: FontWeight.bold
                                                   ),
-                                                  Text(
+                                                  Wjts.text(context, 
                                                     data.getCandidate().pollPosition.toString(),
-                                                    style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold, color: Colors.blue[800]),
+                                                    size: TextSize.xxl, weight: FontWeight.bold
                                                   ),
                                                 ],
                                               ),
@@ -283,13 +266,13 @@ class _CandidateProfileState extends State<CandidateProfile> with WidgetsBinding
                                               Row(
                                                 mainAxisAlignment: MainAxisAlignment.center,
                                                 children: [
-                                                  Text(
+                                                  Wjts.text(context, 
                                                     'Votes: ',
-                                                    style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.grey[800]),
+                                                    size: TextSize.xl, weight: FontWeight.bold
                                                   ),
-                                                  Text(
+                                                  Wjts.text(context, 
                                                     data.getCandidate().voteCount.toString(),
-                                                    style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold, color: Colors.green[800]),
+                                                    size: TextSize.xxl, weight: FontWeight.bold
                                                   ),
                                                 ],
                                               ),

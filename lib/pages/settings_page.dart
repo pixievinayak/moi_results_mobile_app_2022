@@ -52,8 +52,8 @@ class _SettingsPageState extends State<SettingsPage> {
               leading: const Image(
                 image: AssetImage('assets/images/language_2.png'),
               ),
-              title: const Text('Language'),
-              subtitle: Text(Languages.currentLanguageName),
+              title: Wjts.text(context, 'Language'),
+              subtitle: Wjts.text(context, Languages.currentLanguageName),
               trailing: Switch(value: Languages.isEnglish, onChanged: (val) {
                 Languages.isEnglish = val;
                 if(Languages.isEnglish){
@@ -99,24 +99,24 @@ class _SettingsPageState extends State<SettingsPage> {
               leading: const Image(
                 image: AssetImage('assets/images/version_1.png'),
               ),
-              title: const Text('Version'),
-              subtitle: Text('v1.0 (beta) - [w:${GlobalVars.wilayatsDataVersion}, p:${GlobalVars.polStnsDataVersion}, c:${GlobalVars.candidatesDataVersion}]'),
+              title: Wjts.text(context, 'Version'),
+              subtitle: Wjts.text(context, 'v1.0 (beta) - [w:${GlobalVars.wilayatsDataVersion}, p:${GlobalVars.polStnsDataVersion}, c:${GlobalVars.candidatesDataVersion}]'),
               onLongPress: (){
                 debugPrint("Long pressed on version");
                 showDialog(
                   context: context,
                   barrierDismissible: false,
                   builder: (_) => AlertDialog(
-                    content: const Text('Are you sure you want to clear the local data?'),
+                    content: Wjts.text(context, 'Are you sure you want to clear the local data?'),
                     actions: <Widget>[
                       TextButton(
-                        child: const Text('No'),
+                        child: Wjts.text(context, 'No'),
                         onPressed: () {
                           Navigator.of(context).pop(false);
                         },
                       ),
                       TextButton(
-                        child: const Text('Yes'),
+                        child: Wjts.text(context, 'Yes'),
                         onPressed: () {
                           _clearStoredData();
                           Navigator.of(context).pop(true);

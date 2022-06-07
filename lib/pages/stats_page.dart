@@ -77,7 +77,7 @@ class _StatsPageState extends State<StatsPage> {
     debugPrint('build() on Stats Page');
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Statistics'),
+        title: Wjts.text(context, 'Statistics'),
         centerTitle: true,
       ),
       body: SingleChildScrollView(
@@ -106,7 +106,7 @@ class _StatsPageState extends State<StatsPage> {
                 children: <Widget>[
                   Padding(
                     padding: const EdgeInsets.fromLTRB(0, 20, 0, 20),
-                    child: Text("Candidates & Seats", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.grey[800]),),
+                    child: Wjts.text(context, "Candidates & Seats", size: TextSize.l, weight: FontWeight.bold),
                   ),
                   Row(
                     children: [
@@ -165,7 +165,7 @@ class _StatsPageState extends State<StatsPage> {
                 children: <Widget>[
                   Padding(
                     padding: const EdgeInsets.fromLTRB(0, 20, 0, 0),
-                    child: Text("Registered Voters", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.grey[800]),),
+                    child: Wjts.text(context, "Registered Voters", size: TextSize.l, weight: FontWeight.bold),
                   ),
                   SizedBox(
                       height: 260,
@@ -246,7 +246,7 @@ class _StatsPageState extends State<StatsPage> {
                 children: <Widget>[
                   Padding(
                     padding: const EdgeInsets.fromLTRB(0, 20, 0, 30),
-                    child: Text("Voter Turnout", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.grey[800]),),
+                    child: Wjts.text(context, "Voter Turnout", size: TextSize.l, weight: FontWeight.bold),
                   ),
                   SizedBox(
                       height: 250,
@@ -345,7 +345,7 @@ class _StatsPageState extends State<StatsPage> {
                                         return SideTitleWidget(
                                           axisSide: meta.axisSide,
                                           space: 4.0,
-                                          child: Text(text, style: const TextStyle(color: Colors.grey, fontWeight: FontWeight.normal, fontSize: 12)),
+                                          child: Wjts.text(context, text, color: Colors.grey, weight: FontWeight.normal, size: TextSize.s),
                                         );
                                       },
                                     )

@@ -83,8 +83,8 @@ class _MapPageJSONState extends State<MapPageJSON> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Flexible(
-                                    child: Text(wilayatName,
-                                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.grey[800]),),
+                                    child: Wjts.text(context, wilayatName,
+                                      size: TextSize.xl, weight: FontWeight.bold),
                                   ),
                                 ],
                               ),
@@ -93,9 +93,9 @@ class _MapPageJSONState extends State<MapPageJSON> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Flexible(
-                                    child: Text(polStnName,
-                                      textAlign: TextAlign.center,
-                                      style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.grey[600]),),
+                                    child: Wjts.text(context, polStnName,
+                                      align: TextAlign.center,
+                                      size: TextSize.l, weight: FontWeight.bold),
                                   ),
                                 ],
                               ),
@@ -104,7 +104,7 @@ class _MapPageJSONState extends State<MapPageJSON> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   ElevatedButton(
-                                    child: const Text('Get Directions'),
+                                    child: Wjts.text(context, 'Get Directions'),
                                     onPressed: (){
                                       String googleUrl = 'https://www.google.com/maps/search/?api=1&query=$latitude,$longitude';
                                       canLaunchUrlString(googleUrl).then((canLaunch) {
@@ -156,12 +156,12 @@ class _MapPageJSONState extends State<MapPageJSON> {
                           children: [
                             Consumer<PollingStationMapProvider>(
                               builder: (context, data, child) {
-                                return Text('Regular: ${data.getRegularPolStnCount()}', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.red[700]));
+                                return Wjts.text(context, 'Regular: ${data.getRegularPolStnCount()}', weight: FontWeight.bold, color: Colors.red[700]);
                               }
                             ),
                             Consumer<PollingStationMapProvider>(
                                 builder: (context, data, child) {
-                                  return Text('Unified: ${_pollingStationMapProvider!.getUnifiedPolStnCount()}', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blue[700]));
+                                  return Wjts.text(context, 'Unified: ${_pollingStationMapProvider!.getUnifiedPolStnCount()}', weight: FontWeight.bold, color: Colors.blue[700]);
                                 }
                             ),
                           ],
@@ -194,7 +194,7 @@ class _MapPageJSONState extends State<MapPageJSON> {
                       //         Stack(
                       //           children: [
                       //             Center(
-                      //               child: Text(
+                      //               child: Wjts.text(context, 
                       //                 _pollingStationMapProvider!.getGeoJSONMapMarkers()[index].polStnName,
                       //                 style: TextStyle(
                       //                   color: Colors.black87,
@@ -209,7 +209,7 @@ class _MapPageJSONState extends State<MapPageJSON> {
                       //           thickness: 1,
                       //         ),
                       //         // InkWell(
-                      //         //   child: Text('Get Directions'),
+                      //         //   child: Wjts.text(context, 'Get Directions'),
                       //         //   onTap: (){
                       //         //     debugPrint('getting directions...');
                       //         //   },

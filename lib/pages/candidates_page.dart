@@ -195,7 +195,7 @@ class _CandidatesPageState extends State<CandidatesPage> with WidgetsBindingObse
                           if(data.getCanShowResultType()){
                             return Padding(
                               padding: const EdgeInsets.fromLTRB(0, 8, 0, 0),
-                              child: Text(data.getResultType(), style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.grey[800]),),
+                              child: Wjts.text(context, data.getResultType(), size: TextSize.l, weight: FontWeight.bold),
                             );
                           }else{
                             return Container();
@@ -223,8 +223,7 @@ class _CandidatesPageState extends State<CandidatesPage> with WidgetsBindingObse
                         child: Center(
                             child: Padding(
                               padding: const EdgeInsets.fromLTRB(0, 20, 0, 20),
-                              child: Text("Please select a Wilayat to view the candidates",
-                                style: TextStyle(fontSize: 18, color: Colors.grey[800]),),
+                              child: Wjts.text(context, "Please select a Wilayat to view the candidates", size: 18),
                             )
                         ),
                       ),
@@ -247,7 +246,7 @@ class _CandidatesPageState extends State<CandidatesPage> with WidgetsBindingObse
                                   leading: Image(
                                     image: AssetImage('assets/images/candidates/${candidate.civilId}.jpg'),
                                   ),
-                                  title: Text(Languages.isEnglish ? candidate.nameEn! : candidate.nameAr!),
+                                  title: Wjts.text(context, Languages.isEnglish ? candidate.nameEn! : candidate.nameAr!),
                                   subtitle: data.getCanShowResults() ? RichText(
                                       text: TextSpan(
                                           children: <TextSpan>[

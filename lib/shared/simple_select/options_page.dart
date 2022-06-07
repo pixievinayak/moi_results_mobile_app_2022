@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_sticky_header/flutter_sticky_header.dart';
 import 'package:provider/provider.dart';
+import '../global.dart';
 import 'common.dart';
 import 'providers/selected_options_provider.dart';
 
@@ -61,7 +62,7 @@ class _SelectOptionsPageState extends State<SelectOptionsPage> {
       title: Row(
         children: [
           const SizedBox(width: 10),
-          Text(item.display!, style: const TextStyle(fontSize: 18)),
+          Wjts.text(context, item.display!, size: TextSize.l),
         ],
       ),
       trailing: widget.isMultiSelect ?
@@ -110,8 +111,8 @@ class _SelectOptionsPageState extends State<SelectOptionsPage> {
         alignment: Alignment.centerLeft,
         child: Row(
           children: [
-            Expanded(flex: 8, child: Text(groupDisplay, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),)),
-            Expanded(flex: 2, child: Text(optionsInGroup.length.toString(), style: const TextStyle(fontSize: 18), textAlign: TextAlign.end)),
+            Expanded(flex: 8, child: Wjts.text(context, groupDisplay, size: TextSize.l, weight: FontWeight.bold)),
+            Expanded(flex: 2, child: Wjts.text(context, optionsInGroup.length.toString(), size: TextSize.l, align: TextAlign.end)),
           ],
         ),
       ),
@@ -165,7 +166,7 @@ class _SelectOptionsPageState extends State<SelectOptionsPage> {
     debugPrint('build() called on options page');
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.optionsPageTitle),
+        title: Wjts.text(context, widget.optionsPageTitle),
         actions: [
           //button for select all
           widget.isMultiSelect ? IconButton(icon: const Icon(CupertinoIcons.text_badge_checkmark), onPressed: (){
