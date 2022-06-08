@@ -1,7 +1,9 @@
 
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
+import '../localization/localization_constants.dart';
 import '../models/voter_eligibility_vm.dart';
 import '../shared/global.dart';
 
@@ -25,24 +27,25 @@ class _VoterProfileState extends State<VoterProfile> {
     // widget.voterEligibilityVM = _params!['voter_profile_vm'];
     if(widget.voterEligibilityVM!.isRegisteredToVote!){
       if(widget.voterEligibilityVM!.hasCompletedRemoteVoting!){
-        widget.voterEligibilityVM!.msgToVoter = 'You have successfully completed remote voting.';
+        widget.voterEligibilityVM!.msgToVoter = '${Translations.vpPageCompRV.tr()}.';
       }else if(widget.voterEligibilityVM!.hasCompletedKioskVoting!){
-        widget.voterEligibilityVM!.msgToVoter = 'You have successfully completed kiosk voting.';
+        widget.voterEligibilityVM!.msgToVoter = '${Translations.vpPageCompKV}.';
         if(widget.voterEligibilityVM!.canShowCertificate!){
-          widget.voterEligibilityVM!.msgToVoter += '\nClick on the button below to view your participation certificate.';
+          widget.voterEligibilityVM!.msgToVoter += '\n${Translations.vpPageViewCertMsg.tr()}.';
         }
       }else{
-        widget.voterEligibilityVM!.msgToVoter = 'You are a registered voter.';
+        widget.voterEligibilityVM!.msgToVoter = '${Translations.vpPageReg.tr()}.';
       }
     }else{
-      widget.voterEligibilityVM!.msgToVoter = 'You have not registered for voting.';
+      widget.voterEligibilityVM!.msgToVoter = '${Translations.vpPageNotReg.tr()}.';
     }
 
     return Scaffold(
-        appBar: AppBar(
-          title: Wjts.text(context, 'Voter Profile'),
-          centerTitle: true,
-        ),
+        // appBar: AppBar(
+        //   title: Wjts.text(context, 'Voter Profile'),
+        //   centerTitle: true,
+        // ),
+        appBar: Wjts.appBar(context, Translations.vpPageTitle.tr(), showIcons: false),
         body: SingleChildScrollView(
           child: Container(
             padding: const EdgeInsets.all(4),
@@ -61,41 +64,41 @@ class _VoterProfileState extends State<VoterProfile> {
                                   children: [
                                     Row(
                                       children: [
-                                        Wjts.text(context, 'Voter Eligibility', size: TextSize.xl, weight: FontWeight.bold, color: Colors.grey[600]),
+                                        Wjts.text(context, Translations.vpPageVoterEligibility.tr(), size: TextSize.xl, weight: FontWeight.bold, color: Colors.grey[600]),
                                       ],
                                     ),
                                     const SizedBox(height: 20,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, 'Name: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonName.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.voterName!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, 'Civil ID: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonCivilID.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.civilId!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, 'Date of Birth: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonDoB.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.dob!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, 'Governorate: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonGovernorate.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.govName!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, 'Wilayat: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonWilayat.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.wilayatName!)),
                                       ],
                                     ),
@@ -110,7 +113,7 @@ class _VoterProfileState extends State<VoterProfile> {
                                       children: [
                                         !widget.voterEligibilityVM!.canShowCertificate! ? Container() :
                                         OutlinedButton(
-                                          child: Wjts.text(context, 'View Certificate', weight: FontWeight.bold, size: TextSize.l),
+                                          child: Wjts.text(context, Translations.vpPageViewCert.tr(), weight: FontWeight.bold, size: TextSize.l),
                                           onPressed: () async {
                                             //String certificatePath = "https://img1.wsimg.com/blobby/go/7cfa76f8-4a5b-497c-878f-e2d104424cc9/JIO%20IN%20SANDEEP%20VIHAR.pdf";
                                             await launchUrlString(widget.voterEligibilityVM!.certificatePath!);
@@ -136,20 +139,20 @@ class _VoterProfileState extends State<VoterProfile> {
                                   children: [
                                     Row(
                                       children: [
-                                        Wjts.text(context, 'Voter History 2011', size: TextSize.xl, weight: FontWeight.bold, color: Colors.grey[600]),
+                                        Wjts.text(context, '${Translations.vpPageVoterHist.tr()} 2011', size: TextSize.xl, weight: FontWeight.bold, color: Colors.grey[600]),
                                       ],
                                     ),
                                     const SizedBox(height: 20,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, 'Wilayat: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonWilayat.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.wilayatName2011!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, 'Polling Station: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonPolStn.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.polStnName2011!)),
                                       ],
                                     ),
@@ -170,20 +173,20 @@ class _VoterProfileState extends State<VoterProfile> {
                                   children: [
                                     Row(
                                       children: [
-                                        Wjts.text(context, 'Voter History 2012', size: TextSize.xl, weight: FontWeight.bold, color: Colors.grey[600]),
+                                        Wjts.text(context, '${Translations.vpPageVoterHist.tr()} 2012', size: TextSize.xl, weight: FontWeight.bold, color: Colors.grey[600]),
                                       ],
                                     ),
                                     const SizedBox(height: 20,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, 'Wilayat: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonWilayat.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.wilayatName2012!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, 'Polling Station: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonPolStn.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.polStnName2012!)),
                                       ],
                                     ),
@@ -204,20 +207,20 @@ class _VoterProfileState extends State<VoterProfile> {
                                   children: [
                                     Row(
                                       children: [
-                                        Wjts.text(context, 'Voter History 2015', size: TextSize.xl, weight: FontWeight.bold, color: Colors.grey[600]),
+                                        Wjts.text(context, '${Translations.vpPageVoterHist.tr()} 2015', size: TextSize.xl, weight: FontWeight.bold, color: Colors.grey[600]),
                                       ],
                                     ),
                                     const SizedBox(height: 20,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, 'Wilayat: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonWilayat.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.wilayatName2015!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, 'Polling Station: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonPolStn.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.polStnName2015!)),
                                       ],
                                     ),
@@ -238,20 +241,20 @@ class _VoterProfileState extends State<VoterProfile> {
                                   children: [
                                     Row(
                                       children: [
-                                        Wjts.text(context, 'Voter History 2016', size: TextSize.xl, weight: FontWeight.bold, color: Colors.grey[600]),
+                                        Wjts.text(context, '${Translations.vpPageVoterHist.tr()} 2016', size: TextSize.xl, weight: FontWeight.bold, color: Colors.grey[600]),
                                       ],
                                     ),
                                     const SizedBox(height: 20,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, 'Wilayat: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonWilayat.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.wilayatName2016!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, 'Polling Station: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonPolStn.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.polStnName2016!)),
                                       ],
                                     ),

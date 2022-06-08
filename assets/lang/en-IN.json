@@ -1,5 +1,37 @@
 {
-  "home_page_content": "Home Page Content",
+  "home_page_title": "Home",
+  "home_page_countdown_title": "Countdown to results",
+  "home_page_chk_eligibility_title": "Check voter eligibility",
+  "home_page_chk_eligibility": "Check Eligibility",
+
+  "vp_page_title": "Voter Profile",
+  "vp_page_voter_eligibility": "Voter Eligibility",
+  "vp_page_view_cert": "View Certificate",
+  "vp_page_voter_hist": "Voter History",
+  "vp_page_comp_rv": "You have successfully completed remote voting",
+  "vp_page_comp_kv": "You have successfully completed kiosk voting",
+  "vp_page_view_cert_msg": "Click on the button below to view your participation certificate",
+  "vp_page_reg": "You are a registered voter",
+  "vp_page_not_reg": "You have not registered for voting",
+
+  "common_name": "Name",
+  "common_civil_id": "Civil ID",
+  "common_civil_id_val_msg": "Please enter your Civil ID",
+  "common_dob": "Date of Birth",
+  "common_dob_val_msg": "Please select your DoB",
+  "common_governorate": "Governorate",
+  "common_wilayat": "Wilayat",
+  "common_pol_stn": "Polling Station",
+  "common_select_wilayat": "Select Wilayat",
+  "common_select_wilayat_place_holder": "Select a Wilayat",
+  "day": "day",
+  "days": "days",
+  "hour": "hour",
+  "hours": "hours",
+  "min": "min",
+  "mins": "mins",
+  "sec": "sec",
+  "secs": "secs",
 
   "settings_page_title": "Settings",
   "settings_page_reg_wilayat": "Registered Wilayat",
@@ -9,7 +41,5 @@
   "candidates_page_select_wilayat": "Select Wilayat",
   "candidates_page_select_wilayat_place_holder": "Select",
   "stats_page_select_wilayat": "Select Wilayat",
-  "stats_page_select_wilayat_place_holder": "Select",
-  "generic_select_wilayat": "Select Wilayat",
-  "generic_select_wilayat_place_holder": "Select a Wilayat"
+  "stats_page_select_wilayat_place_holder": "Select"
 }

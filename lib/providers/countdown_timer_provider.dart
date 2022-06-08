@@ -29,7 +29,7 @@ class CountdownTimerProvider with ChangeNotifier{
           setRemainingTimeAsString("Counting process started!");
         }else{
           GlobalVars.currentOmanTime = GlobalVars.currentOmanTime.add(const Duration(seconds: 1));
-          setRemainingTimeAsString(GlobalMethods.formatDuration(GlobalVars.countStartTime.difference(GlobalVars.currentOmanTime)).replaceAll(':', ' '));
+          setRemainingTimeAsString(GlobalMethods.formatDuration(GlobalVars.countStartTime.difference(GlobalVars.currentOmanTime)));//.replaceAll(':', ' '));
         }
       });
     }

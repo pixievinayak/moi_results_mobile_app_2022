@@ -1,5 +1,37 @@
 {
-  "home_page_content": "الصفحة الرئيسية",
+  "home_page_title": "الصفحة الرئيسية",
+  "home_page_countdown_title": "العد التنازلي للنتائج",
+  "home_page_chk_eligibility_title": "تحقق من أهلية الناخب",
+  "home_page_chk_eligibility": "تحقق من الأهلية",
+
+  "vp_page_title": "تفاصيل الناخب",
+  "vp_page_voter_eligibility": "أهلية الناخب",
+  "vp_page_view_cert": "مشاهدة الشهادة",
+  "vp_page_voter_hist": "تاريخ الناخبين",
+  "vp_page_comp_rv": "لقد أكملت التصويت عن بعد بنجاح",
+  "vp_page_comp_kv": "لقد أكملت بنجاح تصويت الكشك",
+  "vp_page_view_cert_msg": "انقر فوق الزر أدناه لعرض شهادة المشاركة الخاصة بك",
+  "vp_page_reg": "أنت ناخب مسجل",
+  "vp_page_not_reg": "أنت لم تسجل للتصويت",
+
+  "common_name": "اسم",
+  "common_civil_id": "تاريخ الولادة",
+  "common_civil_id_val_msg": "الرجاء إدخال الرقم القومي الخاص بك",
+  "common_dob": "تاريخ الولادة",
+  "common_dob_val_msg": "الرجاء تحديد تاريخ ميلادك",
+  "common_governorate": "محافظة",
+  "common_wilayat": "ولاية",
+  "common_pol_stn": "مركز اقتراع",
+  "common_select_wilayat": "اختر ولاية",
+  "common_select_wilayat_place_holder": "حدد اختيارا",
+  "day": "يوم",
+  "days": "أيام",
+  "hour": "ساعة",
+  "hours": "ساعات",
+  "min": "اللحظة",
+  "mins": "الدقائق",
+  "sec": "ثانيا",
+  "secs": "ثواني",
 
   "settings_page_title": "إعدادات",
   "settings_page_reg_wilayat": "ولاية مسجلة",
@@ -9,7 +41,5 @@
   "candidates_page_select_wilayat": "اختر ولاية",
   "candidates_page_select_wilayat_place_holder": "حدد اختيارا",
   "stats_page_select_wilayat": "اختر ولاية",
-  "stats_page_select_wilayat_place_holder": "حدد اختيارا",
-  "generic_select_wilayat": "اختر ولاية",
-  "generic_select_wilayat_place_holder": "حدد اختيارا"
+  "stats_page_select_wilayat_place_holder": "حدد اختيارا"
 }

@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:convert';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:moi_results_mobile_app_2022/pages/voter_profile_page.dart';
@@ -38,7 +39,11 @@ class _HomePageState extends State<HomePage> {// with WidgetsBindingObserver {
 
   void _getVoterEligibility(String civilID, String dob) async {
     debugPrint('Getting voter eligibility for Civil ID: $civilID, DoB: $dob');
-    await _apiManager.callApiMethod("GetVoterEligibility?CivilID=$civilID&DoB=$dob")
+    Map<String, dynamic>? queryParams = {
+      "CivilID": civilID,
+      "DoB": dob
+    };
+    await _apiManager.callApiMethod("GetVoterEligibility", queryParams: queryParams)
     // .catchError((e) {
     //   debugPrint("called api GetVoterEligibility() and caught error: ${e.toString()}");
     //   throw(e);
@@ -94,7 +99,7 @@ class _HomePageState extends State<HomePage> {// with WidgetsBindingObserver {
   Widget build(BuildContext context) {
     debugPrint('======= build on home page =========');
     return Scaffold(
-      appBar: Wjts.appBar(context, 'Home'),
+      appBar: Wjts.appBar(context, Translations.homePageTitle.tr()),
       body: SingleChildScrollView(
         child: Container(
           //color: Colors.red[100],
@@ -111,7 +116,7 @@ class _HomePageState extends State<HomePage> {// with WidgetsBindingObserver {
                           children: [
                             Row(
                               children: [
-                                Wjts.text(context, 'Countdown to results', size: TextSize.xl, weight: FontWeight.bold),
+                                Wjts.text(context, Translations.homePageCountdownTitle.tr(), size: TextSize.xl, weight: FontWeight.bold),
                               ],
                             ),
                             const SizedBox(height: 20,),
@@ -119,10 +124,46 @@ class _HomePageState extends State<HomePage> {// with WidgetsBindingObserver {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 //Wjts.text(_countdownTimerProvider!.getRemainingTime(), style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.blue[800],))
-                                Consumer<CountdownTimerProvider>(
-                                  builder: (context, data, child){
-                                    return Wjts.text(context, data.getRemainingTimeAsStr(), size: TextSize.xl, weight: FontWeight.bold);
-                                  }
+                                // Consumer<CountdownTimerProvider>(
+                                //   builder: (context, data, child){
+                                //     return Wjts.text(context, data.getRemainingTimeAsStr(), size: TextSize.xl, weight: FontWeight.bold);
+                                //   }
+                                // )
+                                Selector<CountdownTimerProvider, String>(
+                                  builder: (context, value, child){
+                                    if(value.contains(':')){
+                                      String days = value.split(':')[0];
+                                      String hours = value.split(':')[1];
+                                      String min = value.split(':')[2];
+                                      String sec = value.split(':')[3];
+                                      return Row(
+                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        children: [
+                                          Wjts.text(context, days, size: TextSize.xxl, weight: FontWeight.bold),
+                                          const SizedBox(width: 3),
+                                          Wjts.text(context, days == '1' ? Translations.day.tr() : Translations.days.tr(), weight: FontWeight.bold),
+                                          const SizedBox(width: 7),
+                                          Wjts.text(context, hours, size: TextSize.xxl, weight: FontWeight.bold),
+                                          const SizedBox(width: 3),
+                                          Wjts.text(context, hours == '1' ? Translations.hour.tr() : Translations.hours.tr(), weight: FontWeight.bold),
+                                          const SizedBox(width: 7),
+                                          Wjts.text(context, min, size: TextSize.xxl, weight: FontWeight.bold),
+                                          const SizedBox(width: 3),
+                                          Wjts.text(context, min == '1' ? Translations.min.tr() : Translations.mins.tr(), weight: FontWeight.bold),
+                                          const SizedBox(width: 7),
+                                          Wjts.text(context, sec, size: TextSize.xxl, weight: FontWeight.bold),
+                                          const SizedBox(width: 3),
+                                          Wjts.text(context, sec == '1' ? Translations.sec.tr() : Translations.secs.tr(), weight: FontWeight.bold),
+                                        ],
+                                      );
+                                    }else{
+                                      return Wjts.text(context, value,
+                                          size: TextSize.xxl,
+                                          weight: FontWeight.bold
+                                      );
+                                    }
+                                  },
+                                  selector: (buildContext, model) => model.getRemainingTimeAsStr(),
                                 )
                               ],
                             ),
@@ -145,7 +186,7 @@ class _HomePageState extends State<HomePage> {// with WidgetsBindingObserver {
                             children: [
                               Row(
                                 children: [
-                                  Wjts.text(context, 'Check voter eligibility', size: TextSize.xl, weight: FontWeight.bold),
+                                  Wjts.text(context, Translations.homePageChkEligibilityTitle.tr(), size: TextSize.xl, weight: FontWeight.bold),
                                 ],
                               ),
                               const SizedBox(height: 20,),
@@ -166,20 +207,20 @@ class _HomePageState extends State<HomePage> {// with WidgetsBindingObserver {
                                           padding: const EdgeInsets.fromLTRB(0, 0, 0, 5),
                                           child: TextFormField(
                                             key: _civilIdKey,
-                                            validator: (val) => val!.isEmpty ? 'Please enter a Civil ID' : null,
+                                            validator: (val) => val!.isEmpty ? Translations.commonCivilIDValMsg.tr() : null,
                                             onChanged: (val) {
                                               _voterEligibilityProvider!.setCivilId(val);
                                               _civilIdKey.currentState!.validate();
                                             },
-                                            decoration: const InputDecoration(
-                                              labelText: 'Civil ID',
-                                              hintText: 'Enter Civil ID',
+                                            decoration: InputDecoration(
+                                              labelText: Translations.commonCivilID.tr(),
+                                              hintText: Translations.commonCivilID.tr(),
                                               isDense: true,
-                                              contentPadding: EdgeInsets.fromLTRB(10, 20, 10, 0),
-                                              enabledBorder: OutlineInputBorder(
+                                              contentPadding: const EdgeInsets.fromLTRB(10, 20, 10, 0),
+                                              enabledBorder: const OutlineInputBorder(
                                                 borderSide: BorderSide(color: Colors.white, width: 1),
                                               ),
-                                              focusedBorder: OutlineInputBorder(
+                                              focusedBorder: const OutlineInputBorder(
                                                 borderSide: BorderSide(color: Colors.grey, width: 1),
                                               ),
                                             ),
@@ -200,21 +241,21 @@ class _HomePageState extends State<HomePage> {// with WidgetsBindingObserver {
                                                     return TextFormField(
                                                       key: _dobKey,
                                                       onTap: () => _selectDoB(context),
-                                                      validator: (val) => val!.isEmpty ? 'Please select your DoB' : null,
+                                                      validator: (val) => val!.isEmpty ? Translations.commonDoBValMsg.tr() : null,
                                                       readOnly: true,
                                                       //enabled: false,
                                                       controller: TextEditingController(
                                                         text: data.getDoBString(),
                                                       ),
-                                                      decoration: const InputDecoration(
-                                                        labelText: 'Date of Birth',
-                                                        hintText: 'Date of Birth',
+                                                      decoration: InputDecoration(
+                                                        labelText: Translations.commonDoB.tr(),
+                                                        hintText: Translations.commonDoB.tr(),
                                                         isDense: true,
-                                                        contentPadding: EdgeInsets.fromLTRB(10, 20, 10, 0),
-                                                        enabledBorder: OutlineInputBorder(
+                                                        contentPadding: const EdgeInsets.fromLTRB(10, 20, 10, 0),
+                                                        enabledBorder: const OutlineInputBorder(
                                                           borderSide: BorderSide(color: Colors.white, width: 1),
                                                         ),
-                                                        focusedBorder: OutlineInputBorder(
+                                                        focusedBorder: const OutlineInputBorder(
                                                           borderSide: BorderSide(color: Colors.grey, width: 1),
                                                         ),
                                                       ),
@@ -230,7 +271,10 @@ class _HomePageState extends State<HomePage> {// with WidgetsBindingObserver {
                                             Padding(
                                               padding: const EdgeInsets.fromLTRB(0, 5, 0, 0),
                                               child: OutlinedButton(
-                                                child: Wjts.text(context, 'Check Eligibility', weight: FontWeight.bold, size: TextSize.l),
+                                                child: Padding(
+                                                  padding: const EdgeInsets.fromLTRB(0, 6, 0, 0),
+                                                  child: Wjts.text(context, Translations.homePageChkEligibility.tr(), weight: FontWeight.bold, size: TextSize.l),
+                                                ),
                                                 onPressed: (){
                                                   // _countdownTimerProvider!.updateRemainingTime('hello world! - ${_counter++}');
                                                   if (_eligibilityFormKey.currentState!.validate()) {

@@ -112,14 +112,14 @@ class Wjts{
       options = options.where((o) => o.value != "0").toList();
     }
     if([null, ''].contains(placeHolder)){
-      placeHolder = Translations.genericSelectWilayatPlaceHolder.tr();
+      placeHolder = Translations.commonSelectWilayatPlaceHolder.tr();
     }
     return SimpleSelect(context, options,
       onChange: onChangeHandler as void Function(String?)?,
       selectedValue: selectedValue,
       isGrouped: true,
       placeHolder: placeHolder,
-      optionsPageTitle: Translations.genericSelectWilayat.tr(),
+      optionsPageTitle: Translations.commonSelectWilayat.tr(),
     );
   }
 
@@ -188,16 +188,20 @@ class GlobalMethods{
     seconds -= minutes*Duration.secondsPerMinute;
 
     final List<String> tokens = [];
-    if (days != 0) {
-      tokens.add('${days}d');
-    }
-    if (tokens.isNotEmpty || hours != 0){
-      tokens.add('${hours}h');
-    }
-    if (tokens.isNotEmpty || minutes != 0) {
-      tokens.add('${minutes}m');
-    }
-    tokens.add('${seconds}s');
+    // if (days != 0) {
+    //   tokens.add('${days}d');
+    // }
+    // if (tokens.isNotEmpty || hours != 0){
+    //   tokens.add('${hours}h');
+    // }
+    // if (tokens.isNotEmpty || minutes != 0) {
+    //   tokens.add('${minutes}m');
+    // }
+    // tokens.add('${seconds}s');
+    tokens.add('$days');
+    tokens.add('$hours');
+    tokens.add('$minutes');
+    tokens.add('$seconds');
 
     return tokens.join(':');
   }
