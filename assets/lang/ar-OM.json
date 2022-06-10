@@ -37,13 +37,24 @@
   "mins": "الدقائق",
   "sec": "ثانيا",
   "secs": "ثواني",
+  "yes": "نعم",
+  "no": "رقم",
+  "male": "الذكر",
+  "female": "أنثى",
 
   "settings_page_title": "إعدادات",
   "settings_page_reg_wilayat": "ولاية مسجلة",
   "settings_page_reg_wilayat_place_holder": "حدد اختيارا",
+  "settings_page_lang": "لغة",
+  "settings_page_ver": "إصدار",
+  "settings_page_loc_dat_msg": "هل أنت متأكد أنك تريد مسح البيانات المحلية",
 
   "maps_page_select_wilayat": "اختر ولاية",
   "maps_page_select_wilayat_place_holder": "حدد اختيارا",
+  "maps_page_title": "مراكز الاقتراع",
+  "maps_page_get_dir": "احصل على الاتجاهات",
+  "maps_page_regular": "عادي",
+  "maps_page_unified": "موحد",
 
   "candidate_profile_page_title": "تفاصيل المرشح",
 
@@ -52,6 +63,20 @@
   "candidates_page_select_wilayat": "اختر ولاية",
   "candidates_page_select_wilayat_place_holder": "حدد اختيارا",
 
+  "error_page_title": "هناك خطأ ما",
+  "error_page_tech_details": "تفاصيل تقنية",
+  "error_page_press_back": "اضغط على زر الرجوع للإغلاق",
+
   "stats_page_select_wilayat": "اختر ولاية",
-  "stats_page_select_wilayat_place_holder": "حدد اختيارا"
+  "stats_page_select_wilayat_place_holder": "حدد اختيارا",
+  "stats_page_title": "إحصائيات",
+  "stats_page_cand_seats": "المرشحون والمقاعد",
+  "stats_page_candidates": "عدد المرشحين",
+  "stats_page_seats": "عدد المقاعد",
+  "stats_page_reg_voters": "الناخبون المسجلون",
+  "stats_page_voter_turnout": "إقبال الناخبين",
+  "stats_page_male_turnout": "إقبال الذكور",
+  "stats_page_female_turnout": "إقبال الإناث",
+  "stats_page_tot_turnout": "إجمالي الإقبال",
+  "stats_page_tot_reg": "إجمالي المسجلين"
 }

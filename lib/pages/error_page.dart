@@ -1,5 +1,7 @@
 
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:moi_results_mobile_app_2022/localization/localization_constants.dart';
 
 import '../shared/global.dart';
 
@@ -33,17 +35,17 @@ class _ErrorPageState extends State<ErrorPage> {
     }
     debugPrint('build() on Error Page - $_msg');
     return Scaffold(
-      appBar: Wjts.appBar(context, 'Oops...'),
+      appBar: Wjts.appBar(context, Translations.errorPageTitle.tr()),
       body: Stack(
         children: [
-          Container(
-            decoration: const BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage("assets/images/bg_01.png"),
-                fit: BoxFit.cover,
-              ),
-            ),
-          ),
+          // Container(
+          //   decoration: const BoxDecoration(
+          //     image: DecorationImage(
+          //       image: AssetImage("assets/images/bg_01.png"),
+          //       fit: BoxFit.cover,
+          //     ),
+          //   ),
+          // ),
           SingleChildScrollView(
             child: Column(
               mainAxisAlignment:  MainAxisAlignment.center,
@@ -95,7 +97,7 @@ class _ErrorPageState extends State<ErrorPage> {
                                         padding: const EdgeInsets.fromLTRB(10, 5, 10, 0),
                                         child: Row(
                                           children: [
-                                            Wjts.text(context, 'Technical Details', size: TextSize.m),
+                                            Wjts.text(context, Translations.errorPageTechDetails.tr(), size: TextSize.m),
                                           ],
                                         ),
                                       );
@@ -112,7 +114,7 @@ class _ErrorPageState extends State<ErrorPage> {
                                 ]
                             ),
                             const SizedBox(height: 40,),
-                            Wjts.text(context, 'Press back to close', size: TextSize.m),
+                            Wjts.text(context, Translations.errorPagePressBack.tr(), size: TextSize.m),
                           ],
                         ),
                       ),

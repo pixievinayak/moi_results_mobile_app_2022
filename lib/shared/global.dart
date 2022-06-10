@@ -42,6 +42,8 @@ class GlobalVars{
   static int? polStnsDataVersion = 0;
   static int? candidatesDataVersion = 0;
 
+  static double appVersion = 1.0;
+
 // static User user = User();
 }
 

@@ -1,10 +1,11 @@
 import 'dart:convert';
 
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/gestures.dart';
-import 'package:intl/intl.dart';
+import 'package:moi_results_mobile_app_2022/localization/localization_constants.dart';
 import 'package:provider/provider.dart';
 
 import '../providers/stats_provider.dart';
@@ -77,7 +78,7 @@ class _StatsPageState extends State<StatsPage> {
     debugPrint('build() on Stats Page');
     return Scaffold(
       appBar: AppBar(
-        title: Wjts.text(context, 'Statistics'),
+        title: Wjts.text(context, Translations.statsPageTitle.tr()),
         centerTitle: true,
       ),
       body: SingleChildScrollView(
@@ -106,7 +107,7 @@ class _StatsPageState extends State<StatsPage> {
                 children: <Widget>[
                   Padding(
                     padding: const EdgeInsets.fromLTRB(0, 20, 0, 20),
-                    child: Wjts.text(context, "Candidates & Seats", size: TextSize.l, weight: FontWeight.bold),
+                    child: Wjts.text(context, Translations.statsPageCandSeats.tr(), size: TextSize.l, weight: FontWeight.bold),
                   ),
                   Row(
                     children: [
@@ -124,7 +125,7 @@ class _StatsPageState extends State<StatsPage> {
                               text: TextSpan(
                                   children: <TextSpan>[
                                     TextSpan(text: value.toString(), style: const TextStyle(color: Colors.green, fontWeight: FontWeight.bold, fontSize: 40)),
-                                    TextSpan(text: '\nNo. of Seats', style: TextStyle(color: Colors.grey[600], fontWeight: FontWeight.normal, fontSize: 14)),
+                                    TextSpan(text: '\n${Translations.statsPageSeats.tr()}', style: TextStyle(color: Colors.grey[600], fontWeight: FontWeight.normal, fontSize: 14)),
                                   ]
                               ),
                             );
@@ -142,7 +143,7 @@ class _StatsPageState extends State<StatsPage> {
                                 text: TextSpan(
                                   children: <TextSpan>[
                                     TextSpan(text: data.getNoOfCandidates().toString(), style: TextStyle(color: Colors.grey[600], fontWeight: FontWeight.bold, fontSize: 40)),
-                                    TextSpan(text: '\nNo. of Candidates', style: TextStyle(color: Colors.grey[600], fontWeight: FontWeight.normal, fontSize: 14)),
+                                    TextSpan(text: '\n${Translations.statsPageCandidates.tr()}', style: TextStyle(color: Colors.grey[600], fontWeight: FontWeight.normal, fontSize: 14)),
                                   ]
                                 )
                               );
@@ -165,7 +166,7 @@ class _StatsPageState extends State<StatsPage> {
                 children: <Widget>[
                   Padding(
                     padding: const EdgeInsets.fromLTRB(0, 20, 0, 0),
-                    child: Wjts.text(context, "Registered Voters", size: TextSize.l, weight: FontWeight.bold),
+                    child: Wjts.text(context, Translations.statsPageRegVoters.tr(), size: TextSize.l, weight: FontWeight.bold),
                   ),
                   SizedBox(
                       height: 260,
@@ -210,7 +211,7 @@ class _StatsPageState extends State<StatsPage> {
                                             return PieChartSectionData(
                                               color: Colors.blue,
                                               value: data.getMaleRegVoterCount().toDouble(),
-                                              title: '${((data.getMaleRegVoterCount()/data.getTotalRegVoterCount())*100).toStringAsFixed(2)}% - Male',
+                                              title: '${((data.getMaleRegVoterCount()/data.getTotalRegVoterCount())*100).toStringAsFixed(2)}% - ${Translations.male.tr()}',
                                               radius: radius,
                                               titleStyle: TextStyle(
                                                   fontSize: fontSize, fontWeight: FontWeight.normal, color: Colors.white),
@@ -219,7 +220,7 @@ class _StatsPageState extends State<StatsPage> {
                                             return PieChartSectionData(
                                               color: Colors.pink,
                                               value: data.getFemaleRegVoterCount().toDouble(),
-                                              title: '${((data.getFemaleRegVoterCount()/data.getTotalRegVoterCount())*100).toStringAsFixed(2)}% - Female',
+                                              title: '${((data.getFemaleRegVoterCount()/data.getTotalRegVoterCount())*100).toStringAsFixed(2)}% - ${Translations.female.tr()}',
                                               radius: radius,
                                               titleStyle: TextStyle(
                                                   fontSize: fontSize, fontWeight: FontWeight.normal, color: Colors.white),
@@ -246,7 +247,7 @@ class _StatsPageState extends State<StatsPage> {
                 children: <Widget>[
                   Padding(
                     padding: const EdgeInsets.fromLTRB(0, 20, 0, 30),
-                    child: Wjts.text(context, "Voter Turnout", size: TextSize.l, weight: FontWeight.bold),
+                    child: Wjts.text(context, Translations.statsPageVoterTurnout.tr(), size: TextSize.l, weight: FontWeight.bold),
                   ),
                   SizedBox(
                       height: 250,
@@ -328,16 +329,16 @@ class _StatsPageState extends State<StatsPage> {
                                         String text = '';
                                         switch (value.toInt()) {
                                           case 0:
-                                            text = 'Female Turnout';
+                                            text = Translations.statsPageFemaleTurnout.tr();
                                             break;
                                           case 1:
-                                            text = 'Male Turnout';
+                                            text = Translations.statsPageMaleTurnout.tr();
                                             break;
                                           case 2:
-                                            text = 'Total Turnout';
+                                            text = Translations.statsPageTotTurnout.tr();
                                             break;
                                           case 3:
-                                            text = 'Total Registered';
+                                            text = Translations.statsPageTotReg.tr();
                                             break;
                                           default:
                                             text = '';

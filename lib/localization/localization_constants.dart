@@ -46,13 +46,24 @@ class Translations {
   static const String mins = "mins";
   static const String sec = "sec";
   static const String secs = "secs";
+  static const String yes = "yes";
+  static const String no = "no";
+  static const String male = "male";
+  static const String female = "female";
 
   static const String settingsPageTitle = "settings_page_title";
   static const String settingsPageRegWilayat = "settings_page_reg_wilayat";
   static const String settingsPageRegWilayatPlaceHolder = "settings_page_reg_wilayat_place_holder";
+  static const String settingsPageLang = "settings_page_lang";
+  static const String settingsPageVer = "settings_page_ver";
+  static const String settingsPageLocDatMsg = "settings_page_loc_dat_msg";
   
   static const String mapsPageSelectWilayat = "maps_page_select_wilayat";
   static const String mapsPageSelectWilayatPlaceHolder = "maps_page_select_wilayat_place_holder";
+  static const String mapsPageTitle = "maps_page_title";
+  static const String mapsPageGetDir = "maps_page_get_dir";
+  static const String mapsPageRegular = "maps_page_regular";
+  static const String mapsPageUnified = "maps_page_unified";
 
   static const String candidateProfilePageTitle = "candidate_profile_page_title";
 
@@ -60,9 +71,23 @@ class Translations {
   static const String candidatesPageSelWilMsg = "candidates_page_sel_wil_msg";
   static const String candidatesPageSelectWilayat = "candidates_page_select_wilayat";
   static const String candidatesPageSelectWilayatPlaceHolder = "candidates_page_select_wilayat_place_holder";
+
+  static const String errorPageTitle = "error_page_title";
+  static const String errorPageTechDetails = "error_page_tech_details";
+  static const String errorPagePressBack = "error_page_press_back";
   
   static const String statsPageSelectWilayat = "stats_page_select_wilayat";
   static const String statsPageSelectWilayatPlaceHolder = "stats_page_select_wilayat_place_holder";
+  static const String statsPageTitle = "stats_page_title";
+  static const String statsPageCandSeats = "stats_page_cand_seats";
+  static const String statsPageCandidates = "stats_page_candidates";
+  static const String statsPageSeats = "stats_page_seats";
+  static const String statsPageRegVoters = "stats_page_reg_voters";
+  static const String statsPageVoterTurnout = "stats_page_voter_turnout";
+  static const String statsPageMaleTurnout = "stats_page_male_turnout";
+  static const String statsPageFemaleTurnout = "stats_page_female_turnout";
+  static const String statsPageTotTurnout = "stats_page_tot_turnout";
+  static const String statsPageTotReg = "stats_page_tot_reg";
 }
 
 class Languages{

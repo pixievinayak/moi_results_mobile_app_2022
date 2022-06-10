@@ -37,13 +37,24 @@
   "mins": "mins",
   "sec": "sec",
   "secs": "secs",
+  "yes": "yes",
+  "no": "no",
+  "male": "male",
+  "female": "female",
 
   "settings_page_title": "Settings",
   "settings_page_reg_wilayat": "Registered Wilayat",
   "settings_page_reg_wilayat_place_holder": "Select your Registered Wilayat",
+  "settings_page_lang": "Language",
+  "settings_page_ver": "Version",
+  "settings_page_loc_dat_msg": "Are you sure you want to clear the local data",
 
   "maps_page_select_wilayat": "Select Wilayat",
   "maps_page_select_wilayat_place_holder": "Select",
+  "maps_page_title": "Polling Stations",
+  "maps_page_get_dir": "Get directions",
+  "maps_page_regular": "Regular",
+  "maps_page_unified": "Unified",
 
   "candidate_profile_page_title": "Candidate Profile",
 
@@ -52,6 +63,20 @@
   "candidates_page_select_wilayat": "Select Wilayat",
   "candidates_page_select_wilayat_place_holder": "Select",
 
+  "error_page_title": "Something went wrong",
+  "error_page_tech_details": "Technical Details",
+  "error_page_press_back": "Press back to close",
+
   "stats_page_select_wilayat": "Select Wilayat",
-  "stats_page_select_wilayat_place_holder": "Select"
+  "stats_page_select_wilayat_place_holder": "Select",
+  "stats_page_title": "Statistics",
+  "stats_page_cand_seats": "Candidates & Seats",
+  "stats_page_candidates": "No. of Candidates",
+  "stats_page_seats": "No. of Seats",
+  "stats_page_reg_voters": "Registered Voters",
+  "stats_page_voter_turnout": "Voter Turnout",
+  "stats_page_male_turnout": "Male Turnout",
+  "stats_page_female_turnout": "Female Turnout",
+  "stats_page_tot_turnout": "Total Turnout",
+  "stats_page_tot_reg": "Total Registered"
 }

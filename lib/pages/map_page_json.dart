@@ -1,5 +1,7 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:moi_results_mobile_app_2022/localization/localization_constants.dart';
 import 'package:provider/provider.dart';
 import 'package:syncfusion_flutter_maps/maps.dart';
 import 'package:url_launcher/url_launcher_string.dart';
@@ -104,7 +106,7 @@ class _MapPageJSONState extends State<MapPageJSON> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   ElevatedButton(
-                                    child: Wjts.text(context, 'Get Directions'),
+                                    child: Wjts.text(context, Translations.mapsPageGetDir.tr()),
                                     onPressed: (){
                                       String googleUrl = 'https://www.google.com/maps/search/?api=1&query=$latitude,$longitude';
                                       canLaunchUrlString(googleUrl).then((canLaunch) {
@@ -134,7 +136,7 @@ class _MapPageJSONState extends State<MapPageJSON> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: Wjts.appBar(context, 'Polling Stations'),
+      appBar: Wjts.appBar(context, Translations.mapsPageTitle.tr()),
       body: Column(
         children: <Widget>[
           Row(
@@ -156,13 +158,13 @@ class _MapPageJSONState extends State<MapPageJSON> {
                           children: [
                             Consumer<PollingStationMapProvider>(
                               builder: (context, data, child) {
-                                return Wjts.text(context, 'Regular: ${data.getRegularPolStnCount()}', weight: FontWeight.bold, color: Colors.red[700]);
+                                return Wjts.text(context, '${Translations.mapsPageRegular.tr()}: ${data.getRegularPolStnCount()}', weight: FontWeight.bold, color: Colors.red[700]);
                               }
                             ),
                             Consumer<PollingStationMapProvider>(
-                                builder: (context, data, child) {
-                                  return Wjts.text(context, 'Unified: ${_pollingStationMapProvider!.getUnifiedPolStnCount()}', weight: FontWeight.bold, color: Colors.blue[700]);
-                                }
+                              builder: (context, data, child) {
+                                return Wjts.text(context, '${Translations.mapsPageUnified.tr()}: ${_pollingStationMapProvider!.getUnifiedPolStnCount()}', weight: FontWeight.bold, color: Colors.blue[700]);
+                              }
                             ),
                           ],
                         ),
