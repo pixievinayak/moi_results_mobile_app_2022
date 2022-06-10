@@ -112,14 +112,14 @@ class Wjts{
       options = options.where((o) => o.value != "0").toList();
     }
     if([null, ''].contains(placeHolder)){
-      placeHolder = Translations.commonSelectWilayatPlaceHolder.tr();
+      placeHolder = Translations.selectWilayatPlaceHolder.tr();
     }
     return SimpleSelect(context, options,
       onChange: onChangeHandler as void Function(String?)?,
       selectedValue: selectedValue,
       isGrouped: true,
       placeHolder: placeHolder,
-      optionsPageTitle: Translations.commonSelectWilayat.tr(),
+      optionsPageTitle: Translations.selectWilayat.tr(),
     );
   }
 

@@ -70,35 +70,35 @@ class _VoterProfileState extends State<VoterProfile> {
                                     const SizedBox(height: 20,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonName.tr()}: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.name.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.voterName!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonCivilID.tr()}: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.civilID.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.civilId!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonDoB.tr()}: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.dob.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.dob!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonGovernorate.tr()}: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.governorate.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.govName!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonWilayat.tr()}: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.wilayat.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.wilayatName!)),
                                       ],
                                     ),
@@ -145,14 +145,14 @@ class _VoterProfileState extends State<VoterProfile> {
                                     const SizedBox(height: 20,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonWilayat.tr()}: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.wilayat.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.wilayatName2011!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonPolStn.tr()}: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.polStn.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.polStnName2011!)),
                                       ],
                                     ),
@@ -179,14 +179,14 @@ class _VoterProfileState extends State<VoterProfile> {
                                     const SizedBox(height: 20,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonWilayat.tr()}: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.wilayat.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.wilayatName2012!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonPolStn.tr()}: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.polStn.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.polStnName2012!)),
                                       ],
                                     ),
@@ -213,14 +213,14 @@ class _VoterProfileState extends State<VoterProfile> {
                                     const SizedBox(height: 20,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonWilayat.tr()}: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.wilayat.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.wilayatName2015!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonPolStn.tr()}: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.polStn.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.polStnName2015!)),
                                       ],
                                     ),
@@ -247,14 +247,14 @@ class _VoterProfileState extends State<VoterProfile> {
                                     const SizedBox(height: 20,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonWilayat.tr()}: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.wilayat.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.wilayatName2016!)),
                                       ],
                                     ),
                                     const SizedBox(height: 10,),
                                     Row(
                                       children: [
-                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.commonPolStn.tr()}: ')),
+                                        Expanded(flex: 3, child: Wjts.text(context, '${Translations.polStn.tr()}: ')),
                                         Expanded(flex: 7, child: Wjts.text(context, widget.voterEligibilityVM!.polStnName2016!)),
                                       ],
                                     ),

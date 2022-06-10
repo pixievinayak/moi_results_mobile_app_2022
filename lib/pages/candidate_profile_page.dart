@@ -1,8 +1,10 @@
 import 'dart:convert';
 
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../localization/localization_constants.dart';
 import '../models/candidate_profile_vm.dart';
 import '../providers/candidate_profile_provider.dart';
 import '../shared/api_manager.dart';
@@ -77,12 +79,12 @@ class _CandidateProfileState extends State<CandidateProfile> with WidgetsBinding
   void _checkCanShowResults({bool callNotifyListeners = true}){
     if(GlobalVars.hasCountTimeStarted){
       _candidatesProfileProvider!.setCanShowResultType(true, callNotifyListeners: callNotifyListeners);
-      String resultType = "Counting not yet started";
+      String resultType = Translations.countNotStarted.tr();
       if(_candidatesProfileProvider!.getCandidate().isInitialCountingOver! || _candidatesProfileProvider!.getCandidate().isFinalCountingOver!){
         if(_candidatesProfileProvider!.getCandidate().isFinalCountingOver!){
-          resultType = "Final Results";
+          resultType = Translations.finalResults.tr();
         }else{
-          resultType = "Initial Results";
+          resultType = Translations.initialResults.tr();
         }
         _candidatesProfileProvider!.setCanShowResults(true, callNotifyListeners: callNotifyListeners);
       }else{
@@ -142,7 +144,7 @@ class _CandidateProfileState extends State<CandidateProfile> with WidgetsBinding
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: Wjts.appBar(context, 'Candidate Profile', showIcons: false),
+        appBar: Wjts.appBar(context, Translations.candidateProfilePageTitle.tr(), showIcons: false),
         // appBar: AppBar(
         //   title: Wjts.text(context, 'Candidate Profile'),
         //   centerTitle: true,
@@ -196,7 +198,7 @@ class _CandidateProfileState extends State<CandidateProfile> with WidgetsBinding
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Wjts.text(context, 
-                              'Governorate: ',
+                              '${Translations.governorate.tr()}: ',
                               size: TextSize.l,
                               weight: FontWeight.bold,
                             ),
@@ -211,7 +213,7 @@ class _CandidateProfileState extends State<CandidateProfile> with WidgetsBinding
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Wjts.text(context, 
-                              'Wilayat: ',
+                              '${Translations.wilayat.tr()}: ',
                               size: TextSize.l,
                               weight: FontWeight.bold,
                             ),
@@ -251,7 +253,7 @@ class _CandidateProfileState extends State<CandidateProfile> with WidgetsBinding
                                                 mainAxisAlignment: MainAxisAlignment.center,
                                                 children: [
                                                   Wjts.text(context, 
-                                                    'Position: ',
+                                                    '${Translations.position.tr()}: ',
                                                     size: TextSize.xl, weight: FontWeight.bold
                                                   ),
                                                   Wjts.text(context, 
@@ -267,7 +269,7 @@ class _CandidateProfileState extends State<CandidateProfile> with WidgetsBinding
                                                 mainAxisAlignment: MainAxisAlignment.center,
                                                 children: [
                                                   Wjts.text(context, 
-                                                    'Votes: ',
+                                                    '${Translations.votes.tr()}: ',
                                                     size: TextSize.xl, weight: FontWeight.bold
                                                   ),
                                                   Wjts.text(context, 

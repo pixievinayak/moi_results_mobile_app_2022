@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:convert';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -106,13 +107,13 @@ class _CandidatesPageState extends State<CandidatesPage> with WidgetsBindingObse
     //if(GlobalVars.hasCountTimeStarted && _candidatesListProvider!.getWilayat() != null && (_candidatesListProvider!.getWilayat()!.isInitialCountingOver! || _candidatesListProvider!.getWilayat()!.isFinalCountingOver!)){
     if(GlobalVars.hasCountTimeStarted && _candidatesListProvider!.getWilayat() != null){
       _candidatesListProvider!.setCanShowResultType(true);
-      String resultType = "Counting not yet started";
+      String resultType = Translations.countNotStarted.tr();
       if(_candidatesListProvider!.getWilayat()!.isInitialCountingOver! || _candidatesListProvider!.getWilayat()!.isFinalCountingOver!){
         _candidatesListProvider!.sortCandidatesByPollPosition();
         if(_candidatesListProvider!.getWilayat()!.isFinalCountingOver!){
-          resultType = "Final Results";
+          resultType = Translations.finalResults.tr();
         }else{
-          resultType = "Initial Results";
+          resultType = Translations.initialResults.tr();
         }
         _candidatesListProvider!.setCanShowResults(true);
       }else{
@@ -181,7 +182,7 @@ class _CandidatesPageState extends State<CandidatesPage> with WidgetsBindingObse
   Widget build(BuildContext context) {
     debugPrint('build() on candidate list page');
     return Scaffold(
-      appBar: Wjts.appBar(context, 'Candidates'),
+      appBar: Wjts.appBar(context, Translations.candidatesPageTitle.tr()),
       body: Column(
         children: <Widget>[
           Row(
@@ -223,7 +224,7 @@ class _CandidatesPageState extends State<CandidatesPage> with WidgetsBindingObse
                         child: Center(
                             child: Padding(
                               padding: const EdgeInsets.fromLTRB(0, 20, 0, 20),
-                              child: Wjts.text(context, "Please select a Wilayat to view the candidates", size: 18),
+                              child: Wjts.text(context, Translations.candidatesPageSelWilMsg.tr(), size: 18),
                             )
                         ),
                       ),
@@ -252,7 +253,7 @@ class _CandidatesPageState extends State<CandidatesPage> with WidgetsBindingObse
                                           children: <TextSpan>[
                                             TextSpan(text: candidate.pollPosition.toString(), style: TextStyle(color: Colors.blue[800], fontWeight: FontWeight.bold, fontSize: 20)),
                                             TextSpan(text: ', ', style: TextStyle(color: Colors.grey[800])),
-                                            TextSpan(text: 'Votes - ${candidate.voteCount.toString()}', style: TextStyle(color: Colors.green[800])),
+                                            TextSpan(text: '${Translations.votes.tr()} - ${candidate.voteCount.toString()}', style: TextStyle(color: Colors.green[800])),
                                           ]
                                       )
                                   ) : Container(),

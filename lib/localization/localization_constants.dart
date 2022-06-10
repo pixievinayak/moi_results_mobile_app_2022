@@ -23,16 +23,21 @@ class Translations {
   static const String vpPageReg = "vp_page_reg";
   static const String vpPageNotReg = "vp_page_not_reg";
 
-  static const String commonName = "common_name";
-  static const String commonCivilID = "common_civil_id";
-  static const String commonCivilIDValMsg = "common_civil_id_val_msg";
-  static const String commonDoB = "common_dob";
-  static const String commonDoBValMsg = "common_dob_val_msg";
-  static const String commonGovernorate = "common_governorate";
-  static const String commonWilayat = "common_wilayat";
-  static const String commonPolStn = "common_pol_stn";
-  static const String commonSelectWilayat = "common_select_wilayat";
-  static const String commonSelectWilayatPlaceHolder = "common_select_wilayat_place_holder";
+  static const String countNotStarted = "count_not_started";
+  static const String finalResults = "final_results";
+  static const String initialResults = "initial_results";
+  static const String position = "position";
+  static const String votes = "votes";
+  static const String name = "name";
+  static const String civilID = "civil_id";
+  static const String civilIDValMsg = "civil_id_val_msg";
+  static const String dob = "dob";
+  static const String dobValMsg = "dob_val_msg";
+  static const String governorate = "governorate";
+  static const String wilayat = "wilayat";
+  static const String polStn = "pol_stn";
+  static const String selectWilayat = "select_wilayat";
+  static const String selectWilayatPlaceHolder = "select_wilayat_place_holder";
   static const String day = "day";
   static const String days = "days";
   static const String hour = "hour";
@@ -45,10 +50,17 @@ class Translations {
   static const String settingsPageTitle = "settings_page_title";
   static const String settingsPageRegWilayat = "settings_page_reg_wilayat";
   static const String settingsPageRegWilayatPlaceHolder = "settings_page_reg_wilayat_place_holder";
+  
   static const String mapsPageSelectWilayat = "maps_page_select_wilayat";
   static const String mapsPageSelectWilayatPlaceHolder = "maps_page_select_wilayat_place_holder";
+
+  static const String candidateProfilePageTitle = "candidate_profile_page_title";
+
+  static const String candidatesPageTitle = "candidates_page_title";
+  static const String candidatesPageSelWilMsg = "candidates_page_sel_wil_msg";
   static const String candidatesPageSelectWilayat = "candidates_page_select_wilayat";
   static const String candidatesPageSelectWilayatPlaceHolder = "candidates_page_select_wilayat_place_holder";
+  
   static const String statsPageSelectWilayat = "stats_page_select_wilayat";
   static const String statsPageSelectWilayatPlaceHolder = "stats_page_select_wilayat_place_holder";
 }

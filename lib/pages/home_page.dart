@@ -207,14 +207,14 @@ class _HomePageState extends State<HomePage> {// with WidgetsBindingObserver {
                                           padding: const EdgeInsets.fromLTRB(0, 0, 0, 5),
                                           child: TextFormField(
                                             key: _civilIdKey,
-                                            validator: (val) => val!.isEmpty ? Translations.commonCivilIDValMsg.tr() : null,
+                                            validator: (val) => val!.isEmpty ? Translations.civilIDValMsg.tr() : null,
                                             onChanged: (val) {
                                               _voterEligibilityProvider!.setCivilId(val);
                                               _civilIdKey.currentState!.validate();
                                             },
                                             decoration: InputDecoration(
-                                              labelText: Translations.commonCivilID.tr(),
-                                              hintText: Translations.commonCivilID.tr(),
+                                              labelText: Translations.civilID.tr(),
+                                              hintText: Translations.civilID.tr(),
                                               isDense: true,
                                               contentPadding: const EdgeInsets.fromLTRB(10, 20, 10, 0),
                                               enabledBorder: const OutlineInputBorder(
@@ -241,15 +241,15 @@ class _HomePageState extends State<HomePage> {// with WidgetsBindingObserver {
                                                     return TextFormField(
                                                       key: _dobKey,
                                                       onTap: () => _selectDoB(context),
-                                                      validator: (val) => val!.isEmpty ? Translations.commonDoBValMsg.tr() : null,
+                                                      validator: (val) => val!.isEmpty ? Translations.dobValMsg.tr() : null,
                                                       readOnly: true,
                                                       //enabled: false,
                                                       controller: TextEditingController(
                                                         text: data.getDoBString(),
                                                       ),
                                                       decoration: InputDecoration(
-                                                        labelText: Translations.commonDoB.tr(),
-                                                        hintText: Translations.commonDoB.tr(),
+                                                        labelText: Translations.dob.tr(),
+                                                        hintText: Translations.dob.tr(),
                                                         isDense: true,
                                                         contentPadding: const EdgeInsets.fromLTRB(10, 20, 10, 0),
                                                         enabledBorder: const OutlineInputBorder(
