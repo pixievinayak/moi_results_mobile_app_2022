@@ -124,8 +124,8 @@ class _StatsPageState extends State<StatsPage> {
                               textAlign: TextAlign.center,
                               text: TextSpan(
                                   children: <TextSpan>[
-                                    TextSpan(text: value.toString(), style: const TextStyle(color: Colors.green, fontWeight: FontWeight.bold, fontSize: 40)),
-                                    TextSpan(text: '\n${Translations.statsPageSeats.tr()}', style: TextStyle(color: Colors.grey[600], fontWeight: FontWeight.normal, fontSize: 14)),
+                                    TextSpan(text: value.toString(), style: TextStyle(color: AppColours.statsSeatColor, fontWeight: FontWeight.bold, fontSize: 40)),
+                                    TextSpan(text: '\n${Translations.statsPageSeats.tr()}', style: TextStyle(color: AppColours.statsCounterColor, fontWeight: FontWeight.normal, fontSize: 14)),
                                   ]
                               ),
                             );
@@ -142,8 +142,8 @@ class _StatsPageState extends State<StatsPage> {
                                 textAlign: TextAlign.center,
                                 text: TextSpan(
                                   children: <TextSpan>[
-                                    TextSpan(text: data.getNoOfCandidates().toString(), style: TextStyle(color: Colors.grey[600], fontWeight: FontWeight.bold, fontSize: 40)),
-                                    TextSpan(text: '\n${Translations.statsPageCandidates.tr()}', style: TextStyle(color: Colors.grey[600], fontWeight: FontWeight.normal, fontSize: 14)),
+                                    TextSpan(text: data.getNoOfCandidates().toString(), style: TextStyle(color: AppColours.statsCounterColor, fontWeight: FontWeight.bold, fontSize: 40)),
+                                    TextSpan(text: '\n${Translations.statsPageCandidates.tr()}', style: TextStyle(color: AppColours.statsCounterColor, fontWeight: FontWeight.normal, fontSize: 14)),
                                   ]
                                 )
                               );
@@ -209,21 +209,21 @@ class _StatsPageState extends State<StatsPage> {
                                         switch (i) {
                                           case 0:
                                             return PieChartSectionData(
-                                              color: Colors.blue,
+                                              color: AppColours.statsMaleColor,
                                               value: data.getMaleRegVoterCount().toDouble(),
                                               title: '${((data.getMaleRegVoterCount()/data.getTotalRegVoterCount())*100).toStringAsFixed(2)}% - ${Translations.male.tr()}',
                                               radius: radius,
                                               titleStyle: TextStyle(
-                                                  fontSize: fontSize, fontWeight: FontWeight.normal, color: Colors.white),
+                                                  fontSize: fontSize, fontWeight: FontWeight.normal, color: AppColours.white),
                                             );
                                           case 1:
                                             return PieChartSectionData(
-                                              color: Colors.pink,
+                                              color: AppColours.statsFemaleColor,
                                               value: data.getFemaleRegVoterCount().toDouble(),
                                               title: '${((data.getFemaleRegVoterCount()/data.getTotalRegVoterCount())*100).toStringAsFixed(2)}% - ${Translations.female.tr()}',
                                               radius: radius,
                                               titleStyle: TextStyle(
-                                                  fontSize: fontSize, fontWeight: FontWeight.normal, color: Colors.white),
+                                                  fontSize: fontSize, fontWeight: FontWeight.normal, color: AppColours.white),
                                             );
                                           default:
                                             return PieChartSectionData();
@@ -263,7 +263,7 @@ class _StatsPageState extends State<StatsPage> {
                                 barTouchData: BarTouchData(
                                   enabled: true,
                                   touchTooltipData: BarTouchTooltipData(
-                                    tooltipBgColor: Colors.transparent,
+                                    tooltipBgColor: AppColours.transparent,
                                     tooltipPadding: const EdgeInsets.all(0),
                                     tooltipMargin: 5,
                                     getTooltipItem: (BarChartGroupData group, int groupIndex, BarChartRodData rod, int rodIndex){
@@ -281,14 +281,14 @@ class _StatsPageState extends State<StatsPage> {
                                       BarTooltipItem retVal =  BarTooltipItem(
                                         numberFormatter.format(rod.toY.round()),
                                         TextStyle(
-                                          color: Colors.grey[600],
+                                          color: AppColours.statsToolTipTxtColor,
                                           fontWeight: FontWeight.bold,
                                         ),
                                         children: <TextSpan>[
                                           isTouched ? TextSpan(
                                             text: '\n${votedPct.toStringAsFixed(2)}%',
                                             style: TextStyle(
-                                              color: Colors.grey[600],
+                                              color: AppColours.statsToolTipTxtColor,
                                               fontSize: 12,
                                               fontWeight: FontWeight.normal,
                                             ),
@@ -346,31 +346,11 @@ class _StatsPageState extends State<StatsPage> {
                                         return SideTitleWidget(
                                           axisSide: meta.axisSide,
                                           space: 4.0,
-                                          child: Wjts.text(context, text, color: Colors.grey, weight: FontWeight.normal, size: TextSize.s),
+                                          child: Wjts.text(context, text, color: AppColours.statsColChrtTxtColor, weight: FontWeight.normal, size: TextSize.s),
                                         );
                                       },
                                     )
                                   ),
-                                  // bottomTitles: SideTitles(
-                                  //   showTitles: true,
-                                  //   getTextStyles: (value) => const TextStyle(
-                                  //       color: Colors.grey, fontWeight: FontWeight.normal, fontSize: 12),
-                                  //   margin: 30,
-                                  //   getTitles: (double value) {
-                                  //     switch (value.toInt()) {
-                                  //       case 0:
-                                  //         return 'Female Turnout';
-                                  //       case 1:
-                                  //         return 'Male Turnout';
-                                  //       case 2:
-                                  //         return 'Total Turnout';
-                                  //       case 3:
-                                  //         return 'Total Registered';
-                                  //       default:
-                                  //         return '';
-                                  //     }
-                                  //   },
-                                  // ),
                                   leftTitles: AxisTitles(
                                     sideTitles: SideTitles(showTitles: false)
                                   ),
@@ -385,28 +365,28 @@ class _StatsPageState extends State<StatsPage> {
                                   BarChartGroupData(
                                     x: 0,
                                     barRods: [
-                                      BarChartRodData(toY: data.getFemaleVotedCount().toDouble(), gradient: const LinearGradient(colors: [Colors.pink, Colors.pinkAccent]), width: 20)
+                                      BarChartRodData(toY: data.getFemaleVotedCount().toDouble(), gradient: LinearGradient(colors: [AppColours.statsFemaleColor, AppColours.statsColChrtFemaleGradColor]), width: 20)
                                     ],
                                     showingTooltipIndicators: [0],
                                   ),
                                   BarChartGroupData(
                                     x: 1,
                                     barRods: [
-                                      BarChartRodData(toY: data.getMaleVotedCount().toDouble(), gradient: const LinearGradient(colors: [Colors.blue, Colors.blueAccent]), width: 20)
+                                      BarChartRodData(toY: data.getMaleVotedCount().toDouble(), gradient: LinearGradient(colors: [AppColours.statsMaleColor, AppColours.statsColChrtMaleGradColor]), width: 20)
                                     ],
                                     showingTooltipIndicators: [0],
                                   ),
                                   BarChartGroupData(
                                     x: 2,
                                     barRods: [
-                                      BarChartRodData(toY: data.getTotalVotedCount().toDouble(), gradient: const LinearGradient(colors: [Colors.purple, Colors.purpleAccent]), width: 20)
+                                      BarChartRodData(toY: data.getTotalVotedCount().toDouble(), gradient: LinearGradient(colors: [AppColours.statsColChrtTurnoutColor, AppColours.statsColChrtTurnoutGradColor]), width: 20)
                                     ],
                                     showingTooltipIndicators: [0],
                                   ),
                                   BarChartGroupData(
                                     x: 3,
                                     barRods: [
-                                      BarChartRodData(toY: data.getTotalRegVoterCount().toDouble(), gradient: const LinearGradient(colors: [Colors.green, Colors.greenAccent]), width: 20)
+                                      BarChartRodData(toY: data.getTotalRegVoterCount().toDouble(), gradient: LinearGradient(colors: [AppColours.statsColChrtRegColor, AppColours.statsColChrtRegGradColor]), width: 20)
                                     ],
                                     showingTooltipIndicators: [0],
                                   ),

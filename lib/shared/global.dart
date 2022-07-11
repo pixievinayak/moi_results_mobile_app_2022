@@ -18,7 +18,7 @@ class GlobalVars{
   //static String mobileApiURL = "https://10.0.2.2:44359/api/MoI";
 
   //use when on phone/emulator in iipl office
-  static String mobileApiURL = "https://10.10.7.139/moi_results_web_api_2022/api/MoI";
+  static String mobileApiURL = "https://10.10.7.132/moi_results_web_api_2022/api/MoI";
 
   //use when on phone/emulator in sandeep vihar
   // static String mobileApiURL = "https://192.168.1.101/moi_results_web_api_2020/api/MoI";
@@ -64,8 +64,33 @@ class AppColours{
   static Color? appBarColour = Colors.grey[100];
   static Color? timerBg = Colors.grey[100];
   static Color white = Colors.white;
-  static Color? ratingStar = Colors.amber;
+  static Color transparent = Colors.transparent;
+  static Color ratingStar = Colors.amber;
   static Color text = Colors.black54;
+  static Color tbOutline = Colors.pink;
+  static Color navBarColor = Colors.blue;
+  static Color navBarBtnColor = Colors.teal;
+  static Color? candidateProfileCardBGColor = Colors.grey[50];
+  static Color? msgBGColor = Colors.grey[200];
+  static Color? polPosColor = Colors.blue[800];
+  static Color? votCntColor = Colors.green[800];
+  static Color votElgbtyTbBordColor = Colors.grey;
+  static Color? regPolStnColor = Colors.red[700];
+  static Color? uniPolStnColor = Colors.blue[700];
+  static Color statsSeatColor = Colors.green;
+  static Color? statsCounterColor = Colors.grey[600];
+  static Color statsMaleColor = Colors.blue;
+  static Color statsFemaleColor = Colors.pink;
+  static Color? statsToolTipTxtColor = Colors.grey[600];
+  static Color statsColChrtTxtColor = Colors.grey;
+  static Color statsColChrtFemaleGradColor = Colors.pinkAccent;
+  static Color statsColChrtMaleGradColor = Colors.blueAccent;
+  static Color statsColChrtTurnoutColor = Colors.purple;
+  static Color statsColChrtTurnoutGradColor = Colors.purpleAccent;
+  static Color statsColChrtRegColor = Colors.green;
+  static Color statsColChrtRegGradColor = Colors.greenAccent;
+  static Color? voterProfTxtColor = Colors.grey[600];
+  static Color? voterProfMsgTxtColor = Colors.blue[800];
 }
 
 class Wjts{
@@ -150,15 +175,15 @@ class Wjts{
   }
 
   static InputDecoration tbDeco(BuildContext context){
-    return const InputDecoration(
+    return InputDecoration(
       fillColor: Colors.white,
       filled: true,
-      contentPadding: EdgeInsets.fromLTRB(10, 0, 10, 0),
+      contentPadding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
       enabledBorder: OutlineInputBorder(
-        borderSide: BorderSide(color: Colors.white, width: 2),
+        borderSide: BorderSide(color: AppColours.white, width: 2),
       ),
       focusedBorder: OutlineInputBorder(
-        borderSide: BorderSide(color: Colors.pink, width: 2),
+        borderSide: BorderSide(color: AppColours.tbOutline, width: 2),
       ),
     );
   }

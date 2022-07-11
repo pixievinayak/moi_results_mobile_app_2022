@@ -64,7 +64,7 @@ class _VoterProfileState extends State<VoterProfile> {
                                   children: [
                                     Row(
                                       children: [
-                                        Wjts.text(context, Translations.vpPageVoterEligibility.tr(), size: TextSize.xl, weight: FontWeight.bold, color: Colors.grey[600]),
+                                        Wjts.text(context, Translations.vpPageVoterEligibility.tr(), size: TextSize.xl, weight: FontWeight.bold, color: AppColours.voterProfTxtColor),
                                       ],
                                     ),
                                     const SizedBox(height: 20,),
@@ -105,7 +105,7 @@ class _VoterProfileState extends State<VoterProfile> {
                                     const SizedBox(height: 20,),
                                     Row(
                                       children: [
-                                        Expanded(child: Wjts.text(context, widget.voterEligibilityVM!.msgToVoter, size: TextSize.xl, weight: FontWeight.bold, color: Colors.blue[800], align: TextAlign.center)),
+                                        Expanded(child: Wjts.text(context, widget.voterEligibilityVM!.msgToVoter, size: TextSize.xl, weight: FontWeight.bold, color: AppColours.voterProfMsgTxtColor, align: TextAlign.center)),
                                       ],
                                     ),
                                     Row(
@@ -139,7 +139,7 @@ class _VoterProfileState extends State<VoterProfile> {
                                   children: [
                                     Row(
                                       children: [
-                                        Wjts.text(context, '${Translations.vpPageVoterHist.tr()} 2011', size: TextSize.xl, weight: FontWeight.bold, color: Colors.grey[600]),
+                                        Wjts.text(context, '${Translations.vpPageVoterHist.tr()} 2011', size: TextSize.xl, weight: FontWeight.bold, color: AppColours.voterProfTxtColor),
                                       ],
                                     ),
                                     const SizedBox(height: 20,),
@@ -173,7 +173,7 @@ class _VoterProfileState extends State<VoterProfile> {
                                   children: [
                                     Row(
                                       children: [
-                                        Wjts.text(context, '${Translations.vpPageVoterHist.tr()} 2012', size: TextSize.xl, weight: FontWeight.bold, color: Colors.grey[600]),
+                                        Wjts.text(context, '${Translations.vpPageVoterHist.tr()} 2012', size: TextSize.xl, weight: FontWeight.bold, color: AppColours.voterProfTxtColor),
                                       ],
                                     ),
                                     const SizedBox(height: 20,),
@@ -207,7 +207,7 @@ class _VoterProfileState extends State<VoterProfile> {
                                   children: [
                                     Row(
                                       children: [
-                                        Wjts.text(context, '${Translations.vpPageVoterHist.tr()} 2015', size: TextSize.xl, weight: FontWeight.bold, color: Colors.grey[600]),
+                                        Wjts.text(context, '${Translations.vpPageVoterHist.tr()} 2015', size: TextSize.xl, weight: FontWeight.bold, color: AppColours.voterProfTxtColor),
                                       ],
                                     ),
                                     const SizedBox(height: 20,),
@@ -241,7 +241,7 @@ class _VoterProfileState extends State<VoterProfile> {
                                   children: [
                                     Row(
                                       children: [
-                                        Wjts.text(context, '${Translations.vpPageVoterHist.tr()} 2016', size: TextSize.xl, weight: FontWeight.bold, color: Colors.grey[600]),
+                                        Wjts.text(context, '${Translations.vpPageVoterHist.tr()} 2016', size: TextSize.xl, weight: FontWeight.bold, color: AppColours.voterProfTxtColor),
                                       ],
                                     ),
                                     const SizedBox(height: 20,),

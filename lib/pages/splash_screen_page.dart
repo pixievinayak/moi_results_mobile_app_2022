@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:moi_results_mobile_app_2022/shared/global.dart';
 import 'package:provider/provider.dart';
 import '../providers/app_start_provider.dart';
 import 'error_page.dart';
@@ -39,12 +40,12 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.white,
-      child: const Center(
+      color: AppColours.white,
+      child: Center(
         child: Directionality(
           textDirection: TextDirection.ltr,
           child: SpinKitSquareCircle(
-            color: Colors.blueGrey,
+            color: AppColours.navBarBtnColor,
             size: 50,
           ),
         ),

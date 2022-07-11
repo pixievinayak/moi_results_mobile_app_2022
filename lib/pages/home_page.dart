@@ -102,7 +102,6 @@ class _HomePageState extends State<HomePage> {// with WidgetsBindingObserver {
       appBar: Wjts.appBar(context, Translations.homePageTitle.tr()),
       body: SingleChildScrollView(
         child: Container(
-          //color: Colors.red[100],
           padding: const EdgeInsets.all(10),
           child: Column(
             children: <Widget>[
@@ -123,12 +122,6 @@ class _HomePageState extends State<HomePage> {// with WidgetsBindingObserver {
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                //Wjts.text(_countdownTimerProvider!.getRemainingTime(), style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.blue[800],))
-                                // Consumer<CountdownTimerProvider>(
-                                //   builder: (context, data, child){
-                                //     return Wjts.text(context, data.getRemainingTimeAsStr(), size: TextSize.xl, weight: FontWeight.bold);
-                                //   }
-                                // )
                                 Selector<CountdownTimerProvider, String>(
                                   builder: (context, value, child){
                                     if(value.contains(':')){
@@ -217,11 +210,11 @@ class _HomePageState extends State<HomePage> {// with WidgetsBindingObserver {
                                               hintText: Translations.civilID.tr(),
                                               isDense: true,
                                               contentPadding: const EdgeInsets.fromLTRB(10, 20, 10, 0),
-                                              enabledBorder: const OutlineInputBorder(
-                                                borderSide: BorderSide(color: Colors.white, width: 1),
+                                              enabledBorder: OutlineInputBorder(
+                                                borderSide: BorderSide(color: AppColours.white, width: 1),
                                               ),
-                                              focusedBorder: const OutlineInputBorder(
-                                                borderSide: BorderSide(color: Colors.grey, width: 1),
+                                              focusedBorder: OutlineInputBorder(
+                                                borderSide: BorderSide(color: AppColours.votElgbtyTbBordColor!, width: 1),
                                               ),
                                             ),
                                             keyboardType: TextInputType.number,
@@ -252,11 +245,11 @@ class _HomePageState extends State<HomePage> {// with WidgetsBindingObserver {
                                                         hintText: Translations.dob.tr(),
                                                         isDense: true,
                                                         contentPadding: const EdgeInsets.fromLTRB(10, 20, 10, 0),
-                                                        enabledBorder: const OutlineInputBorder(
-                                                          borderSide: BorderSide(color: Colors.white, width: 1),
+                                                        enabledBorder: OutlineInputBorder(
+                                                          borderSide: BorderSide(color: AppColours.white, width: 1),
                                                         ),
-                                                        focusedBorder: const OutlineInputBorder(
-                                                          borderSide: BorderSide(color: Colors.grey, width: 1),
+                                                        focusedBorder: OutlineInputBorder(
+                                                          borderSide: BorderSide(color: AppColours.votElgbtyTbBordColor!, width: 1),
                                                         ),
                                                       ),
                                                     );

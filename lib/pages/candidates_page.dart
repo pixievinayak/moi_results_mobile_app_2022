@@ -220,7 +220,7 @@ class _CandidatesPageState extends State<CandidatesPage> with WidgetsBindingObse
                   children: [
                     Expanded(
                       child: Card(
-                        color: Colors.grey[200],
+                        color: AppColours.msgBGColor,
                         child: Center(
                             child: Padding(
                               padding: const EdgeInsets.fromLTRB(0, 20, 0, 20),
@@ -251,9 +251,9 @@ class _CandidatesPageState extends State<CandidatesPage> with WidgetsBindingObse
                                   subtitle: data.getCanShowResults() ? RichText(
                                       text: TextSpan(
                                           children: <TextSpan>[
-                                            TextSpan(text: candidate.pollPosition.toString(), style: TextStyle(color: Colors.blue[800], fontWeight: FontWeight.bold, fontSize: 20)),
-                                            TextSpan(text: ', ', style: TextStyle(color: Colors.grey[800])),
-                                            TextSpan(text: '${Translations.votes.tr()} - ${candidate.voteCount.toString()}', style: TextStyle(color: Colors.green[800])),
+                                            TextSpan(text: candidate.pollPosition.toString(), style: TextStyle(color: AppColours.polPosColor, fontWeight: FontWeight.bold, fontSize: 20)),
+                                            const TextSpan(text: ', '),
+                                            TextSpan(text: '${Translations.votes.tr()} - ${candidate.voteCount.toString()}', style: TextStyle(color: AppColours.votCntColor)),
                                           ]
                                       )
                                   ) : Container(),

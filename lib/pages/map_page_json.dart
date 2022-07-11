@@ -158,12 +158,12 @@ class _MapPageJSONState extends State<MapPageJSON> {
                           children: [
                             Consumer<PollingStationMapProvider>(
                               builder: (context, data, child) {
-                                return Wjts.text(context, '${Translations.mapsPageRegular.tr()}: ${data.getRegularPolStnCount()}', weight: FontWeight.bold, color: Colors.red[700]);
+                                return Wjts.text(context, '${Translations.mapsPageRegular.tr()}: ${data.getRegularPolStnCount()}', weight: FontWeight.bold, color: AppColours.regPolStnColor);
                               }
                             ),
                             Consumer<PollingStationMapProvider>(
                               builder: (context, data, child) {
-                                return Wjts.text(context, '${Translations.mapsPageUnified.tr()}: ${_pollingStationMapProvider!.getUnifiedPolStnCount()}', weight: FontWeight.bold, color: Colors.blue[700]);
+                                return Wjts.text(context, '${Translations.mapsPageUnified.tr()}: ${_pollingStationMapProvider!.getUnifiedPolStnCount()}', weight: FontWeight.bold, color: AppColours.uniPolStnColor);
                               }
                             ),
                           ],
@@ -186,58 +186,16 @@ class _MapPageJSONState extends State<MapPageJSON> {
                       source: _mapSource,
                       controller: _controller,
                       initialMarkersCount: _pollingStationMapProvider!.getGeoJSONMapMarkers().length,
-                      // markerTooltipBuilder: (BuildContext context, int index) {
-                      //   return Container(
-                      //     width: 180,
-                      //     padding: const EdgeInsets.all(10),
-                      //     child: Column(
-                      //       mainAxisSize: MainAxisSize.min,
-                      //       children: [
-                      //         Stack(
-                      //           children: [
-                      //             Center(
-                      //               child: Wjts.text(context, 
-                      //                 _pollingStationMapProvider!.getGeoJSONMapMarkers()[index].polStnName,
-                      //                 style: TextStyle(
-                      //                   color: Colors.black87,
-                      //                 ),
-                      //               ),
-                      //             ),
-                      //           ],
-                      //         ),
-                      //         const Divider(
-                      //           color: Colors.black12,
-                      //           // height: 10,
-                      //           thickness: 1,
-                      //         ),
-                      //         // InkWell(
-                      //         //   child: Wjts.text(context, 'Get Directions'),
-                      //         //   onTap: (){
-                      //         //     debugPrint('getting directions...');
-                      //         //   },
-                      //         // ),
-                      //       ],
-                      //     ),
-                      //   );
-                      // },
-                      // tooltipSettings: const MapTooltipSettings(
-                      //   color: Colors.white60,
-                      //   strokeColor: Colors.black26,
-                      //   strokeWidth: 1,
-                      // ),
                       markerBuilder: (BuildContext context, int index) {
                         return MapMarker(
                           latitude: _pollingStationMapProvider!.getGeoJSONMapMarkers()[index].lat,
                           longitude: _pollingStationMapProvider!.getGeoJSONMapMarkers()[index].lng,
-                          // iconColor: _pollingStationMapProvider!.getGeoJSONMapMarkers()[index].isUnified ? Colors.blue[200] : Colors.red[200],
-                          // iconStrokeColor: _pollingStationMapProvider!.getGeoJSONMapMarkers()[index].isUnified ? Colors.blue[800] : Colors.red[800],
-                          // size: Size(20, 20),
                           child: Padding(
                             padding: const EdgeInsets.fromLTRB(0, 0, 0, 20),
                             child: IconButton(
                               icon: Icon(
                                 CupertinoIcons.location,
-                                color: _pollingStationMapProvider!.getGeoJSONMapMarkers()[index].isUnified ? Colors.blue[600] : Colors.red[600],
+                                color: _pollingStationMapProvider!.getGeoJSONMapMarkers()[index].isUnified ? AppColours.uniPolStnColor : AppColours.regPolStnColor,
                               ),
                               onPressed: (){
                                 displayBottomSheet(context,

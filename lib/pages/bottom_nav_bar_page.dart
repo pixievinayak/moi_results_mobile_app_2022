@@ -106,9 +106,9 @@ class _BottomNavBarPageState extends State<BottomNavBarPage> {
          }
       ),
       bottomNavigationBar: CurvedNavigationBar(
-        color: Colors.blue,
-        backgroundColor: Colors.white,
-        buttonBackgroundColor: Colors.teal,
+        color: AppColours.navBarBtnColor,
+        backgroundColor: AppColours.white,
+        buttonBackgroundColor: AppColours.navBarBtnColor,
         height: 50,
         animationDuration: const Duration( milliseconds: 400 ),
         index: 2,

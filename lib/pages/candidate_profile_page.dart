@@ -232,7 +232,7 @@ class _CandidateProfileState extends State<CandidateProfile> with WidgetsBinding
                                     return Padding(
                                       padding: const EdgeInsets.fromLTRB(0, 20, 0, 10),
                                       child: Card(
-                                          color: Colors.grey[50],
+                                          color: AppColours.candidateProfileCardBGColor,
                                           child: Column(
                                             children: [
                                               const SizedBox(height: 30),
