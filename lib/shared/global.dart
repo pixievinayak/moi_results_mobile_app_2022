@@ -18,7 +18,10 @@ class GlobalVars{
   //static String mobileApiURL = "https://10.0.2.2:44359/api/MoI";
 
   //use when on phone/emulator in iipl office
-  static String mobileApiURL = "https://10.10.7.132/moi_results_web_api_2022/api/MoI";
+  //static String mobileApiURL = "https://10.10.7.132/moi_results_web_api_2022/api/MoI";
+
+  //use when on phone/emulator in WeWork office
+  static String mobileApiURL = "https://10.58.118.98/moi_results_web_api_2022/api/MoI";
 
   //use when on phone/emulator in sandeep vihar
   // static String mobileApiURL = "https://192.168.1.101/moi_results_web_api_2020/api/MoI";
@@ -30,7 +33,7 @@ class GlobalVars{
   static List<OptionItem> optionsDataWilayatsEn = [];
   static List<OptionItem> optionsDataWilayatsAr = [];
   static late Dio dio;
-  static DateTime countStartTime = DateTime(2022, 12, 25, 07, 0, 0);
+  static DateTime countStartTime = DateTime(2024, 12, 25, 07, 0, 0);
   static late DateTime currentOmanTime;
   static bool hasCountTimeStarted = false;
   static bool hasDataLoadingErrorOccurred = false;

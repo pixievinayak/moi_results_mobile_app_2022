@@ -6,8 +6,8 @@ class ApiManager{
     connectTimeoutInSec = connectTimeoutInSec * 1000;
     receiveTimeoutInSec = receiveTimeoutInSec * 1000;
 
-    GlobalVars.dio.options.connectTimeout = connectTimeoutInSec;
-    GlobalVars.dio.options.receiveTimeout = receiveTimeoutInSec;
+    GlobalVars.dio.options.connectTimeout = Duration(seconds: connectTimeoutInSec);
+    GlobalVars.dio.options.receiveTimeout = Duration(seconds: receiveTimeoutInSec);
 
     GlobalVars.dio.options.headers['content-type'] = 'application/json';
 

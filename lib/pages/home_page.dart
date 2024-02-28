@@ -214,7 +214,7 @@ class _HomePageState extends State<HomePage> {// with WidgetsBindingObserver {
                                                 borderSide: BorderSide(color: AppColours.white, width: 1),
                                               ),
                                               focusedBorder: OutlineInputBorder(
-                                                borderSide: BorderSide(color: AppColours.votElgbtyTbBordColor!, width: 1),
+                                                borderSide: BorderSide(color: AppColours.votElgbtyTbBordColor, width: 1),
                                               ),
                                             ),
                                             keyboardType: TextInputType.number,
@@ -249,7 +249,7 @@ class _HomePageState extends State<HomePage> {// with WidgetsBindingObserver {
                                                           borderSide: BorderSide(color: AppColours.white, width: 1),
                                                         ),
                                                         focusedBorder: OutlineInputBorder(
-                                                          borderSide: BorderSide(color: AppColours.votElgbtyTbBordColor!, width: 1),
+                                                          borderSide: BorderSide(color: AppColours.votElgbtyTbBordColor, width: 1),
                                                         ),
                                                       ),
                                                     );
